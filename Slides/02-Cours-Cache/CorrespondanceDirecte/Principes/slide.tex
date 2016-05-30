@@ -1,0 +1,39 @@
+%
+\begin{Frame}{Architecture des caches}
+
+
+      \begin{block}{Caches à correspondance directe}
+       \begin{center}
+ 	\begin{itemize}
+         \item Architecture
+         \item Exemple DECSTATION 3100
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+  
+
+
+  
+
+  \begin{block}{Relation adresses mémoire - adresse dans le cache}
+    \begin{center}
+ 	\begin{itemize}
+        \item AdresseDonneeCache = AdresseDonneeMemoire \% TailleCache
+	\item AdresseBlocCache = AdresseBlocMemoire \% NbBlocCache
+	\item Simple si la taille du cache est une puissance de 2 (modulo nb de bits)
+        \end{itemize}
+    \end{center}
+  \end{block}   
+
+ 
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

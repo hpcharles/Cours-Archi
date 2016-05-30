@@ -1,0 +1,38 @@
+%
+\begin{Frame}{Principe de localité}
+
+  \begin{block}{Localité temporelle}
+    \begin{center}
+ 	\begin{itemize}
+        \item Les données ou instructions utilisées récemment le seront encore dans un futur proche (boucles, tableaux)
+        \item Dans un programme, 90\% du temps est passé dans seulement 10\% des instructions
+        \end{itemize}
+    \end{center}
+  \end{block}   
+
+  \begin{block}{Localité spatiale}
+    \begin{center}
+ 	\begin{itemize}
+        \item Les données ou instructions proches en mémoire seront utilisées en même temps (tableaux, instructions séquentielles)
+        \end{itemize}
+    \end{center}
+  \end{block}   
+
+  \begin{alertblock}{Par conséquent}
+    \begin{center}
+ 	\begin{itemize}
+        \item Placer les données et les instructions en cours d'utilisation proche du processeur
+        \item Les données ou instructions accédées le plus souvent doivent être proche du processeur
+        \end{itemize}
+    \end{center}
+  \end{alertblock}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
