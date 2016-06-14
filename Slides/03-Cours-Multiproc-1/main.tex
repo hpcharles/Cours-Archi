@@ -23,7 +23,23 @@
 \date{Année 2016-2017}
 % \institute{CEA/DRT/LIST/LIALP (Grenoble)}
 
-\usetheme{Warsaw}
+\usetheme{Darmstadt}
+% \usecolortheme{default}
+% \usecolortheme{albatross}
+% \usecolortheme{beaver}
+% \usecolortheme{beetle}
+% \usecolortheme{crane}
+% \usecolortheme{dolphin}
+% \usecolortheme{dove}
+\usecolortheme{fly}
+% \usecolortheme{lily}
+% \usecolortheme{orchid}
+% \usecolortheme{rose}
+% \usecolortheme{seagull}
+% \usecolortheme{seahorse}
+% \usecolortheme{whale}
+%\usecolortheme{wolverine}
+
 \setbeamercovered{dynamic}
 % \usetheme{Berkeley} % Use logo image
 % \usetheme{Goettingen}
@@ -35,7 +51,7 @@
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
 \newcommand{\degoal}{\texttt{deGoal\ }}
-\graphicspath{{Introduction/}{}}
+\graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}}
 
 \begin{document}
 \begin{frame}
@@ -45,6 +61,11 @@
 
 \section{Multicore Market}
 \Slide{Market/MotivatingExample1}
+\Slide{Market/MotivatingExample2}
+\Slide{Market/MotivatingExample3}
+\Slide{Market/MotivatingCode1}
+\Slide{Market/MotivatingCode2}
+
 \section{Cache Coherency}
 \Slide{Caches/Intro}
 
