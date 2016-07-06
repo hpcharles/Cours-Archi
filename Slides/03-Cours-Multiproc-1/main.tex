@@ -1,0 +1,87 @@
+\pdfminorversion=4
+%\documentclass{beamerarticle}
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+% \tiny
+% \scriptsize	
+% \footnotesize	
+% \small
+% \normalsize 
+% \large	
+% \Large	
+% \LARGE	
+% \huge	
+% \Huge
+% http://www-dcom.cea.fr:8000/?page_id=9
+\title{Programmation multicoeurs}
+\subtitle{}
+\author{Henri-Pierre Charles}
+\date{Année 2016-2017}
+% \institute{CEA/DRT/LIST/LIALP (Grenoble)}
+
+\usetheme{Darmstadt}
+% \usecolortheme{default}
+% \usecolortheme{albatross}
+% \usecolortheme{beaver}
+% \usecolortheme{beetle}
+% \usecolortheme{crane}
+% \usecolortheme{dolphin}
+% \usecolortheme{dove}
+\usecolortheme{fly}
+% \usecolortheme{lily}
+% \usecolortheme{orchid}
+% \usecolortheme{rose}
+% \usecolortheme{seagull}
+% \usecolortheme{seahorse}
+% \usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+\setbeamercovered{dynamic}
+% \usetheme{Berkeley} % Use logo image
+% \usetheme{Goettingen}
+%\logo{\includegraphics[height=1cm]{logouvsq_st.eps}}
+
+\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
+
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
+\newcommand{\Slide}[1]{\input{#1/slide.tex}}
+\newcommand{\degoal}{\texttt{deGoal\ }}
+\graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\section{Multicore Market}
+\Slide{Market/MotivatingExample1}
+\Slide{Market/MotivatingExample2}
+\Slide{Market/MotivatingExample3}
+\Slide{Market/MotivatingCode1}
+\Slide{Market/MotivatingCode2}
+
+\section{Cache Coherency}
+\Slide{Caches/Intro}
+
+\section{Virtual memory}
+\Slide{VirtualMemory/Intro}
+
+\section{Synchronisation}
+\Slide{VirtualMemory/Synchro}
+
+\section{Programming Tools for Parallelism}
+\Slide{ProgrammingTools/Intro}
+
+
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake ModeleSlides.pdf" ***
+% End: ***
