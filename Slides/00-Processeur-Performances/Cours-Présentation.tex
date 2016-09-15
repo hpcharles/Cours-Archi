@@ -1,0 +1,50 @@
+\pdfminorversion=4
+%\documentclass{beamerarticle}
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+% \tiny
+% \scriptsize	
+% \footnotesize	
+% \small
+% \normalsize 
+% \large	
+% \Large	
+% \LARGE	
+% \huge	
+% \Huge
+% http://www-dcom.cea.fr:8000/?page_id=9
+
+\title{Intéraction Logiciel Architecture}
+\subtitle{Présentation du cours}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+\date{}
+% \institute{}
+
+\usetheme{Warsaw}
+\setbeamercovered{dynamic}
+% \usetheme{Berkeley} % Use logo image
+% \usetheme{Goettingen}
+
+\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
+
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
+\newcommand{\Slide}[1]{\input{#1/slide.tex}}
+\graphicspath{{Presentation}}
+
+\begin{document}
+
+\titlepage
+\section{Motivation}
+\Slide{Presentation/Plan}
+\Slide{Presentation/Bibliographie}
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake ModeleSlides.pdf" ***
+% End: ***

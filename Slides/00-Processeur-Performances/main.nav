@@ -1,0 +1,43 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Motivation}{2}{Motivation}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{2}{Motivation}}\headcommand {\beamer@subsectionpages {2}{1}}
+\headcommand {\slideentry {1}{1}{1}{2/2}{Motivation}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{1}{2}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\sectionentry {2}{Introduction}{4}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {2}{3}}
+\headcommand {\beamer@subsectionpages {2}{3}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{4}{Partie1 Intro}}\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\slideentry {2}{1}{1}{4/4}{Partie1 Intro}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{5}{Metrics How to Measure Performance ?}}\headcommand {\beamer@subsectionpages {4}{4}}
+\headcommand {\slideentry {2}{2}{1}{5/5}{Metrics How to Measure Performance ?}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{6}{Vocabulaire : Cycle par seconds / Flops}}\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\slideentry {2}{3}{1}{6/6}{Vocabulaire : Cycle par seconds / Flops}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{7}{Vocabulaire Peak / Sustained }}\headcommand {\beamer@subsectionpages {4}{6}}
+\headcommand {\slideentry {2}{4}{1}{7/7}{Vocabulaire Peak / Sustained }{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{8}{Vocabulaire Lois}}\headcommand {\beamer@subsectionpages {4}{7}}
+\headcommand {\slideentry {2}{5}{1}{8/8}{Vocabulaire Lois}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{9}{Vocabulaire Speedup}}\headcommand {\beamer@subsectionpages {4}{8}}
+\headcommand {\slideentry {2}{6}{1}{9/9}{Vocabulaire Speedup}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{7}{10}{Amdahl2}}\headcommand {\beamer@subsectionpages {4}{9}}
+\headcommand {\slideentry {2}{7}{1}{10/10}{Amdahl2}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{2}{8}{11}{Vocabulaire Amdahl}}\headcommand {\beamer@subsectionpages {4}{10}}
+\headcommand {\slideentry {2}{8}{1}{11/11}{Vocabulaire Amdahl}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@partpages {1}{11}}
+\headcommand {\beamer@subsectionpages {4}{11}}
+\headcommand {\beamer@sectionpages {4}{11}}
+\headcommand {\beamer@documentpages {11}}
+\headcommand {\def \inserttotalframenumber {11}}

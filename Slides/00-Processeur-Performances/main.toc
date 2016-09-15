@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Motivation}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivation}{2}{0}{1}
+\beamer@sectionintoc {2}{Introduction}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Partie1 Intro}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Metrics How to Measure Performance ?}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Vocabulaire : Cycle par seconds / Flops}{6}{0}{2}
+\beamer@subsectionintoc {2}{4}{Vocabulaire Peak / Sustained }{7}{0}{2}
+\beamer@subsectionintoc {2}{5}{Vocabulaire Lois}{8}{0}{2}
+\beamer@subsectionintoc {2}{6}{Vocabulaire Speedup}{9}{0}{2}
+\beamer@subsectionintoc {2}{7}{Amdahl2}{10}{0}{2}
+\beamer@subsectionintoc {2}{8}{Vocabulaire Amdahl}{11}{0}{2}

@@ -1,0 +1,24 @@
+%
+\begin{Frame}{Amdahl2}
+      \begin{block}{Argumentation}
+        Assume that a task has two independent parts, A and B. B takes
+        roughly 25\% of the time of the whole computation. By working
+        very hard, one may be able to make this part 5 times faster,
+        but this only reduces the time for the whole computation by a
+        little. In contrast, one may need to perform less work to make
+        part A be twice as fast. This will make the computation much
+        faster than by optimizing part B, even though B's speed-up is
+        greater by ratio, (5x versus 2x)
+      \end{block} 
+      \begin{block}{Illustration}
+        \Image[7]{Amdahl2/Optimizing-different-parts.pdf}
+      \end{block}   
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

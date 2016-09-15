@@ -1,0 +1,69 @@
+\pdfminorversion=4
+%\documentclass{beamerarticle}
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+% \tiny
+% \scriptsize	
+% \footnotesize	
+% \small
+% \normalsize 
+% \large	
+% \Large	
+% \LARGE	
+% \huge	
+% \Huge
+% http://www-dcom.cea.fr:8000/?page_id=9
+
+\title{Intéraction Logiciel Architecture}
+\subtitle{Les performances et leur mesure}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+\date{}
+% \institute{}
+
+\usetheme{Darmstadt}
+% \setbeamercovered{dynamic}
+% \usetheme{Berkeley} % Use logo image
+% \usetheme{Goettingen}
+
+\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
+
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
+\newcommand{\Slide}[1]{\input{#1/slide.tex}}
+\graphicspath{{Introduction/}{Metrics/}}
+\newcommand{\TBD}{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Motivation}
+\Slide{Introduction/SlideIntro}
+\begin{frame}
+\tableofcontents[ 
+currentsubsection, 
+hideothersubsections, 
+sectionstyle=show/hide, 
+subsectionstyle=show/shaded, 
+] 
+\end{frame}
+\section{Introduction}
+\Slide{Partie1/Intro}
+\Slide{Metrics/HowToMeasure}
+\Slide{Metrics/FLOPS}
+\Slide{Metrics/Sustained}
+\Slide{Metrics/Lois}
+\Slide{Metrics/Speedup}
+\Slide{Metrics/Amdahl2}
+\Slide{Metrics/Amdahl}
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake ModeleSlides.pdf" ***
+% End: ***

@@ -1,0 +1,40 @@
+%
+\begin{Frame}{Metrics How to Measure Performance ?}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{What scale ?}
+        \begin{itemize}
+        \item Application level (TPS, Frame/s, .../)
+        \item Run to completion
+        \item Method level
+        \item Instruction level
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Tools}
+        \begin{itemize}
+        \item Wall clock
+        \item \texttt{gettimeofday}
+        \item Performance counters
+        \end{itemize}
+      \end{block}   
+      \begin{alertblock}{Full application or function call ?}
+        \begin{itemize}
+        \item Cold start / warmup\TBD
+        \item Statistic / multiple calls
+        \item How many calls
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
