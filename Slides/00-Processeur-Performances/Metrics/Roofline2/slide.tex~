@@ -1,0 +1,15 @@
+%
+\begin{Frame}{Metrics Roofline}
+  \begin{block}{Illustration}
+    \Image[8]{Roofline2/Example-of-a-Roofline_model.pdf}
+  \end{block}   
+\url{https://en.wikipedia.org/wiki/Roofline_model}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
