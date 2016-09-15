@@ -4,15 +4,31 @@
     \begin{column}{5cm} % Colonne gauche
       \begin{block}{Argumentation}
         \begin{itemize}
-        \item 
+        \item Compile using \texttt{-pg} option
+          \texttt{gcc -pg -o prog prog.c}, add information at the
+          begin / end of each function
+        \item Run the code \texttt{./prog}
+          (create the \texttt{gmon.out} file)
+        \item Run gprof \texttt{gprof prog}
+        \item Read report !
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{gprof/Name.png}
+      \begin{block}{Pitfalls}
+        \begin{itemize}
+        \item Warning with \texttt{-O3} interaction !
+        \item Use \texttt{-O0} as first pass
+        \item Use \texttt{-O3} for real
+        \end{itemize}
       \end{block}   
+      \begin{alertblock}{Limitations}
+        \begin{itemize}
+        \item Not fine grain
+        \item Measure perturbation
+        \end{itemize}
+      \end{alertblock}
     \end{column}
   \end{columns}  
 \end{Frame}

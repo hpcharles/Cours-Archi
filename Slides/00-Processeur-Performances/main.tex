@@ -6,6 +6,7 @@
 \usepackage[french]{babel}
 \usepackage{lmodern}
 \usepackage{hyperref}
+\usepackage{multicol}
 % \tiny
 % \scriptsize	
 % \footnotesize	
@@ -48,7 +49,9 @@ Frédéric Rousseau Frederic.Rousseau@imag.fr}
 \Slide{Metrics/Top500}
 
 \begin{frame}
-\tableofcontents[ ] 
+  \begin{multicols}{2}
+    \tableofcontents[]
+  \end{multicols}
 \end{frame}
 \section{Pourquoi}
 \Slide{Metrics/HowToMeasure}
@@ -62,6 +65,8 @@ Frédéric Rousseau Frederic.Rousseau@imag.fr}
 \Slide{Metrics/Roofline2}
 
 \section{Comment}
+\Slide{Comment/Outillage}
+\Slide{Comment/C2}
 \Slide{Comment/gprof}
 \Slide{Comment/PerfCounter}
 \Slide{Comment/JTAG}
