@@ -1,5 +1,5 @@
 %
-\begin{Frame}{Motivation}
+\begin{Frame}{Metrics Top500}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
       \begin{block}{Argumentation}
@@ -11,7 +11,7 @@
     
     \begin{column}{5cm} % Colonne droite
       \begin{block}{Illustration}
-%        \Image{SlideIntro/Name.png}
+%        \Image{Top500/Name.png}
       \end{block}   
     \end{column}
   \end{columns}  

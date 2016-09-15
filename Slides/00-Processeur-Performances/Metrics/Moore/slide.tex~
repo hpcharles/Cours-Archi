@@ -1,5 +1,5 @@
 %
-\begin{Frame}{Partie1 Intro}
+\begin{Frame}{Metrics Moore}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
       \begin{block}{Argumentation}
@@ -11,7 +11,7 @@
     
     \begin{column}{5cm} % Colonne droite
       \begin{block}{Illustration}
-%        \Image{Intro/Name.png}
+%        \Image{Moore/Name.png}
       \end{block}   
     \end{column}
   \end{columns}  
