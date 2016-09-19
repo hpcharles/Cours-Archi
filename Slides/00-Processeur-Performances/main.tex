@@ -6,6 +6,7 @@
 \usepackage[french]{babel}
 \usepackage{lmodern}
 \usepackage{hyperref}
+\usepackage{multicol}
 % \tiny
 % \scriptsize	
 % \footnotesize	
@@ -44,13 +45,16 @@ Frédéric Rousseau Frederic.Rousseau@imag.fr}
 \end{frame}
 
 \section{Motivation}
+\Slide{Metrics/HowMany}
 \Slide{Metrics/Moore}
 \Slide{Metrics/Top500}
 
 \begin{frame}
-\tableofcontents[ ] 
+  \begin{multicols}{2}
+    \tableofcontents[]
+  \end{multicols}
 \end{frame}
-\section{Pourquoi}
+\section{Why}
 \Slide{Metrics/HowToMeasure}
 \Slide{Metrics/FLOPS}
 \Slide{Metrics/Sustained}
@@ -61,13 +65,16 @@ Frédéric Rousseau Frederic.Rousseau@imag.fr}
 \Slide{Metrics/Roofline}
 \Slide{Metrics/Roofline2}
 
-\section{Comment}
+\section{How}
+\Slide{Comment/Outillage}
+\Slide{Comment/C2}
 \Slide{Comment/gprof}
 \Slide{Comment/PerfCounter}
 \Slide{Comment/JTAG}
 \Slide{Comment/gdb}
 \Slide{Comment/qemu}
-
+\Slide{Comment/CrossCompiler}
+\Slide{Comment/Stats}
 \end{document}
 
 % Local Variables: ***

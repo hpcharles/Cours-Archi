@@ -1,18 +1,32 @@
 %
-\begin{Frame}{Comment gdb}
+\begin{Frame}{How : gdb}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{Debugger}
         \begin{itemize}
-        \item 
+        \item Source level debugger
+        \item Compile with \texttt{-g} (\texttt{gcc -g -o p p.c})
+        \item Use \texttt{gdb program} (or ddd or emacs or ...)
+        \item Step execution : next, previous line, next, previous insn
+        \item Inspect live data
+        \item Set breakpoint, on line, on insn, on data access
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{gdb/Name.png}
+      \begin{block}{Other usage}
+        \begin{itemize}
+        \item \texttt{.gdbinit} : automatize test
+        \item Embed python into gdb : program information collection
+        \end{itemize}
       \end{block}   
+      \begin{alertblock}{Question}
+        \begin{itemize}
+        \item Why \texttt{-O3} could perturb \texttt{gdb} ?
+        \item How could gdb stop an execution ?
+        \end{itemize}
+      \end{alertblock}
     \end{column}
   \end{columns}  
 \end{Frame}

@@ -1,24 +1,26 @@
 %
-\begin{Frame}{How : JTAG}
+\begin{Frame}{How : CrossCompiler}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Description}
+      \begin{block}{What}
         \begin{itemize}
-        \item Hardware connector
-        \item Able to get processor internal information
-        \item Embedded domain
+        \item Allow to generate binary code for a machine A on a
+          machine B
+        \item How to build ?
+        \item 
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{alertblock}{Drawback}
+      \begin{block}{Limitation}
+%        \Image{CrossCompiler/Name.png}
         \begin{itemize}
-        \item Need HW access
-        \item Impossible to get large configuration
+        \item crosstool-ng, buildroot
+        \item llvm
+        \item FreeBSD, NetBSD
         \end{itemize}
-      \end{alertblock}   
-      \Image[5]{JTAG/SuperTrace.jpg}
+      \end{block}   
     \end{column}
   \end{columns}  
 \end{Frame}

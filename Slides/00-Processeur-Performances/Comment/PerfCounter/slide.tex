@@ -1,20 +1,40 @@
 %
-\begin{Frame}{Comment PerfCounter}
+\begin{Frame}{How : PerfCounter}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{Performance counter from HW}
         \begin{itemize}
-        \item 
+        \item Simple one : \texttt{cycle counter}
+        \item More complex : \texttt{RAT\_STALLS} Counts the number of cycles during which execution stalled due to several reason
+        \item L2, L3 cache access, hit, miss ...
+        \item Miss prediction, etc
         \end{itemize}
       \end{block} 
+      \begin{alertblock}{Question}
+        \begin{itemize}
+        \item Comment calcule-t-on l'IPC ?
+        \end{itemize}
+      \end{alertblock}
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
+      \begin{block}{Tools}
+        \begin{itemize}
+        \item Intel tools : \url{http://www.intel.com/software/pcm}
+        \item Papi : \url{http://icl.cs.utk.edu/papi}
+        \item Tiptop from Inria : \url{http://tiptop.gforge.inria.fr/}
+        \end{itemize}
 %        \Image{PerfCounter/Name.png}
       \end{block}   
+      \begin{alertblock}{Limitations}
+        \begin{itemize}
+        \item Complicated to understand / analyse
+        \item No real portable library
+        \end{itemize}
+      \end{alertblock}   
     \end{column}
   \end{columns}  
+\url{https://en.wikipedia.org/wiki/Hardware_performance_counter}
 \end{Frame}
 
 %% Local Variables:

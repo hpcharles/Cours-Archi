@@ -1,23 +1,17 @@
 %
-\begin{Frame}{How : qemu}
+\begin{Frame}{Comment Outillage}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Qemu}
+      \begin{block}{Argumentation}
         \begin{itemize}
-        \item Instruction level simulator
-        \item Emulate processor \texttt{and} peripherical
-        \item Modes System \& User
+        \item 
         \end{itemize}
       \end{block} 
-      \url{http://qemu.org}
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Usage}
-        \begin{itemize}
-        \item Functional simulation
-        \item Trace information
-        \end{itemize}
+      \begin{block}{Illustration}
+%        \Image{Outillage/Name.png}
       \end{block}   
     \end{column}
   \end{columns}  
