@@ -1,0 +1,33 @@
+%
+\begin{Frame}{Un exemple sur le MIPS - solutions pour les aléas}
+
+\begin{block}{On considère l'architecture du MIPS pipeliné}
+       \begin{center}
+ 	\begin{itemize}
+	\item add \$t1, \$t2, \$t3  \hspace*{0,3cm} IF \hspace*{0,3cm} DE \hspace*{0,3cm} EXE \hspace*{0,3cm} MEM \hspace*{0,3cm} WB
+	\item add \$t4, \$t5, \$t1  \hspace*{1,2cm} IF \hspace*{0,45cm} DE \hspace*{0,5cm}  EXE      \hspace*{0,4cm} MEM \hspace*{0,4cm} WB
+%	\begin{tabular}{llllllll}
+%         {add \$t1, \$t2, \$t3}&&IF&DE&EXE&MEM&WB&\\
+%	 {add \$t4, \$t5, \$t1}&&&IF&DE&EXE&MEM&WB
+%	\end{tabular}
+	\item Matériel : bypass entre la sortie de l'étage EXE et son entrée
+	\item Logiciel : 3 NOP
+        \end{itemize}
+       \end{center}
+      \end{block}   
+ 
+
+\vspace{-0.1cm}
+        \begin{center}
+           \Image[6]{/Graphiques/Archi-MIPS3.pdf}
+        \end{center}
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

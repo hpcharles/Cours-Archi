@@ -1,0 +1,43 @@
+%
+\begin{Frame}{Aléas de pipeline}
+
+\begin{block}{On ne peut pas toujours exécuter l'instruction suivante au cycle d'hirloge suivant :}
+       \begin{center}
+ 	\begin{itemize}
+         \item Aléas structurels (conflits de ressources)
+		\begin {itemize}
+         		\item Accès au même composant au même cycle (lecture-écriture dans le même registre par exemple)
+		\end{itemize}
+	 \item Aléas de données (dépendances de données)
+		\begin {itemize}
+         		\item Instruction ayant besoin du résultat de l'instruction précédente
+		\end{itemize}
+	 \item Aléas de contrôle (branchements)
+		\begin {itemize}
+         		\item La prochaine instruction à exécuter n'est connue qu'à la fin du traitement - condition de branchement
+		\end{itemize}
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+ 
+
+\begin{block}{Solutions}
+       \begin{center}
+ 	\begin{itemize}
+         \item Gel de pipeline
+	 \item Astuces d'architecture : registre double port, transfert décalé
+	 \item Prédiction de branchements
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
