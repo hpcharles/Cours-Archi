@@ -1,0 +1,31 @@
+%
+\begin{Frame}{Application aux microprocesseurs - pipeline à 5 étages}
+
+\begin{block}{On considère 5 étapes pour l'exécution d'une instruction (MIPS)}
+       \begin{center}
+ 	\begin{itemize}
+         \item Lecture en mémoire de l'instruction : Inst. Fetch - \textbf{IF}
+	 \item Décodage de l'instruction et lecture des registres : Inst. Decode - \textbf{DE}
+	\item Exécution de l'instruction (ou calcul d'adresse) : Execution - \textbf{EXE}
+	\item Accès à un opérande en mémoire : \textbf{MEM}
+	\item Ecriture du résultat dans un registre : Write Back - \textbf{WB}
+        \end{itemize}
+       \end{center}
+      \end{block}   
+ 
+
+\vspace{-0.85cm}
+        \begin{center}
+       %\Image{/Graphiques/Pipeline1.pdf}
+\Image{/AnalogieSansPipeline/Pipeline1.pdf}
+        \end{center}
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
