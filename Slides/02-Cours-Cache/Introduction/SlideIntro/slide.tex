@@ -1,0 +1,37 @@
+%
+\begin{Frame}{Motivations et principes de base}
+  \begin{columns}[t]
+    \begin{column}{8cm} % Colonne gauche
+      \begin{block}{Motivation}
+        \begin{itemize}
+        \item Les performances d'un microprocesseur simple ne sont pas très bonnes, en particulier les temps d'accès à des mémoires de grande taille. Par exemple, la lecture d'une information en RAM peut prendre une centaine de cycles processeurs, laissant ce dernier en attente
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{3,5cm} % Colonne droite
+      \begin{block}{idée}
+\begin{itemize}
+        \item Utiliser une mémoire petite mais rapide pour que le processeur attende le moins possible
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+
+\begin{block}{Difficultés}
+       \begin{center}
+ 	\begin{itemize}
+         \item La mémoire cache est une solution générale qui procure en \emph{moyenne} un gain de performance significatif. Mais elle requiert une partie matérielle spécifique (et logiciel avec un compilateur adapté). 
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

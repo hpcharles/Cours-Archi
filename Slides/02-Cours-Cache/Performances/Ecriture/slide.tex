@@ -1,0 +1,38 @@
+%
+\begin{Frame}{Que se passe t-il lors d'une écriture ?}
+
+
+      \begin{block}{2 politiques d'écriture}
+       \begin{center}
+ 	\begin{itemize}
+         \item Ecriture immédiate (ou simultannée) (\emph{write though}) : l'information est écrite à la fois dans le cache et dans la mémoire 
+         \item Ecriture différée (\emph{write back}) : l'information est écrite uniquement dans le cache. La mémoire ne sera mise à jour que lors d'un remplacement du bloc. 
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+  
+
+
+  
+
+  \begin{block}{Avantages}
+    \begin{center}
+ 	\begin{itemize}
+        \item L'écriture immédiate est facile à implémenter. Les échecs en lecture ne provoquent jamais d'écriture. Meilleure cohérence de données.
+        \item Avec l'écriture différée, plusieurs écritures ne nécessitent qu'une seule écriture en méoire. Solution qui consomme moins.
+        \end{itemize}
+    \end{center}
+  \end{block}   
+
+ 
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
