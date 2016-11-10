@@ -1,0 +1,37 @@
+%
+\begin{Frame}{Aléas de donnée - Les solutions matérielles}
+
+  \begin{block}{L'envoi}
+       \begin{center}
+ 	\begin{itemize}
+          \item On constate sur l'exemple ci-dessous que la donnée \$2 est disponible à la sortie de EXE, et utilisée à l'entrée de EXE de l'instruction suivante.
+          \item On peut utiliser les résultats temporaires (disponibles dans les registres du pipeline) en entrée de l'ALU (EXE). Le pipeline peut alors s'exécuter sans suspension. 
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\vspace{-0.8cm}
+        \begin{center}
+           \Image[12]{/Graphiques/AleaDonnee4.pdf}
+        \end{center}
+ 
+
+%\begin{block}{Solutions}
+%       \begin{center}
+% 	\begin{itemize}
+%         \item Gel de pipeline
+%	 \item Astuces d'architecture : registre double port, transfert décalé
+%	 \item Prédiction de branchements
+%        \end{itemize}
+%       \end{center}
+%      \end{block}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

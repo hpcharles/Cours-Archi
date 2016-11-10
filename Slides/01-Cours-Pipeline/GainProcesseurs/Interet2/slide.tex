@@ -1,0 +1,41 @@
+%
+\begin{Frame}{Intérêt - Application aux microprocesseurs}
+
+
+\begin{block}{Architecture sans pipeline - 1 cycle = 1 ns pour chaque étage}
+       \begin{center}
+ 	\begin{itemize}
+         \item Pour exécuter 10 instructions, il faut 10 cycles soit 10 ns
+	\item Pour éxécuter \emph{m} instructions, il faut \emph{m} cycles
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\begin{block}{Architecture avec pipeline - 5 étages}
+       \begin{center}
+ 	\begin{itemize}
+	 \item 1 instruction en 1 ns, soit 0,2 ns si tous les étages ont le même temps de traitement
+         \item Pour exécuter 10 instructions, il faut 14 étapes soit 2,8 ns
+%	 \item Pour exécuter 1000 instructions, il faut 1004 étapes soit 200,8 ns \approx{1000/5}
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\begin{block}{Généralisation pour une architecture pipeline à \emph{n} étages}
+       \begin{center}
+ 	\begin{itemize}
+         \item Si m le nombre d'instructions est très grand, le temps d'exécution est
+	$ \frac{m+n-1}{n} = \frac{m}{n} $
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

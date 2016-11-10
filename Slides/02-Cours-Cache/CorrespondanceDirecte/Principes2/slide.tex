@@ -1,26 +1,11 @@
 %
-\begin{Frame}{Quid de la localité spatiale ?}
+\begin{Frame}{Exemple de correspondance mémoire - cache}
 
 
-      \begin{block}{Profiter de la localité spatiale}
-       \begin{center}
- 	\begin{itemize}
-         \item Dans l'architecture du cache DEC Station 3100, le bloc de données était un mot de 4 octets
-         \item Pour profiter de la localité spatiale, il faut que plusieurs donneés consécutives soient dans le même bloc
-        \end{itemize}
-       \end{center}
-      \end{block}   
-
-  
-
-  \begin{block}{Relation adresses mémoire d'un bloc - adresse dans le cache}
-    \begin{center}
- 	\begin{itemize}
-	\item AdresseBlocCache = AdresseBlocMemoire \% NbBlocCache
-	\item Simple si la taille du cache est une puissance de 2 (modulo nb de bits)
-        \end{itemize}
-    \end{center}
-  \end{block}   
+ \vspace{-0,8cm}
+        \begin{center}
+       \Image{CorrespondanceDirecte/Principes2/Correspondanceadresse.pdf}[3][12] \hspace{2cm}
+        \end{center}
 
  
 

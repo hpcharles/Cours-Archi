@@ -1,0 +1,32 @@
+%
+\begin{Frame}{Aléas de contrôle - Interruptions et exceptions}
+
+\begin{block}{Interruption}
+       \begin{center}
+ 	\begin{itemize}
+          \item La solution la plus simple est de terminer l'exécution des instructions qui sont dans le pipeline avant de traiter l'interruption.
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+ 
+
+\begin{block}{Exception - add \$1, \$2, \$2}
+       \begin{center}
+ 	\begin{itemize}
+         \item Supposons que l'instruction add provoque un débordement -> exception
+	 \item Il ne faut pas contaminer les registres des instructions suivantes qui sont dans le pipeline. Il faut vider le pipeline avec un méchanisme identique à celui des aléas de branchements. On peut ensuite exécuter la routine d'exception.
+	
+        \end{itemize}
+       \end{center}
+      \end{block}   
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
