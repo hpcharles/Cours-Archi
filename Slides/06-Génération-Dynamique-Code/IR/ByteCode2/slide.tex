@@ -1,0 +1,42 @@
+%
+\begin{frame}[fragile]\frametitle{IR Java ByteCode}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Java VM interpretor}
+        \begin{itemize}
+        \item Read an instruction (a byte)
+        \item Choose a case (\texttt{switch})
+        \item Use statistics (method count)
+        \item Method call:
+\begin{verbatim}
+if call count > thresold 
+then Jit compile
+
+if method native
+then call native
+else call interpretor
+\end{verbatim}
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{HotSpot JIT}
+        \begin{itemize}
+        \item Choose thresold (client versus server)\TBD
+        \item JIT compile a method
+        \item Iterative compilation
+        \item Context switch between native and virtual environment !
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

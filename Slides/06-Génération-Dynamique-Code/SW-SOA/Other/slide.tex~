@@ -1,0 +1,33 @@
+%
+\begin{Frame}{SW-SOA Other}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Other Languages}
+        \begin{itemize}
+        \item Python, PHP, LUA
+        \item Fast development
+        \item Huge library          
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item None
+        \item Script compression
+        \item JIT
+        \item Native Call Interaction \TBD
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

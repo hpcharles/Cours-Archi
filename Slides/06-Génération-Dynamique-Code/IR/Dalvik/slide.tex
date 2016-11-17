@@ -1,0 +1,40 @@
+%
+\begin{Frame}{IR ART}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Android Runtime}
+        \begin{itemize}
+        \item Android Virtual Machine (Not JVM)
+        \item Register based
+        \item Dalvik was JITed, ART is ahead of time (install time)
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compiler options}
+        \begin{itemize}
+        \item everything - compiles almost everything
+        \item speed - maximizes runtime performance, (default option)
+        \item balanced -  performance/compilation investment.
+        \item space - prioritizing storage space.
+        \item interpret-only
+        \item verify-none - should be used only for trusted system code. 
+%        \Image{Dalvik/Name.png}
+
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\url{https://en.wikipedia.org/wiki/Android_Runtime}
+
+\url{https://source.android.com/devices/tech/dalvik/}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

@@ -1,0 +1,40 @@
+%
+\begin{Frame}{IR Java ByteCode}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Java Bytecode}
+        \begin{itemize}
+        \item Stack based machine
+        \item Byte Instructions
+        \item Fast interpretor
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{6cm} % Colonne droite
+      \begin{block}{Examples}
+        \begin{itemize}
+        \item \texttt{javac File.java} ``Bytecompile'' java program
+        \item \texttt{jar tf a.jar File.class} Link
+        \item \texttt{java File.class or a.jar} Launch VM
+          \begin{itemize}
+          \item \texttt{java -server|-zero|-javm|avian} choose VM
+          \item \texttt{java -XX:CompileThreshold=N} 1500 for client,
+            10000 for the server
+          \end{itemize}
+        \item \texttt{javah} generate \texttt{.h} file for C interaction (JNI)
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\url{https://en.wikipedia.org/wiki/Java_bytecode}
+\url{https://en.wikipedia.org/wiki/Java_bytecode_instruction_listings}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

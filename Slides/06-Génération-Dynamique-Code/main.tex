@@ -1,0 +1,71 @@
+\pdfminorversion=4
+%\documentclass{beamerarticle}
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+% \tiny
+% \scriptsize	
+% \footnotesize	
+% \small
+% \normalsize 
+% \large	
+% \Large	
+% \LARGE	
+% \huge	
+% \Huge
+% http://www-dcom.cea.fr:8000/?page_id=9
+
+\title{Génération dynamique de code}
+\subtitle{}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+\date{}
+% \institute{}
+
+\usetheme{Darmstadt}
+\setbeamercovered{dynamic}
+% \usetheme{Berkeley} % Use logo image
+% \usetheme{Goettingen}
+
+\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
+
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
+\newcommand{\Slide}[1]{\input{#1/slide.tex}}
+\graphicspath{{Introduction/}{Introduction}{SW-SOA}{IR}}
+\newcommand{\TBD}{}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Motivation}
+\Slide{Introduction/SlideIntro}
+\begin{frame}
+\tableofcontents[ 
+currentsubsection, 
+hideothersubsections, 
+sectionstyle=show/hide, 
+subsectionstyle=show/shaded, 
+] 
+\end{frame}
+\section{Introduction}
+\Slide{Introduction/SlideIntro}
+\section{State of the art / Software}
+\Slide{SW-SOA/C}
+\Slide{SW-SOA/C2}
+\Slide{SW-SOA/Java}
+\Slide{SW-SOA/Dalvik2}
+\Slide{SW-SOA/LLVM}
+\Slide{SW-SOA/JavaScript}
+\Slide{SW-SOA/JavaScriptVM}
+\Slide{SW-SOA/Dalvik}
+\Slide{SW-SOA/Other}
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake ModeleSlides.pdf" ***
+% End: ***
