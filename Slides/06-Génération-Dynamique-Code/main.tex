@@ -6,6 +6,8 @@
 \usepackage[french]{babel}
 \usepackage{lmodern}
 \usepackage{hyperref}
+\usepackage{listings}
+\lstset{language=Java,numbers=left,stepnumber=1,basicstyle=\ttfamily\scriptsize}
 % \tiny
 % \scriptsize	
 % \footnotesize	
@@ -34,24 +36,23 @@
 \newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
-\graphicspath{{Introduction/}{Introduction}{SW-SOA}{IR}}
+\graphicspath{{Introduction/}{Introduction/}{SW-SOA/}{IR/}{Examples/}}
 \newcommand{\TBD}{}
 \begin{document}
 \begin{frame}
 \titlepage
 \end{frame}
 
-\section{Motivation}
+\section{Motivation \& Introduction}
 \Slide{Introduction/SlideIntro}
 \begin{frame}
 \tableofcontents[ 
-currentsubsection, 
-hideothersubsections, 
-sectionstyle=show/hide, 
-subsectionstyle=show/shaded, 
+% currentsubsection, 
+% hideothersubsections, 
+% sectionstyle=show/hide, 
+% subsectionstyle=show/shaded, 
 ] 
 \end{frame}
-\section{Introduction}
 \Slide{Introduction/SlideIntro}
 \section{State of the art / Software}
 \Slide{SW-SOA/C}
@@ -63,6 +64,10 @@ subsectionstyle=show/shaded,
 \Slide{SW-SOA/JavaScriptVM}
 \Slide{SW-SOA/Dalvik}
 \Slide{SW-SOA/Other}
+\section{Examples / JIT}
+\Slide{Examples/Java-VM}
+\Slide{Examples/Java-Compilation}
+\Slide{Examples/Java-Bytecode}
 
 \end{document}
 

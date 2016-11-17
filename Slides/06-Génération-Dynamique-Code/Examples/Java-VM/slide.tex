@@ -1,0 +1,46 @@
+%
+\begin{Frame}{Example Java-VM}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Virtual machine}
+        \begin{itemize}
+        \item Interpret byte codes
+        \item ISA 0 adresses
+        \item Implicit stack machine
+        \end{itemize}
+      \end{block} 
+      \begin{block}{Virtual machine}
+        \begin{itemize}
+        \item Interpretation: straightforward
+        \item Stack machine : inefficient
+        \end{itemize}
+      \end{block} 
+    \end{column}
+\newcommand{\RA}{$\rightarrow$}
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Bytecode Examples}
+\footnotesize       \begin{tabular}{|r r r|}\hline{}
+opcode       & code & semantic \\ \hline
+nop 	     & 00 &	\RA\\
+iconst\_0    & 03 &	\RA 0 \\
+iconst\_1    & 04 &	\RA 1 \\
+iadd 	     & 60 &	v1, v2 \RA r\\ 
+ladd 	     & 61 &	v1, v2 \RA r \\
+fadd 	     & 62 &	v1, v2 \RA r \\
+dup  	     & 59 &	v \RA v, v \\
+swap 	     & 5f & v2, v1 \RA v1, v2\\
+\hline
+        \end{tabular}
+%        \Image{Java-VM/Name.png}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
