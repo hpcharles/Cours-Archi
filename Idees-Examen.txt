@@ -1,0 +1,50 @@
+Brouillon ID évaluations pour cours ARCHI
+
+Présentation d'une architecture contenant
+au moins les éléments suivants :
+
+* Performances Flops / Mips / Watt / 
+
+* Hiérarchie mémoire Caches / Associativité / Politique / Débits
+
+* Pipeline ...
+
+* Jeux d'instruction Format insn (taille, N registres, encodage), mode
+  d'adressage, exemple commentés d'assembleur, nombre et typs d'unités
+  de caclcul, ABI
+
+* Instructions spécialisées Synchro mémoire, multimedia, traitement du
+  signal, exemple commentés d'assembleur
+
+* Autres informations :
+** Cas d'usage typique de l'architecture
+** Exemple d'utilisation
+
+L'objectif est de faire une présentation
+
+* de 20mn (20 transparents max),
+
+* par groupe de 4 (si possible 1 thématique / personne),
+
+* de présenter de façon didactique les informations demandées.
+
+* Aller plus loin que les informations grand public, par exemple pour
+les performances de multiples métriques sont attendues.
+
+La présentation se fera devant un jury composé de vos enseignants et
+certainement de personnes externes.
+
+Sources d'informations :
+* Wikipedia est un bon départ
+* Datasheet constructeur
+* Documents marketing
+* Présentations produit pour professionnels
+* Applications notes
+
+Liste des architectures proposées :
+* GPU NVIDIA tegra K1
+* Power 8 IBM
+* DSP TI 66AK2H14
+* Knights Landing Intel
+
+Indiquer la liste de vos documents sources

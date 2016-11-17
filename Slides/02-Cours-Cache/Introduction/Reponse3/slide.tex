@@ -1,0 +1,39 @@
+%
+\begin{Frame}{Quel bloc doit être remplacé en cas de défaut ?}
+
+
+      \begin{block}{Dépend de l'architecture}
+        \begin{itemize}
+        \item Cache à correspondance directe
+
+		\begin{itemize}
+        		\item Pas de choix possible
+		\end{itemize}
+
+	\item Cache associatif par ensemble 
+
+		\begin{itemize}
+        		\item Plusieurs solutions sont possibles
+
+				\begin{itemize}
+        				\item Au hasard (RR pour \emph{Ramdom Replacement})	
+					\item Le moins récémment utilisé (LRU pour \emph{Least Recently Used})
+					\item Le plus vieux (LRR pour \emph{Least Recently Replaced} ou FIFO)
+					\item Le moins utilisé (LFU pour \emph{Least Frequently Used})
+				\end{itemize}
+
+		\end{itemize}
+
+        \end{itemize}
+      \end{block} 
+
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
