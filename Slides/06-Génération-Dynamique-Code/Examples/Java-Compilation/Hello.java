@@ -1,5 +1,6 @@
 public class Hello{
     static public void main(String[] arg){
-        System.out.println ("Hello");
+        int i = Integer.parseInt(arg[0]);
+        System.out.println ("Hello : "+(i+1) );
     }
 }

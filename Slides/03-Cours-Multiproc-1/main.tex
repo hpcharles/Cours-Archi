@@ -6,46 +6,11 @@
 \usepackage[french]{babel}
 \usepackage{lmodern}
 \usepackage{hyperref}
-% \tiny
-% \scriptsize	
-% \footnotesize	
-% \small
-% \normalsize 
-% \large	
-% \Large	
-% \LARGE	
-% \huge	
-% \Huge
-% http://www-dcom.cea.fr:8000/?page_id=9
 \title{Performance des processeurs multicoeurs}
 \subtitle{}
 \author{Henri-Pierre Charles \& Frédéric Rousseau}
 \date{Année 2016-2017}
-% \institute{CEA/DRT/LIST/LIALP (Grenoble)}
-
-% \usetheme{Darmstadt}
-% \usecolortheme{default}
-% \usecolortheme{albatross}
-% \usecolortheme{beaver}
-% \usecolortheme{beetle}
-% \usecolortheme{crane}
-% \usecolortheme{dolphin}
-% \usecolortheme{dove}
-% \usecolortheme{fly}
-% \usecolortheme{lily}
-% \usecolortheme{orchid}
-% \usecolortheme{rose}
-% \usecolortheme{seagull}
-% \usecolortheme{seahorse}
-% \usecolortheme{whale}
-%\usecolortheme{wolverine}
-
-\setbeamercovered{dynamic}
-\usetheme{Warsaw} 
-% \usetheme{Berkeley} % Use logo image
-% \usetheme{Goettingen}
-%\logo{\includegraphics[height=1cm]{logouvsq_st.eps}}
-
+\usetheme{Darmstadt}
 \newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
 
 \newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
@@ -66,18 +31,32 @@
 \Slide{Market/MotivatingExample3}
 \Slide{Market/MotivatingCode1}
 \Slide{Market/MotivatingCode2}
+\tableofcontents[ 
+% currentsubsection, 
+% hideothersubsections, 
+% sectionstyle=show/hide, 
+% subsectionstyle=show/shaded, 
+] 
+\section{HW Parallelism Level}
+\Slide{HWParallelismLevel/MultipleLevel}
+\Slide{HWParallelismLevel/ILP}
+\Slide{HWParallelismLevel/VLIW}
+\Slide{HWParallelismLevel/uArch}
+% \Slide{HWParallelismLevel/OOO}
+% \Slide{HWParallelismLevel/Hyperthreading}
+\Slide{HWParallelismLevel/MultiCore}
+\Slide{HWParallelismLevel/MultiCPU}
+\Slide{HWParallelismLevel/Cluster}
+\Slide{HWParallelismLevel/MPSoC}
+\Slide{HWParallelismLevel/GPU}
 
-\section{Cache Coherency}
-\Slide{Caches/Intro}
+\section{SW Parallelism Level}
+\Slide{SWParallelismLevel/Thread}
+\Slide{SWParallelismLevel/MPI}
+\Slide{SWParallelismLevel/OpenMP}
+\Slide{SWParallelismLevel/OpenCL}
+\Slide{SWParallelismLevel/CUDA}
 
-\section{Virtual memory}
-\Slide{VirtualMemory/Intro}
-
-\section{Synchronisation}
-\Slide{VirtualMemory/Synchro}
-
-\section{Programming Tools for Parallelism}
-\Slide{ProgrammingTools/Intro}
 
 
 

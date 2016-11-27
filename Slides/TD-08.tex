@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage{eurosym} % \euro{} \geneuro{} \geneuronarrow{} \geneurowide
+\usepackage[french]{babel}
+% \usepackage{xcolor}
+\usepackage{a4}
+% \usepackage{url}
+\usepackage{sectsty}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+%\usepackage{helvet}
+% \usepackage{graphicx}
+% \definecolor{RED}{rgb}{1.,.1,.1}
+% \newcommand{\TODO}[1]{\marginpar{\textcolor{RED}{#1}}}
+\title{TD Architecture des ordinateurs}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+
+\begin{document}
+\sffamily % http://www.tug.org/pracjourn/2006-1/schmidt/schmidt.pdf
+\allsectionsfont{\sffamily}
+\maketitle
+% \tableofcontents{}
+% \TODO{A compléter}
+\section{Contexte produit de matrice}
+
+Soit l'algorithme suivant: 
+\begin{verbatim}
+typedef TYPEELT tMatrix[NLINE][NCOL];
+
+void mulMatrix(tMatrix a, tMatrix b, tMatrix res)
+{
+  int line, col, k;
+  for (line = 0; line < NLINE; line++)
+    for (col = 0; col < NCOL; col++)
+      {
+        res[line][col] = 0;
+        for (k = 0; k < NCOL; k++)
+          res[line][col] += a[line][k] * b[k][col];
+      }
+}
+\end{verbatim}
+
+Hypothèses : TYPEELT = float; NLINE = NCOL = 1000
+
+Pour un processeur RISC a 1GHz, donner les valeurs théoriques
+suivantes :
+
+\begin{enumerate}
+\item Combien de MIPS le processeur peut effectuer ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer ?
+\item Combien de temps met le processeur pour effectuer ce calcul ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer
+  en tenant compte des instructions de load store ?
+\item Quelle intensité arithmétique atteint on dans ces hypothèses ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer en
+  tenant compte des instructions de load store et une instruction
+  ``multiply and add'' ?
+\item Quel facteur d'accélération devrait on obtenir ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer
+   en tenant compte des instructions de load store et les effets
+   de cache (hypothèse L1 2Ko, pénalité de 100 cycles) ?
+\item Même question si l'on fait un produit de matrice 10x10
+ \item Combien de temps met le processeur pour effectuer ce calcul
+   avec les hypothèses précédentes ?
+\end{enumerate}
+\newpage{}
+
+
+\section{Contexte compression d'images}
+\begin{verbatim}
+#define PIXEL_SAD_C( name, lx, ly ) \
+int name( uint8_t *pix1, int i_stride_pix1,  \
+                 uint8_t *pix2, int i_stride_pix2 ) \
+{                                                   \
+    int i_sum = 0;                                  \
+    int x, y;                                       \
+    for( y = 0; y < ly; y++ )                       \
+    {                                               \
+        for( x = 0; x < lx; x++ )                   \
+        {                                           \
+            i_sum += abs( pix1[x] - pix2[x] );      \
+        }                                           \
+        pix1 += i_stride_pix1;                      \
+        pix2 += i_stride_pix2;                      \
+    }                                               \
+    return i_sum;                                   \
+}
+\end{verbatim}
+CF Algorithme de compression d'image du package VLC. Même processeur
+RISC que précédemment
+\begin{enumerate}
+\item Combien d'instructions pour calculer 1 bloc 16x16 ? (On
+  supposera 10 cycles pour \texttt{abs()})
+\item Combien de temps pour une image 1920x1080 (1 frame) ? 
+\item Peut on atteindre la compression temps réel (25 images /
+  secondes)
+\item Quel gain peut on atteindre avec l'instruction PSAD/Intel ou
+  USADA8/ARM ?
+\item Proposez d'autres pistes d'amélioration ?
+\end{enumerate}
+
+
+
+%\euro{}, \geneuro{}, \geneuronarrow{} et \geneurowide
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake Document.pdf" ***
+% End: ***
+
+
