@@ -1,0 +1,5 @@
+
+
+all:
+	javac Hello.java
+	javap cc Hello.class > Hello.by

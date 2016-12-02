@@ -1,0 +1,40 @@
+%
+\begin{Frame}{SOA Java}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Description}
+        \begin{itemize}
+        \item Java Language (Sun microsystems / Oracle), 95
+        \item Normalized
+        \item Stack machine
+        \item Enormous API (+10000 classes)
+        \item Oracle, IBM, Google (+/-)
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item javac (.java to .class bytecode)
+        \item interpretation
+        \item hotspot compiler
+          \begin{itemize}
+          \item trigger most used method
+          \item server or client profile
+          \end{itemize}
+        \item class to executable
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\url{https://en.wikipedia.org/wiki/Java_(programming_language)}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

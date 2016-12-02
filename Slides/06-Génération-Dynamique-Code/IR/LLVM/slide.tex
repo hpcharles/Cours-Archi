@@ -1,0 +1,35 @@
+%
+\begin{Frame}{IR LLVM}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{LLVM Intermediate representation}
+        \begin{itemize}
+        \item SSA form
+        \item ``Easy'' to read
+        \item Used for OpenCL
+        \item Many Possible Scenarii 
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Examples}
+        \begin{itemize}
+        \item Compilte to native \texttt{clang file.c -o file}
+        \item Compile to bytecode \texttt{clang -emit-llvm -S file.c -o file.bc}
+        \item Interpret : \texttt{lli file.bc}
+        \item Compile ahead of time : \texttt{llc test.bc}
+        \item Optimize bytecode  :\texttt{opt test.bc}
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

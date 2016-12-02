@@ -1,0 +1,37 @@
+%
+\begin{Frame}{SW-SOA Dalvik}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Description}
+        \begin{itemize}
+        \item Java language
+        \item Android API
+        \item Normalized ...
+        \item Google toolbox
+        \item Security
+        \item Store
+        \item Dalvi is a register based machine
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item java to dalvik
+        \item Dalvik VM optimized for small memory machines
+        \item dalvik jitted
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\url{https://source.android.com/devices/tech/dalvik/}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

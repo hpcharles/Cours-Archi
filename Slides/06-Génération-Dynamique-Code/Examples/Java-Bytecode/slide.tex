@@ -1,0 +1,36 @@
+%
+\begin{Frame}{Example : Java-Bytecode}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Java context usages}
+        \begin{itemize}
+        \item Web browser : speed and reactivity
+        \item Server : reasonnable speed quickly
+        \item HPC : optimallity slowly
+        \end{itemize}
+      \end{block} 
+      \begin{block}{Optimization level}
+        \begin{itemize}
+        \item Interpretor : slow but reactive
+        \item C1 : JIT compiler
+        \item C2 : Complex JIT compiler, very slow
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compiler transition}
+        \Image[5]{Java-Bytecode/Staged.pdf}
+      \end{block}
+      Green : Staged mode; Red : normal mode; Green : backtrack
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

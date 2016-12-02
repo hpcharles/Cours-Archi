@@ -1,0 +1,29 @@
+%
+\begin{Frame}{Performances}
+      \begin{block}{}
+        \begin{itemize}
+        \item Hypothèses :  1 instruction d'accès à une données nécessite 2 cycles processeur en cas de succès, 10 cycles en cas d'échec.
+        \item En fonctionnement normal, on atteint 80\% de succès. 
+   	\begin{itemize}
+		\item Combien de cycles sont nécessaires pour exécuter 100 accès à une donnée ?
+		\item Réponse : (100 x 2 x 0,8) + (100 x 10 x 0,2) = 360 cycles
+		\item Combien de cycles le processeur attend ?
+		\item Réponse : 100 x (10 - 2) x 0,2 = 160 cycles (environ 44\% du temps)
+        \end{itemize}
+	\item Les instructions d'accès à une donnée représente 50\% des instructions d'un programme.  
+   	\begin{itemize}
+		\item Quel est le gain en terme de performance si toutes les données étaient en cache (1 instruction par cycle pour les instructions autres que load et store) ?
+	\item Réponse : (50 + 50 x ((2 x 0,8) + (10 x 0,2))) / (50 + 50 x 2)  = 230 / 150 = 1,53
+	\end{itemize}
+        \end{itemize}
+      \end{block} 
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

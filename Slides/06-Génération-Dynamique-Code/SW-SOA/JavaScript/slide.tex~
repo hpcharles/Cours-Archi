@@ -1,0 +1,36 @@
+%
+\begin{Frame}{SOA JavaScript}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Description}
+        \begin{itemize}
+        \item Script language
+        \item Trace based compilation\TBD
+        \item Tons of tools (server side and client side)\TBD
+        \item Used as back-end language
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item Source interpretation
+        \item JIT part of scripts \TBD
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}
+\url{https://en.wikipedia.org/wiki/JavaScript} \url{https://en.wikipedia.org/wiki/Comparison_of_server-side_JavaScript_solutions}
+\url{https://en.wikipedia.org/wiki/Node.js} 
+\url{http://bellard.org/jslinux/}
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

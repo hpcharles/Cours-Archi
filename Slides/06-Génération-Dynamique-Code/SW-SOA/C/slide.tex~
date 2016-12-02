@@ -1,0 +1,39 @@
+%
+\begin{Frame}{SOA C compil chain}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Argumentation}
+        \begin{itemize}
+        \item C language (K\&R), C90 up to C11
+        \item Normalized
+        \item gcc, clang, icc, tcc, ...
+        \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item Preprocessing (\# stuff)
+        \item Compilation
+          \begin{itemize}
+          \item Lexical / Syntaxic
+          \item IR form
+          \item Phases / passes
+          \item Instructions selection
+          \end{itemize}
+        \item Assembly
+        \item Load
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \url{https://en.wikipedia.org/wiki/C_(programming_language)}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
