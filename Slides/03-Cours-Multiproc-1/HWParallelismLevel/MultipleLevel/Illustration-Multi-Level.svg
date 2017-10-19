@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Illustration-Multi-Level.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76015625"
+     inkscape:cx="232.31434"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3680" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.512632"
+       y="222.91667"
+       id="text3684"><tspan
+         sodipodi:role="line"
+         id="tspan3682"
+         x="10.512632"
+         y="222.91667"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Opérateur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.157099"
+       y="209.51566"
+       id="text3684-3"><tspan
+         sodipodi:role="line"
+         id="tspan3682-6"
+         x="10.157099"
+         y="209.51566"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Pipeline</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.583333"
+       y="201.75"
+       id="text3706"><tspan
+         sodipodi:role="line"
+         id="tspan3704"
+         x="10.583333"
+         y="220.47754"
+         style="stroke-width:0.26458332px" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.208761"
+       y="167.91705"
+       id="text3684-7"><tspan
+         sodipodi:role="line"
+         id="tspan3682-5"
+         x="11.208761"
+         y="167.91705"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Memory Cache</tspan><tspan
+         sodipodi:role="line"
+         x="11.208761"
+         y="197.67441"
+         style="font-size:8.46666622px;stroke-width:0.26458332px"
+         id="tspan3780" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.512632"
+       y="196.11462"
+       id="text3684-35"><tspan
+         sodipodi:role="line"
+         id="tspan3682-62"
+         x="10.512632"
+         y="196.11462"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Micro architecture</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="88.036812"
+       id="text3684-9"><tspan
+         sodipodi:role="line"
+         id="tspan3682-1"
+         x="11.904892"
+         y="88.036812"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">GPU / FPGA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.512632"
+       y="182.71359"
+       id="text3684-2"><tspan
+         sodipodi:role="line"
+         id="tspan3682-7"
+         x="10.512632"
+         y="182.71359"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Instruction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="155.04195"
+       id="text3684-0"><tspan
+         sodipodi:role="line"
+         id="tspan3682-9"
+         x="11.904892"
+         y="155.04195"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Multi coeur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="141.64093"
+       id="text3684-36"><tspan
+         sodipodi:role="line"
+         id="tspan3682-0"
+         x="11.904892"
+         y="141.64093"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Multi processeur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="128.2399"
+       id="text3684-6"><tspan
+         sodipodi:role="line"
+         id="tspan3682-2"
+         x="11.904892"
+         y="128.2399"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">VLIW</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="114.83886"
+       id="text3684-61"><tspan
+         sodipodi:role="line"
+         id="tspan3682-8"
+         x="11.904892"
+         y="114.83886"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">Cluster</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.16666603px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="11.904892"
+       y="101.43784"
+       id="text3684-79"><tspan
+         sodipodi:role="line"
+         id="tspan3682-20"
+         x="11.904892"
+         y="101.43784"
+         style="font-size:8.46666622px;stroke-width:0.26458332px">MPSoC</tspan></text>
+  </g>
+</svg>
