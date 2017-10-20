@@ -2,17 +2,26 @@
 \begin{Frame}{HWParallelismLevel ILP}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{ILP - Instruction Level Parallelism}
         \begin{itemize}
-        \item 
+        \item How to use multiple ALU
+        \item How to use special instructions. Examples
+          \begin{itemize}
+          \item Multiply and Add (matrix multiply)
+          \item SAD (Video compression)
+          \end{itemize}
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{ILP/Name.png}
-      \end{block}   
+      \begin{alertblock}{Metrics}
+        \begin{itemize}
+        \item Count clock cycle / instruction count
+        \item Compute INSN / cycle
+        \item Verify against CPU description
+        \end{itemize}
+      \end{alertblock}   
     \end{column}
   \end{columns}  
 \end{Frame}

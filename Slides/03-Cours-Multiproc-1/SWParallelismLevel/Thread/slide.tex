@@ -4,15 +4,20 @@
     \begin{column}{5cm} % Colonne gauche
       \begin{block}{Argumentation}
         \begin{itemize}
-        \item 
+        \item \texttt{\#include <pthread.h>}
+        \item \texttt{pthread\_create()}
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{Thread/Name.png}
-      \end{block}   
+      \begin{alertblock}{Comments}
+        \begin{itemize}
+        \item Normalized: Yes 
+        \item Portable : Yes (linux, windows, ...)
+        \item Scalable : No, why ?
+        \end{itemize}
+      \end{alertblock}   
     \end{column}
   \end{columns}  
 \end{Frame}

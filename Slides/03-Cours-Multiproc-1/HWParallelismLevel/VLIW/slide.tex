@@ -4,15 +4,31 @@
     \begin{column}{5cm} % Colonne gauche
       \begin{block}{Argumentation}
         \begin{itemize}
-        \item 
+        \item Explicit use of multiple ALU
+        \item Example for MM
+          \begin{itemize}
+          \item 2 add for address computation
+          \item 2 load from memory
+          \item 1 MAD
+          \item 1 store
+          \end{itemize}
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{VLIW/Name.png}
+      \begin{block}{Example}
+        \begin{itemize}
+        \item Intel Itanium (2 bundle of 3 parallel instructions)
+        \item Kalray MPPA (See Kalray presentation)
+        \end{itemize}
       \end{block}   
+      \begin{alertblock}{Metric}
+        \begin{itemize}
+        \item Insn / cycle
+        \item Bundle filling rate
+        \end{itemize}
+      \end{alertblock}   
     \end{column}
   \end{columns}  
 \end{Frame}

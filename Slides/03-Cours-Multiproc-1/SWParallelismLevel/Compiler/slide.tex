@@ -1,0 +1,32 @@
+%
+\begin{Frame}{SWParallelismLevel Compiler}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Code Optimisation}
+        \begin{itemize}
+        \item \texttt{-O3} basic optimization
+        \item More than 300 individual optimization starting with \texttt{-f}
+        \item Example \texttt{-ffast-math}, \texttt{-floop-strip-mine}
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{HW specific Optimization}
+        \begin{itemize}
+        \item More than 300 optimization HW specific, starting with
+          \texttt{-m}
+        \item example \texttt{-mevexlig=[128|256|512]}
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
