@@ -5,7 +5,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
 \usepackage{lmodern}
+\usepackage{multicol}
 \usepackage{hyperref}
+\usepackage{algorithm2e}
+\usepackage{listings}
+\lstset{language=C,numbers=left,stepnumber=1,basicstyle=\ttfamily\scriptsize}
 \title{Performance des processeurs multicoeurs}
 \subtitle{}
 \author{Henri-Pierre Charles \& Frédéric Rousseau}
@@ -17,26 +21,31 @@
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
 \newcommand{\degoal}{\texttt{deGoal\ }}
-\graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}}
+\graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}{HWParallelismLevel/}
+  {SWParallelismLevel/} {VirtualMemory/}}
+
+
 
 \begin{document}
 \begin{frame}
 \titlepage
 \end{frame}
-
-
 \section{Multicore Market}
 \Slide{Market/MotivatingExample1}
 \Slide{Market/MotivatingExample2}
 \Slide{Market/MotivatingExample3}
 \Slide{Market/MotivatingCode1}
 \Slide{Market/MotivatingCode2}
-\tableofcontents[ 
+\begin{frame}
+  \begin{multicols}{2}
+{\small    \tableofcontents[
 % currentsubsection, 
 % hideothersubsections, 
 % sectionstyle=show/hide, 
 % subsectionstyle=show/shaded, 
-] 
+]}
+  \end{multicols}
+\end{frame}
 \section{HW Parallelism Level}
 \Slide{HWParallelismLevel/MultipleLevel}
 \Slide{HWParallelismLevel/ILP}

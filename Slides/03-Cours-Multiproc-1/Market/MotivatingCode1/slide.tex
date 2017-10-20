@@ -1,20 +1,32 @@
 %
 \begin{Frame}{Market Motivating Code Matrix Multiply}
-  \begin{columns}[t]
-    \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+
+      \begin{block}{Caractéristiques
+          \href{https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm}{Multiplication
+            de matrices}}
         \begin{itemize}
-        \item 
+        \item O($N^3$) en calcul, O($N^2$) en accès mémoire (quel
+          layout mémoire ?)
         \end{itemize}
       \end{block} 
-    \end{column}
-    
-    \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{MotivatingCode1/Name.png}
+
+      \begin{block}{Algorithme}
+\begin{algorithm}[H]
+\KwData{Input: matrices A and B}b
+\KwResult{Let C be a new matrix of the appropriate size}
+\For{i from 1 to n: }{
+  \For{j from 1 to p:}{
+    sum = 0\;
+    \For{ k from 1 to m}{
+      sum +=  Aik x Bkj
+      }
+      Cij = sum
+      }
+      }
+Return C
+\end{algorithm}
       \end{block}   
-    \end{column}
-  \end{columns}  
+
 \end{Frame}
 
 %% Local Variables:

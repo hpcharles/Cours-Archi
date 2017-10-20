@@ -1,0 +1,58 @@
+\pdfminorversion=4
+%\documentclass{beamerarticle}
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\title{Performance des processeurs multicoeurs}
+\subtitle{}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+\date{Année 2016-2017}
+\usetheme{Darmstadt}
+\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
+
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
+\newcommand{\Slide}[1]{\input{#1/slide.tex}}
+\newcommand{\degoal}{\texttt{deGoal\ }}
+\graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\section{Contexte produit de matrice}
+
+CF L'algo montré dans le cours
+
+Pour un processeur RISC a 1GHz, et un produit de matrice de 1000x1000
+en nombres flottants 32 bits, donner les valeurs théoriques suivantes
+:
+
+\begin{itemize}
+\item Combien de MIPS le processeur peut effectuer ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer ?
+\item Combien de temps met le processeur pour effectuer ce calcul ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer
+  en tenant compte des instructions de load store ?
+\item Quelle intensité arithmétique atteint on dans ces hypothèses ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer en
+  tenant compte des instructions de load store et une instruction
+  ``multiply and add'' ?
+\item Quel facteur d'accélération devrait on obtenir ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer
+   en tenant compte des instructions de load store et les effets
+   de cache (hypothèse L1 10Ko, pénalité de 100 cycles) ?
+\item Même question si l'on fait un produit de matrice 10x10
+ \item Combien de temps met le processeur pour effectuer ce calcul
+   avec les hypothèses précédentes ?
+\end{itemize}
+
+
+  
+\end{frame}
+\end{document}
