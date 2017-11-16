@@ -1,0 +1,15 @@
+void functionInterpret ()
+{
+  switch (program[PCcounter++])
+    {
+    case ADD:
+      result = stack[STACKcounter] + stack[STACKcounter];
+      stack[--STACKcounter] = result;
+      break;
+    case SUB:
+      result = stack[STACKcounter] - stack[STACKcounter];
+      stack[--STACKcounter] = result;
+      break;
+    }
+
+}

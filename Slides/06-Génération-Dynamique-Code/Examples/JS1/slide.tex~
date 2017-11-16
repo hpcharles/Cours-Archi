@@ -1,0 +1,43 @@
+%
+\begin{Frame}{Examples Javascript engine : SpiderMonkey}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Javascript engine in Firefox}
+        \begin{itemize}
+        \item C and C++
+        \item
+          \href{https://hg.mozilla.org/mozilla-central/file/tip/js/src}{Source
+            Files}
+        \item Support : arm arm64 mips-shared mips32 mips64 x64 x86
+
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Jit Strategy}
+        \begin{itemize}
+        \item Read javascript
+        \item Transform in bytecode
+        \item Trace based compilation
+          \begin{itemize}
+          \item Monitor interpreted JavaScript code during execution
+            looking for code paths that are used more than once.
+          \item When we find a piece of code that’s used more than
+            once, optimize that code.
+          \item Take that optimized representation and assemble it to
+            machine code
+          \end{itemize}
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

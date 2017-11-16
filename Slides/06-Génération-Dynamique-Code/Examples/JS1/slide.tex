@@ -1,0 +1,36 @@
+%
+\begin{Frame}{Examples Javascript engine : SpiderMonkey}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Javascript engine in Firefox}
+        \begin{itemize}
+        \item C and C++
+        \item
+          \href{https://hg.mozilla.org/mozilla-central/file/tip/js/src}{Source
+            Files}
+        \item Support : arm arm64 mips-shared mips32 mips64 x64 x86
+        \end{itemize}
+      \end{block} 
+      \href{https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Internals}{Spidemonkey  internals}
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Jit Strategy}
+        \begin{itemize}
+        \item Read javascript
+        \item Transform in bytecode
+        \item Interpret (big switch)
+        \item Trace based compilation
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
