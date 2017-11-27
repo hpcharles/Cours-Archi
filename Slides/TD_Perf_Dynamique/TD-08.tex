@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage{eurosym} % \euro{} \geneuro{} \geneuronarrow{} \geneurowide
+\usepackage[french]{babel}
+% \usepackage{xcolor}
+\usepackage{a4}
+% \usepackage{url}
+\usepackage{sectsty}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{ %
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  commentstyle=\color{green},    % comment style
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=C,                 % the language of the code
+  numbers=right,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{blue}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+}
+
+\usepackage[utf8]{inputenc}
+%\usepackage{helvet}
+% \usepackage{graphicx}
+% \definecolor{RED}{rgb}{1.,.1,.1}
+% \newcommand{\TODO}[1]{\marginpar{\textcolor{RED}{#1}}}
+\title{TD Architecture des ordinateurs}
+\author{Henri-Pierre Charles \& Frédéric Rousseau}
+
+\begin{document}
+\sffamily % http://www.tug.org/pracjourn/2006-1/schmidt/schmidt.pdf
+\allsectionsfont{\sffamily}
+\maketitle
+% \tableofcontents{}
+% \TODO{A compléter}
+\section{Contexte produit de matrice}
+
+Soit l'algorithme suivant: 
+\lstinputlisting{MatrixKernel.c}
+
+Hypothèses :
+\begin{itemize}
+\item TYPEELT = float (32 bits); 
+\item NLINE = NCOL = 1000
+\end{itemize}
+
+Pour un processeur RISC a 1GHz, qui peut effectuer une multiplication
+flottante en 1 cycle, donner les valeurs théoriques suivantes :
+
+\begin{enumerate}
+\item Combien de MIPS le processeur peut effectuer ?
+  
+  % 1000 MIPS
+  
+\item Combien de FLOP (nombre crête) le processeur peut effectuer,
+  s'il n'y a pas de Load / Store ?
+  
+  % 1000 MFLOPS = 1GFLOPS
+  
+\item Combien de temps met le processeur pour effectuer le calcul du
+  produit de matrice (en suppossant que la mémoire n'est pas un
+  facteur de ralentissement et que les instructions de la boucle
+  n'interviennent pas) ?
+  
+  % 2 FLOPS / itération + et *
+  % NLINE * NCOL * 2 opérations = 2M FLOPS
+  % 2 secondes 
+  
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer (en
+  tenant compte des instructions de load store) ?
+  
+  % Kernel = Ld Ld Float Float Store (2 FLOP pour 5 cycles)
+  % 0.25 GFLOPS
+  
+\item Quelle intensité arithmétique atteint on dans ces hypothèses ?
+  
+  % Flop / Byte 
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer en
+  tenant compte des instructions de load store et une instruction
+  ``multiply and add'' ?
+\item Quel facteur d'accélération devrait on obtenir ?
+\item Combien de FLOPS (nombre crête) le processeur peut effectuer
+  en tenant compte des instructions de load store et les effets
+  de cache (hypothèse L1 2Ko, pénalité de 1000 cycles) ?
+\item Même question si l'on fait un produit de matrice 10x10
+\item Combien de temps met le processeur pour effectuer ce calcul
+  avec les hypothèses précédentes ?
+\item Que peut on faire de mieux pour accélérer le code ?
+  \begin{itemize}
+  \item Que peut on changer sur la ligne \texttt{ res[line][col] = 0;} ?
+  \item Comment peut on mieux optimiser pour les caches ?
+  \item Comment paralléliser ?
+  \end{itemize}
+\item Si un générateur de code dynamique met 20 M cycles pour générer
+  une instruction et que le kernel fait 40 instructions, mais permet
+  d'accélérer d'un facteur 2, pour quelle taille de matrice a-t-on un
+  gain ? Même question pour si 200 cycles / instruction.
+\end{enumerate}
+
+\section{Contexte compression d'images}
+
+\lstinputlisting{PSAD.c}
+
+
+CF Algorithme de compression d'image du package VLC. Même processeur
+RISC que précédemment
+\begin{enumerate}
+\item Combien d'instructions pour calculer 1 bloc 16x16 ? (On
+  supposera 10 cycles pour \texttt{abs()})
+\item Combien de temps pour une image 1920x1080 (1 frame) ? 
+\item Peut on atteindre la compression temps réel (25 images /
+  secondes)
+\item Quel gain peut on atteindre avec l'instruction PSAD/Intel ou
+  USADA8/ARM ?
+\item Proposez d'autres pistes d'amélioration ?
+\end{enumerate}
+
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake Document.pdf" ***
+% End: ***
+
+
