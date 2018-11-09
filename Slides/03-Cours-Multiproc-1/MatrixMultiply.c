@@ -81,7 +81,9 @@ int main(int argc, char * argv[])
   randMatrix(a);  randMatrix(b);
   for (i = 0; i< 1000; i++)
     mulMatrix(a, b, c);
+#if 0
   /* printMatrix (a); */
   printMatrix (c);
+#endif
   return 0;
 }
