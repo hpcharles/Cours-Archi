@@ -3,11 +3,13 @@ slides:
 	pdflatex main
 	pdflatex main
 
+SIZE = 100
+
 all: 
-	make int SIZE=200   CFLAGS="-O0 -Wall"
-	make int SIZE=200   CFLAGS="-O3 -Wall"
-	make float SIZE=200 CFLAGS="-O0 -Wall"
-	make float SIZE=200 CFLAGS="-O3 -Wall"
+	make int SIZE=${SIZE}   CFLAGS="-O0 -Wall"
+	make int SIZE=${SIZE}   CFLAGS="-O3 -Wall"
+	make float SIZE=${SIZE} CFLAGS="-O0 -Wall"
+	make float SIZE=${SIZE} CFLAGS="-O3 -Wall"
 
 
 int:

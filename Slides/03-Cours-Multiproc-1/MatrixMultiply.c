@@ -1,7 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/time.h>
 
 typedef TYPEELT tMatrix[NLINE][NCOL];
+
+struct timeval time;
+struct timezone tz;
+
+long long start()
+{
+  gettimeofday (&time, &tz);
+  return time.tv_sec*1000000+time.tv_usec;
+}
+
+long long stop(long long timeusec)
+{
+  long long fin;
+  gettimeofday (&time, &tz);
+  fin = time.tv_sec*1000000+time.tv_usec;
+  return fin-timeusec;
+}
 
 void printMatrix(tMatrix a)
 {
@@ -9,7 +27,7 @@ void printMatrix(tMatrix a)
   for (line = 0; line < NLINE; line++)
     {
       for (col = 0; col < NCOL; col++)
-          printf("%08f ", a[line][col]);
+          printf("%08d ", (TYPEELT) a[line][col]);
       printf("\n");
     }
   printf("\n");
@@ -31,9 +49,10 @@ void sumMatrix(tMatrix a, tMatrix b, tMatrix res)
       res[line][col] = a[line][col] + b[line][col];
 }
 
-void mulMatrix(tMatrix a, tMatrix b, tMatrix res)
+long long mulMatrix(tMatrix a, tMatrix b, tMatrix res)
 {
   int line, col, k;
+  long long timeusec = start();
   for (line = 0; line < NLINE; line++)
     for (col = 0; col < NCOL; col++)
       {
@@ -41,6 +60,7 @@ void mulMatrix(tMatrix a, tMatrix b, tMatrix res)
         for (k = 0; k < NCOL; k++)
           res[line][col] += a[line][k] * b[k][col];
       }
+  return stop(timeusec);
 }
 
 void diagMatrix(tMatrix a, TYPEELT value)
@@ -76,12 +96,16 @@ void randMatrix(tMatrix a)
 int main(int argc, char * argv[])
 {
   tMatrix a, b, c;
+  long long time;
   int i;
   cleanMatrix(a);  cleanMatrix(b);   cleanMatrix(c);
   randMatrix(a);  randMatrix(b);
+  time = 0;
   for (i = 0; i< 1000; i++)
-    mulMatrix(a, b, c);
+    time += mulMatrix(a, b, c);
+  printf ("usec time of 1000 iteration : %lld\n", time);
 #if 0
+
   /* printMatrix (a); */
   printMatrix (c);
 #endif
