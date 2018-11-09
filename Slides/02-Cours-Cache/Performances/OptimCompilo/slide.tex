@@ -1,62 +1,57 @@
 %
 
-
-\begin{Frame}{Amélioration des performances par le compilateur}
-
-      \begin{block}{Echange des boucles : améliorer la localité spatiale}
-       \begin{center}
- 	\begin{itemize}
-         \item Hypothèses
-		\begin{itemize}
-         		\item Les données d'un tableau sont généralement placées à des adresses consécutives en mémoire
-			\item Un bloc correspond à plusieurs données
-   		\end{itemize}
-        \end{itemize}
-       \end{center}
-      \end{block}   
-
-\vspace{-0,7cm}
-
+\begin{frame}[fragile]\frametitle{Amélioration des performances par le programmeur}
+  
+  \begin{block}{}
+    Échange des boucles pour améliorer la localité spatiale. Hypothèses :
+    \begin{itemize}
+    \item Les données d'un tableau sont généralement placées à des
+      adresses consécutives en mémoire
+    \item Un bloc correspond à plusieurs données
+    \end{itemize}
+  \end{block}   
+  
+  \vspace{-0,7cm}
+  
   \begin{columns}[t]
-    \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Avant}
-        \begin{lstset}
-		afor (j = 0; j < 100; j++) \\
-			for (i = 0; i < 5000; i++)  \\
-				x[i][j] = 3 * x[i][j];
-	\end{lstset}
-      \end{block} 
-    \end{column}
+    \begin{column}{6cm} % Colonne gauche
+      \begin{block}{}
+        \begin{lstlisting}
+          for (j = 0; j < 100; j++)// Avant
+          for (i = 0; i < 5000; i++)
+          x[i][j] = 3 * x[i][j];
+\end{lstlisting}
+\end{block} 
+ \end{column}
     
-    \begin{column}{5cm} % Colonne droite
-      \begin{block}{Après}
-	\begin{lstset}
-		afor (i = 0; i < 5000; i++) \\
-			for (j = 0; j < 100; j++) \\
-				x[i][j] = 3 * x[i][j];
-	\end{lstset}
-	\end{block}
-    \end{column}
-  \end{columns}  
+ \begin{column}{6cm} % Colonne droite
+   \begin{block}{}
+\begin{lstlisting}
+for (i = 0; i < 5000; i++) // Apres
+  for (j = 0; j < 100; j++)
+    x[i][j] = 3 * x[i][j];
+\end{lstlisting}
+\end{block}
+\end{column}
+\end{columns}  
 
-%\begin{block}{Difficultés}
-%       \begin{center}
-% 	\begin{itemize}
-%         \item 
-%        \end{itemize}
-%       \end{center}
-%      \end{block}   
+% %\begin{block}{Difficultés}
+% %       \begin{center}
+% % 	\begin{itemize}
+% %         \item 
+% %        \end{itemize}
+% %       \end{center}
+% %      \end{block}   
 
 \begin{alertblock}{Explication}
-       \begin{center}
- 	\begin{itemize}
-         \item Si les valeurs x[a][n], x[a][n+1], x[a][n+2], ... sont à des adresses consécutives, un chargement par blocs permet de placer dans le cache toutes ces valeurs en une seule requête.
-        \end{itemize}
-       \end{center}
-      \end{alertblock}   
+  Si les valeurs x[a][n], x[a][n+1], x[a][n+2],
+  ... sont à des adresses consécutives, un chargement par
+  blocs permet de placer dans le cache toutes ces valeurs
+  en une seule requête.
+\end{alertblock}   
+        
 
-
-\end{Frame}
+\end{frame}
 
 %% Local Variables:
 %% mode: latex

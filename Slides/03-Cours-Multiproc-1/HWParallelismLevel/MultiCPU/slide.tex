@@ -2,16 +2,21 @@
 \begin{Frame}{HWParallelismLevel MultiCPU}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{Multiple CPU, same processor}
         \begin{itemize}
-        \item 
+        \item Share L3, global memory
+        \item Same periphericals
+        \item Multiple clocks
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{MultiCPU/Name.png}
+      \begin{block}{Best application}
+        \begin{itemize}
+        \item Same peripherical access (disk, network if)
+        \item Big data parallel applications
+        \end{itemize}
       \end{block}   
     \end{column}
   \end{columns}  
