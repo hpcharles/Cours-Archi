@@ -1,6 +1,6 @@
 \pdfminorversion=4
 %\documentclass{beamerarticle}
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 % \usepackage[french]{babel}
@@ -21,6 +21,7 @@
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
 \newcommand{\degoal}{\texttt{deGoal\ }}
+\newcommand{\WP}[1]{\href{https://en.wikipedia.org/wiki/#1}{#1}}
 \graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}{HWParallelismLevel/}
   {SWParallelismLevel/} {VirtualMemory/}}
 

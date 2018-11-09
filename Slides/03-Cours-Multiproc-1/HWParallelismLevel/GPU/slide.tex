@@ -2,16 +2,22 @@
 \begin{Frame}{HWParallelismLevel GPU}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{Characteristics}
         \begin{itemize}
-        \item 
+        \item Heterogeneous processing
+        \item Need multiple programming language (X + Y)
+
+          $X \in {C, Python, ...}\, Y \in {CUDA, OpenCL, ...}$
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-%        \Image{GPU/Name.png}
+      \begin{block}{How to use}
+        \begin{itemize}
+        \item Organize ``data choregraphy''
+        \item Thread synchronization
+        \end{itemize}
       \end{block}   
     \end{column}
   \end{columns}  

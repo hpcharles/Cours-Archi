@@ -2,17 +2,31 @@
 \begin{Frame}{HWParallelismLevel MultiCore}
   \begin{columns}[t]
     \begin{column}{5cm} % Colonne gauche
-      \begin{block}{Argumentation}
+      \begin{block}{Many computing core}
         \begin{itemize}
-        \item 
+        \item Multiple instruction flow
+        \item Asynchronous programming
+        \item Share the same die
         \end{itemize}
       \end{block} 
     \end{column}
     
     \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
+      \begin{block}{How to use}
+        \begin{itemize}
+        \item Same die : should optimize data / code sharing
+        \item Augment spacial data locality
+        \item Augment code sharing
+        \end{itemize}
 %        \Image{MultiCore/Name.png}
       \end{block}   
+      \begin{alertblock}{Best usage : Same code / data}
+        \begin{itemize}
+        \item Numeric simulation
+        \item 
+        \end{itemize}
+%        \Image{MultiCore/Name.png}
+      \end{alertblock}   
     \end{column}
   \end{columns}  
 \end{Frame}
