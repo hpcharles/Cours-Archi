@@ -2,13 +2,21 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-typedef TYPEELT tMatrix[NLINE][NCOL];
+#ifdef TYPEELTFLT
+typedef float typeelt;
+#else
+typedef int typeelt;
+#endif
+
+typedef typeelt tMatrix[NLINE][NCOL];
+
+/* Operating system level time measurement */
 
 struct timeval time;
-struct timezone tz;
 
 long long start()
 {
+  struct timezone tz;
   gettimeofday (&time, &tz);
   return time.tv_sec*1000000+time.tv_usec;
 }
@@ -16,18 +24,35 @@ long long start()
 long long stop(long long timeusec)
 {
   long long fin;
+  struct timezone tz;
   gettimeofday (&time, &tz);
   fin = time.tv_sec*1000000+time.tv_usec;
   return fin-timeusec;
 }
 
+/* Performance counter level time measurement 
+   https://stackoverflow.com/questions/29189935/rdtsc-timing-for-a-measuring-a-function */
+
+typedef unsigned long long ticks;
+static __inline__ ticks getticks(void)
+{
+  unsigned a, d; 
+  asm volatile("rdtsc" : "=a" (a), "=d" (d)); 
+  return ((ticks)a) | (((ticks)d) << 32); 
+}
+
+#ifdef TYPEELTFLT
+char printfFormat[] = "%08f ";
+#else
+char printfFormat[] = "%08d ";
+#endif  
 void printMatrix(tMatrix a)
 {
   int line, col;
   for (line = 0; line < NLINE; line++)
     {
       for (col = 0; col < NCOL; col++)
-          printf("%08d ", (TYPEELT) a[line][col]);
+          printf(printfFormat, a[line][col]);
       printf("\n");
     }
   printf("\n");
@@ -63,7 +88,7 @@ long long mulMatrix(tMatrix a, tMatrix b, tMatrix res)
   return stop(timeusec);
 }
 
-void diagMatrix(tMatrix a, TYPEELT value)
+void diagMatrix(tMatrix a, typeelt value)
 {
   int indice, line;
   indice = (NLINE < NCOL)?NLINE:NCOL;
@@ -71,14 +96,14 @@ void diagMatrix(tMatrix a, TYPEELT value)
       a[line][line] = value;
 }
 
-void firstLineMatrix(tMatrix a, TYPEELT value)
+void firstLineMatrix(tMatrix a, typeelt value)
 {
   int col;
   for (col = 0; col < NCOL; col++)
       a[0][col] = value;
 }
 
-void firstColMatrix(tMatrix a, TYPEELT value)
+void firstColMatrix(tMatrix a, typeelt value)
 {
   int line;
   for (line = 0; line < NCOL; line++)
@@ -90,22 +115,25 @@ void randMatrix(tMatrix a)
   int line, col;
   for (line = 0; line < NLINE; line++)
     for (col = 0; col < NCOL; col++)
-      a[line][col] = (TYPEELT) (rand () % 1000);
+      a[line][col] = (typeelt) (rand () % 1000);
 }
 
 int main(int argc, char * argv[])
 {
   tMatrix a, b, c;
   long long time;
+  ticks ticktime;
   int i;
   cleanMatrix(a);  cleanMatrix(b);   cleanMatrix(c);
   randMatrix(a);  randMatrix(b);
   time = 0;
+  ticktime = getticks();
   for (i = 0; i< 1000; i++)
     time += mulMatrix(a, b, c);
-  printf ("usec time of 1000 iteration : %lld\n", time);
+  ticktime = getticks() - ticktime;
+  printf ("usec  time of 1000 iteration : %lld\n", time);
+  printf ("ticks time of 1000 iteration : %lld\n", ticktime);
 #if 0
-
   /* printMatrix (a); */
   printMatrix (c);
 #endif
