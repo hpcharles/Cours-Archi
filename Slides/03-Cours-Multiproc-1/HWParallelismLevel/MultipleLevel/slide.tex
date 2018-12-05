@@ -2,17 +2,25 @@
 \begin{Frame}{HWParallelismLevel MultipleLevel}
 
   \begin{columns}[t]
-    \begin{column}{5cm} % Colonne gauche
+    \begin{column}{4cm} % Colonne gauche
       \begin{block}{Argumentation}
         \begin{itemize}
         \item Which level fit ?
+          \begin{itemize}
+          \item ALU, Operator
+          \item VLIW, OOO, Instruction, uArch
+          \item Multicore
+          \item MultiCPU
+          \item Multi computer
+          \item Heterogeneity
+          \end{itemize}
         \end{itemize}
       \end{block} 
     \end{column}
     
-    \begin{column}{5cm} % Colonne droite
-      \begin{block}{Illustration}
-        \Image[3]{MultipleLevel/Illustration-Multi-Level.pdf}
+    \begin{column}{10cm} % Colonne droite
+      \begin{block}{Illustration : Blue Gene Machine}
+        \Image[8]{MultipleLevel/LLNL_BGL_Diagram.png}
       \end{block}   
     \end{column}
   \end{columns}  

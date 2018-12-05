@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -10,13 +11,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="1200"
-   height="1290"
+   width="1280"
+   height="1376"
    viewBox="0 0 2000 2150"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
-   sodipodi:docname="Wikimedia-servers-2008-11-10.svg"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Wikimedia-servers-2009-04-05.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata683">
@@ -30,8 +31,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="814"
-     inkscape:window-width="1152"
+     inkscape:window-height="880"
+     inkscape:window-width="1584"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -42,12 +43,13 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="0.35813953"
-     inkscape:cx="420.99038"
-     inkscape:cy="691.35554"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:current-layer="svg2" />
+     inkscape:zoom="0.6682531"
+     inkscape:cx="1594.2288"
+     inkscape:cy="945.6543"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="0" />
   <defs
      id="defs4">
     <inkscape:perspective
@@ -103,9 +105,10 @@
          offset="1" />
     </linearGradient>
     <path
-       d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+       d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
        id="ArrowBase"
-       style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+       style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+       inkscape:connector-curvature="0" />
     <marker
        refX="0"
        refY="0"
@@ -113,12 +116,14 @@
        id="ArrowRed"
        style="overflow:visible">
       <use
-         transform="scale(-0.4,-0.4)"
+         transform="scale(-0.4)"
          id="use8408"
          style="fill:#ff0000;stroke:#ff0000"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -127,12 +132,14 @@
        id="ArrowTeal"
        style="overflow:visible">
       <use
-         transform="scale(-0.4,-0.4)"
+         transform="scale(-0.4)"
          id="use9029"
          style="fill:#008080;stroke:#008080"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -141,12 +148,14 @@
        id="ArrowBlueEnd"
        style="overflow:visible">
       <use
-         transform="scale(-0.4,-0.4)"
+         transform="scale(-0.4)"
          id="use7823"
          style="fill:#0000ff;stroke:#0000ff"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -155,12 +164,14 @@
        id="ArrowBlueStart"
        style="overflow:visible">
       <use
-         transform="scale(0.4,0.4)"
+         transform="scale(0.4)"
          id="use8404"
          style="fill:#0000ff;stroke:#0000ff"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -169,12 +180,14 @@
        id="ArrowCyanEnd"
        style="overflow:visible">
       <use
-         transform="scale(-0.4,-0.4)"
+         transform="scale(-0.4)"
          id="use4039"
          style="fill:#00dddd;stroke:#00dddd"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -183,12 +196,14 @@
        id="ArrowCyanStart"
        style="overflow:visible">
       <use
-         transform="scale(0.4,0.4)"
+         transform="scale(0.4)"
          id="use4043"
          style="fill:#00dddd;stroke:#00dddd"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -197,12 +212,14 @@
        id="ArrowGreenEnd"
        style="overflow:visible">
       <use
-         transform="scale(-0.4,-0.4)"
+         transform="scale(-0.4)"
          id="use8997"
          style="fill:#00cc00;stroke:#00cc00"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -211,12 +228,14 @@
        id="ArrowGreenStart"
        style="overflow:visible">
       <use
-         transform="scale(0.4,0.4)"
+         transform="scale(0.4)"
          id="use9001"
          style="fill:#00cc00;stroke:#00cc00"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <marker
        refX="0"
@@ -225,11 +244,13 @@
        id="Arrow2Mend"
        style="overflow:visible">
       <use
-         transform="scale(-0.6,-0.6)"
+         transform="scale(-0.6)"
          id="use8412"
          width="3"
          height="3"
-         xlink:href="#ArrowBase" />
+         xlink:href="#ArrowBase"
+         x="0"
+         y="0" />
     </marker>
     <linearGradient
        id="linearGradient3730">
@@ -548,166 +569,190 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-120,-65)" />
     <path
-       d="M 50,600 L 35,637 C 45,641 55,641 65,637 L 50,600 z"
+       d="m 50,600 -15,37 c 10,4 20,4 30,0 z"
        id="text-squid"
-       style="fill:url(#linearGradient3767);stroke:#000000;stroke-width:0.2" />
+       style="fill:url(#linearGradient3767);stroke:#000000;stroke-width:0.2"
+       inkscape:connector-curvature="0" />
     <path
-       d="M 50,600 L 35,637 C 45,641 55,641 65,637 L 50,600 z"
+       d="m 50,600 -15,37 c 10,4 20,4 30,0 z"
        id="upload-squid"
-       style="fill:url(#linearGradient3784);fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+       style="fill:url(#linearGradient3784);fill-opacity:1;stroke:#000000;stroke-width:0.2"
+       inkscape:connector-curvature="0" />
     <path
-       d="M 50,600 L 35,637 C 45,641 55,641 65,637 L 50,600 z"
+       d="m 50,600 -15,37 c 10,4 20,4 30,0 z"
        id="lb-squid"
-       style="fill:url(#linearGradient5207);fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+       style="fill:url(#linearGradient5207);fill-opacity:1;stroke:#000000;stroke-width:0.2"
+       inkscape:connector-curvature="0" />
     <g
        id="apache">
       <path
-         d="M 755,678 L 750,678 C 746.688,678 744,674.416 744,670 C 744,665.584 746.688,662 750,662 L 755,662 C 751.688,662 749,665.584 749,670 C 749,674.416 751.688,678 755,678 z"
+         d="m 755,678 h -5 c -3.312,0 -6,-3.584 -6,-8 0,-4.416 2.688,-8 6,-8 h 5 c -3.312,0 -6,3.584 -6,8 0,4.416 2.688,8 6,8 z"
          id="path7131"
-         style="fill:#18338c;stroke:#000000;stroke-width:0.2" />
+         style="fill:#18338c;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 755,690 L 750,690 C 758.28,690 765,681.04 765,670 C 765,658.96 758.28,650 750,650 L 755,650 C 763.28,650 770,658.96 770,670 C 770,681.04 763.28,690 755,690 z"
+         d="m 755,690 h -5 c 8.28,0 15,-8.96 15,-20 0,-11.04 -6.72,-20 -15,-20 h 5 c 8.28,0 15,8.96 15,20 0,11.04 -6.72,20 -15,20 z"
          id="path7127"
-         style="fill:#18338c;stroke:#000000;stroke-width:0.2" />
+         style="fill:#18338c;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 765,670 C 765,681.04 758.28,690 750,690 C 741.72,690 735,681.04 735,670 C 735,658.96 741.72,650 750,650 C 758.28,650 765,658.96 765,670 z M 756,670 C 756,674.416 753.312,678 750,678 C 746.688,678 744,674.416 744,670 C 744,665.584 746.688,662 750,662 C 753.312,662 756,665.584 756,670 z"
+         d="m 765,670 c 0,11.04 -6.72,20 -15,20 -8.28,0 -15,-8.96 -15,-20 0,-11.04 6.72,-20 15,-20 8.28,0 15,8.96 15,20 z m -9,0 c 0,4.416 -2.688,8 -6,8 -3.312,0 -6,-3.584 -6,-8 0,-4.416 2.688,-8 6,-8 3.312,0 6,3.584 6,8 z"
          id="path5764"
-         style="fill:url(#radialGradient7084);fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="fill:url(#radialGradient7084);fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="lb-apache">
       <path
-         d="M 755,678 L 750,678 C 746.688,678 744,674.416 744,670 C 744,665.584 746.688,662 750,662 L 755,662 C 751.688,662 749,665.584 749,670 C 749,674.416 751.688,678 755,678 z"
+         d="m 755,678 h -5 c -3.312,0 -6,-3.584 -6,-8 0,-4.416 2.688,-8 6,-8 h 5 c -3.312,0 -6,3.584 -6,8 0,4.416 2.688,8 6,8 z"
          id="path2856"
-         style="fill:#ffff00;stroke:#000000;stroke-width:0.2" />
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 755,690 L 750,690 C 758.28,690 765,681.04 765,670 C 765,658.96 758.28,650 750,650 L 755,650 C 763.28,650 770,658.96 770,670 C 770,681.04 763.28,690 755,690 z"
+         d="m 755,690 h -5 c 8.28,0 15,-8.96 15,-20 0,-11.04 -6.72,-20 -15,-20 h 5 c 8.28,0 15,8.96 15,20 0,11.04 -6.72,20 -15,20 z"
          id="path2858"
-         style="fill:#ffff00;stroke:#000000;stroke-width:0.2" />
+         style="fill:#ffff00;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 765,670 C 765,681.04 758.28,690 750,690 C 741.72,690 735,681.04 735,670 C 735,658.96 741.72,650 750,650 C 758.28,650 765,658.96 765,670 z M 756,670 C 756,674.416 753.312,678 750,678 C 746.688,678 744,674.416 744,670 C 744,665.584 746.688,662 750,662 C 753.312,662 756,665.584 756,670 z"
+         d="m 765,670 c 0,11.04 -6.72,20 -15,20 -8.28,0 -15,-8.96 -15,-20 0,-11.04 6.72,-20 15,-20 8.28,0 15,8.96 15,20 z m -9,0 c 0,4.416 -2.688,8 -6,8 -3.312,0 -6,-3.584 -6,-8 0,-4.416 2.688,-8 6,-8 3.312,0 6,3.584 6,8 z"
          id="path2860"
-         style="fill:url(#radialGradient3642);fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="fill:url(#radialGradient3642);fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="db-slave">
       <path
-         d="M 1427,335 C 1427,337.208 1421.624,339 1415,339 C 1408.376,339 1403,337.208 1403,335 L 1400,300 L 1430,300 L 1427,335 z"
+         d="m 1427,335 c 0,2.208 -5.376,4 -12,4 -6.624,0 -12,-1.792 -12,-4 l -3,-35 h 30 z"
          id="path2853"
-         style="fill:url(#linearGradient3638);stroke:#000000;stroke-width:0.2" />
+         style="fill:url(#linearGradient3638);stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 1430,300 C 1430,302.76142 1423.2843,305 1415,305 C 1406.7157,305 1400,302.76142 1400,300 C 1400,297.23858 1406.7157,295 1415,295 C 1423.2843,295 1430,297.23858 1430,300 z"
+         d="m 1430,300 c 0,2.76142 -6.7157,5 -15,5 -8.2843,0 -15,-2.23858 -15,-5 0,-2.76142 6.7157,-5 15,-5 8.2843,0 15,2.23858 15,5 z"
          id="path2851"
-         style="fill:#00a600;stroke:#000000;stroke-width:0.2" />
+         style="fill:#00a600;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="scale(1.5,1.5)"
+       transform="scale(1.5)"
        id="db-master">
       <path
-         d="M 1427,335 C 1427,337.208 1421.624,339 1415,339 C 1408.376,339 1403,337.208 1403,335 L 1400,300 L 1430,300 L 1427,335 z"
+         d="m 1427,335 c 0,2.208 -5.376,4 -12,4 -6.624,0 -12,-1.792 -12,-4 l -3,-35 h 30 z"
          id="path3650"
-         style="fill:url(#linearGradient3666);stroke:#000000;stroke-width:0.13333334" />
+         style="fill:url(#linearGradient3666);stroke:#000000;stroke-width:0.13333334"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 1430,300 C 1430,302.76142 1423.2843,305 1415,305 C 1406.7157,305 1400,302.76142 1400,300 C 1400,297.23858 1406.7157,295 1415,295 C 1423.2843,295 1430,297.23858 1430,300 z"
+         d="m 1430,300 c 0,2.76142 -6.7157,5 -15,5 -8.2843,0 -15,-2.23858 -15,-5 0,-2.76142 6.7157,-5 15,-5 8.2843,0 15,2.23858 15,5 z"
          id="path3653"
-         style="fill:#44e41c;stroke:#000000;stroke-width:0.13333334" />
+         style="fill:#44e41c;stroke:#000000;stroke-width:0.13333334"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="search">
       <path
-         d="M 930,110 C 930,121.04 923.28,130 915,130 C 906.72,130 900,121.04 900,110"
+         d="m 930,110 c 0,11.04 -6.72,20 -15,20 -8.28,0 -15,-8.96 -15,-20"
          id="path3973"
-         style="fill:url(#linearGradient3982);stroke:#000000;stroke-width:0.2" />
+         style="fill:url(#linearGradient3982);stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 930,110 C 930,112.76142 923.28427,115 915,115 C 906.71573,115 900,112.76142 900,110 C 900,107.23858 906.71573,105 915,105 C 923.28427,105 930,107.23858 930,110 z"
+         d="m 930,110 c 0,2.76142 -6.71573,5 -15,5 -8.28427,0 -15,-2.23858 -15,-5 0,-2.76142 6.71573,-5 15,-5 8.28427,0 15,2.23858 15,5 z"
          id="path3971"
-         style="fill:#00dcdc;stroke:#000000;stroke-width:0.2" />
+         style="fill:#00dcdc;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="search-idx">
       <path
-         d="M 930,110 C 930,121.04 923.28,130 915,130 C 906.72,130 900,121.04 900,110"
+         d="m 930,110 c 0,11.04 -6.72,20 -15,20 -8.28,0 -15,-8.96 -15,-20"
          id="path4062"
-         style="fill:url(#linearGradient4077);stroke:#000000;stroke-width:0.2" />
+         style="fill:url(#linearGradient4077);stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 930,110 C 930,112.76142 923.28427,115 915,115 C 906.71573,115 900,112.76142 900,110 C 900,107.23858 906.71573,105 915,105 C 923.28427,105 930,107.23858 930,110 z"
+         d="m 930,110 c 0,2.76142 -6.71573,5 -15,5 -8.28427,0 -15,-2.23858 -15,-5 0,-2.76142 6.71573,-5 15,-5 8.28427,0 15,2.23858 15,5 z"
          id="path4064"
-         style="fill:#00dcb5;stroke:#000000;stroke-width:0.2" />
+         style="fill:#00dcb5;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="web">
       <path
-         d="M 10,100 L 30,100 L 30,135 L 10,135 L 10,100 z"
+         d="m 10,100 h 20 v 35 H 10 Z"
          id="rect2964"
-         style="fill:url(#linearGradient3789);stroke:#000000;stroke-width:0.2" />
+         style="fill:url(#linearGradient3789);stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 30,100 L 40,95 L 40,130 L 30,135 L 30,100 z"
+         d="m 30,100 10,-5 v 35 l -10,5 z"
          id="path3779"
-         style="fill:#a537a5;stroke:#000000;stroke-width:0.2" />
+         style="fill:#a537a5;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 10,100 L 30,100 L 40,95 L 20,95 L 10,100 z"
+         d="M 10,100 H 30 L 40,95 H 20 Z"
          id="path3781"
-         style="fill:#ffaaff;stroke:#000000;stroke-width:0.2" />
+         style="fill:#ffaaff;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="mail">
       <path
-         d="M 10,100 L 30,100 L 30,135 L 10,135 L 10,100 z"
+         d="m 10,100 h 20 v 35 H 10 Z"
          id="path3911"
-         style="fill:url(#linearGradient3931);fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+         style="fill:url(#linearGradient3931);fill-opacity:1;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 30,100 L 40,95 L 40,130 L 30,135 L 30,100 z"
+         d="m 30,100 10,-5 v 35 l -10,5 z"
          id="path3913"
-         style="fill:#8137a5;fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+         style="fill:#8137a5;fill-opacity:1;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 10,100 L 30,100 L 40,95 L 20,95 L 10,100 z"
+         d="M 10,100 H 30 L 40,95 H 20 Z"
          id="path3915"
-         style="fill:#e2aaff;fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+         style="fill:#e2aaff;fill-opacity:1;stroke:#000000;stroke-width:0.2"
+         inkscape:connector-curvature="0" />
     </g>
     <g
        id="misc">
       <path
-         d="M 835,1670 L 855,1670 L 850,1630 L 835,1670 z"
+         d="m 835,1670 h 20 l -5,-40 z"
          id="path3939"
-         style="fill:url(#linearGradient3958);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:url(#linearGradient3958);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
       <path
-         d="M 865,1660 L 855,1670 L 850,1630 L 865,1660 z"
+         d="m 865,1660 -10,10 -5,-40 z"
          id="path3941"
-         style="fill:#b3b3b3;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#b3b3b3;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
     </g>
     <path
-       d="M 1535,1417.5 C 1535,1427.165 1527.165,1435 1517.5,1435 C 1507.835,1435 1500,1427.165 1500,1417.5 C 1500,1407.835 1507.835,1400 1517.5,1400 C 1527.165,1400 1535,1407.835 1535,1417.5 z"
+       d="m 1535,1417.5 c 0,9.665 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.835 -17.5,-17.5 0,-9.665 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.835 17.5,17.5 z"
        transform="translate(2.5,17.5)"
        id="fs"
-       style="fill:url(#radialGradient3807);stroke:#000000;stroke-width:0.2" />
+       style="fill:url(#radialGradient3807);stroke:#000000;stroke-width:0.2"
+       inkscape:connector-curvature="0" />
     <path
-       d="M 1535,1417.5 C 1535,1427.165 1527.165,1435 1517.5,1435 C 1507.835,1435 1500,1427.165 1500,1417.5 C 1500,1407.835 1507.835,1400 1517.5,1400 C 1527.165,1400 1535,1407.835 1535,1417.5 z"
+       d="m 1535,1417.5 c 0,9.665 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.835 -17.5,-17.5 0,-9.665 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.835 17.5,17.5 z"
        transform="translate(262.5,22.5)"
        id="scaler"
-       style="fill:url(#radialGradient3809);fill-opacity:1;stroke:#000000;stroke-width:0.2" />
+       style="fill:url(#radialGradient3809);fill-opacity:1;stroke:#000000;stroke-width:0.2"
+       inkscape:connector-curvature="0" />
   </defs>
   <path
      style="fill:none;stroke:#999999;stroke-width:5px"
      id="path3673"
-     d="M 820,1960 L 820,40" />
-  <path
-     style="fill:none;stroke:#999999;stroke-width:5px"
-     id="path3677"
-     d="M 41.16342,1640.7197 L 1961.1634,1640.7197" />
+     d="M 820,1960 V 40"
+     inkscape:connector-curvature="0" />
   <text
-     style="font-size:40px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:40px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3681"
      y="132.65038"
      x="413.29065">Internet frontend</text>
   <text
-     style="font-size:40px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:40px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3685"
      y="132.65038"
      x="1413.2906">Backend</text>
   <text
-     style="font-size:40px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:40px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3689"
-     transform="matrix(0,1,-1,0,0,0)"
+     transform="rotate(90)"
      y="-1923.2906"
      x="852.65039">
     <tspan
@@ -716,26 +761,27 @@
        x="852.65039">Core services</tspan>
   </text>
   <text
-     style="font-size:40px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:40px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3693"
-     transform="matrix(0,1,-1,0,0,0)"
-     y="-1911.8561"
-     x="1830.2489">
+     transform="rotate(90)"
+     y="-3286.856"
+     x="473.9989">
     <tspan
        id="tspan3695"
-       y="-1911.8561"
-       x="1830.2489">Miscellaneous</tspan>
+       y="-3286.856"
+       x="473.9989">Miscellaneous</tspan>
     <tspan
        id="tspan3697"
-       y="-1861.8561"
-       x="1830.2489">services</tspan>
+       y="-3236.856"
+       x="473.9989">services</tspan>
   </text>
   <path
      style="opacity:0.2;fill:#000000"
      id="path4433"
-     d="M 763.29065,1072.6504 C 763.29065,1271.4729 602.11316,1432.6504 403.29065,1432.6504 C 204.46814,1432.6504 43.290648,1271.4729 43.290648,1072.6504 C 43.290648,873.82787 204.46814,712.65038 403.29065,712.65038 C 602.11316,712.65038 763.29065,873.82787 763.29065,1072.6504 L 763.29065,1072.6504 z" />
+     d="m 763.29065,1072.6504 c 0,198.8225 -161.17749,360 -360,360 -198.82251,0 -360.000002,-161.1775 -360.000002,-360 0,-198.82253 161.177492,-360.00002 360.000002,-360.00002 198.82251,0 360,161.17749 360,360.00002 z"
+     inkscape:connector-curvature="0" />
   <text
-     style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3167"
      y="792.65039"
      x="403.29065">Squids</text>
@@ -750,17 +796,17 @@
        height="435"
        width="220" />
     <text
-       style="font-size:24px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3189"
        y="882.65039"
        x="223.29065">Tampa</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text3649"
        y="907.65039"
        x="123.29065">25 Text-Squids</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text3653"
        y="1262.6504"
        x="123.29065">24 Upload-Squids</text>
@@ -1173,7 +1219,7 @@
        id="use5574"
        transform="translate(243.29065,372.65038)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text5576"
        y="1027.6504"
        x="293.29065">
@@ -1189,7 +1235,8 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
        id="path5608"
-       d="M 278.29065,992.65038 L 253.29065,992.65038" />
+       d="m 278.29065,992.65038 h -25"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -1199,7 +1246,7 @@
        id="use4383"
        transform="translate(243.29065,542.65038)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4385"
        y="1197.6504"
        x="293.29065">
@@ -1215,7 +1262,8 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
        id="path4391"
-       d="M 278.29065,1162.6504 L 253.29065,1162.6504" />
+       d="m 278.29065,1162.6504 h -25"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="g4252">
@@ -1228,17 +1276,17 @@
        height="435"
        width="151.38528" />
     <text
-       style="font-size:24px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4111"
        y="882.65039"
        x="628.06879">Seoul</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text4107"
        y="907.65039"
        x="553.06879">8 Text-Squids</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text4103"
        y="1262.6504"
        x="553.06879">9 Upload-Squids</text>
@@ -1395,7 +1443,7 @@
        id="use4393"
        transform="translate(597.47355,457.65038)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4395"
        y="1112.6504"
        x="647.47357">
@@ -1411,18 +1459,21 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
        id="path4401"
-       d="M 635.6066,1134.481 L 616.79249,1180.8063" />
+       d="m 635.6066,1134.481 -18.81411,46.3253"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.55962884;marker-end:url(#Arrow2Mend)"
        id="path4403"
-       d="M 636.76571,1059.8511 L 606.05882,1020.2437" />
+       d="m 636.76571,1059.8511 -30.70689,-39.6074"
+       inkscape:connector-curvature="0" />
   </g>
   <path
      style="opacity:0.2;fill:#000000"
      id="path7864"
-     d="M 1563.4286,1122.4285 C 1563.4286,1310.0828 1411.3047,1462.2067 1223.6504,1462.2067 C 1035.9962,1462.2067 883.87236,1310.0828 883.87236,1122.4285 C 883.87236,934.77423 1035.9962,782.65038 1223.6504,782.65038 C 1411.3047,782.65038 1563.4286,934.77423 1563.4286,1122.4285 L 1563.4286,1122.4285 z" />
+     d="m 1563.4286,1122.4285 c 0,187.6543 -152.1239,339.7782 -339.7782,339.7782 -187.6542,0 -339.77804,-152.1239 -339.77804,-339.7782 0,-187.65427 152.12384,-339.77812 339.77804,-339.77812 187.6543,0 339.7782,152.12385 339.7782,339.77812 z"
+     inkscape:connector-curvature="0" />
   <text
-     style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3173"
      y="823.45398"
      x="1221.9054">Apaches</text>
@@ -1631,17 +1682,17 @@
        transform="translate(489.41829,367.31331)" />
   </g>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text7852"
      y="1000.0746"
      x="1235.7554">63 Apache-Core/ext store</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text7856"
      y="1137.5259"
      x="1197.3627">25 Apache-Core/ex-ES</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text7860"
      y="1383.5918"
      x="1223.5394">91Apache-Core</text>
@@ -1675,29 +1726,33 @@
     <text
        x="-1006.9535"
        y="1476.9805"
-       transform="matrix(0,-1,1,0,0,0)"
+       transform="rotate(-90)"
        id="text3648"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Load-Balancers</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Load-Balancers</text>
   </g>
   <path
      style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
      id="path3652"
-     d="M 1445.8664,1062.1661 L 1430.8664,1062.1661" />
+     d="m 1445.8664,1062.1661 h -15"
+     inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1.62637055;marker-end:url(#Arrow2Mend)"
      id="path3654"
-     d="M 1457.0804,1007.7837 L 1411.3027,976.36875"
-     sodipodi:nodetypes="cc" />
+     d="m 1457.0804,1007.7837 -45.7777,-31.41495"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
      id="path3656"
-     d="M 1465.9909,1105.7673 L 1445.9909,1175.7673" />
+     d="m 1465.9909,1105.7673 -20,70"
+     inkscape:connector-curvature="0" />
   <path
      style="opacity:0.2;fill:#000000"
      id="path3750"
-     d="M 1948.1932,588.68934 C 1948.1932,715.71483 1845.2187,818.68934 1718.1932,818.68934 C 1591.1677,818.68934 1488.1932,715.71483 1488.1932,588.68934 C 1488.1932,461.66385 1591.1677,358.68934 1718.1932,358.68934 C 1845.2187,358.68934 1948.1932,461.66385 1948.1932,588.68934 z" />
+     d="m 1948.1932,588.68934 c 0,127.02549 -102.9745,230 -230,230 -127.0255,0 -230,-102.97451 -230,-230 0,-127.02549 102.9745,-230 230,-230 127.0255,0 230,102.97451 230,230 z"
+     inkscape:connector-curvature="0" />
   <text
-     style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+     style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3781"
      y="408.68933"
      x="1718.1932">Databases</text>
@@ -1769,17 +1824,17 @@
      x="1718.1932"
      y="438.68933"
      id="text3753"
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif">s1: enwiki</text>
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">s1: enwiki</text>
   <text
      x="1658.1932"
      y="533.68933"
      id="text3757"
-     style="font-size:15px;text-anchor:middle;font-family:sans-serif">Master</text>
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Master</text>
   <text
      x="1748.1932"
      y="533.68933"
      id="text3761"
-     style="font-size:15px;text-anchor:middle;font-family:sans-serif">7slaves</text>
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">7slaves</text>
   <g
      id="s2"
      transform="translate(138.19325,8.6893361)">
@@ -1832,17 +1887,17 @@
        id="use3720"
        transform="translate(75,300)" />
     <text
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3763"
        y="560"
        x="1460">s2: commons, de,...</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3765"
        y="655"
        x="1410">Master</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3767"
        y="655"
        x="1490">5 slaves</text>
@@ -1883,17 +1938,17 @@
        id="use3734"
        transform="translate(240,415)" />
     <text
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3775"
        y="690"
        x="1600">s3: other wikis</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3777"
        y="780"
        x="1550">Master</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3779"
        y="780"
        x="1630">3 slaves</text>
@@ -1918,17 +1973,17 @@
        id="use3744"
        transform="translate(340,255)" />
     <text
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3769"
        y="530"
        x="1730">misc</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3771"
        y="620"
        x="1695">Master</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3773"
        y="620"
        x="1760">Slave</text>
@@ -1965,9 +2020,10 @@
      transform="translate(16.807964,88.938254)"
      id="FileServers">
     <path
-       d="M 1660,1430 C 1660,1479.7056 1619.7056,1520 1570,1520 C 1520.2944,1520 1480,1479.7056 1480,1430 C 1480,1380.2944 1520.2944,1340 1570,1340 C 1619.7056,1340 1660,1380.2944 1660,1430 L 1660,1430 z"
+       d="m 1660,1430 c 0,49.7056 -40.2944,90 -90,90 -49.7056,0 -90,-40.2944 -90,-90 0,-49.7056 40.2944,-90 90,-90 49.7056,0 90,40.2944 90,90 z"
        id="path3708"
-       style="opacity:0.2;fill:#000000" />
+       style="opacity:0.2;fill:#000000"
+       inkscape:connector-curvature="0" />
     <use
        id="use3704"
        xlink:href="#fs"
@@ -1976,7 +2032,7 @@
        width="2000"
        height="2150" />
     <use
-       transform="translate(50,0)"
+       transform="translate(50)"
        id="use3080"
        xlink:href="#fs"
        x="0"
@@ -1984,7 +2040,7 @@
        width="2000"
        height="2150" />
     <use
-       transform="translate(100,0)"
+       transform="translate(100)"
        id="use3706"
        xlink:href="#fs"
        x="0"
@@ -1995,7 +2051,7 @@
        x="1570"
        y="1375"
        id="text3710"
-       style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif">
+       style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle">
       <tspan
          x="1570"
          y="1375"
@@ -2009,7 +2065,7 @@
        x="1570"
        y="1475"
        id="text3714"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">
       <tspan
          x="1570"
          y="1475"
@@ -2024,9 +2080,10 @@
      transform="translate(56.807964,88.938254)"
      id="Scalers">
     <path
-       d="M 1900,1430 C 1900,1479.7056 1859.7056,1520 1810,1520 C 1760.2944,1520 1720,1479.7056 1720,1430 C 1720,1380.2944 1760.2944,1340 1810,1340 C 1859.7056,1340 1900,1380.2944 1900,1430 z"
+       d="m 1900,1430 c 0,49.7056 -40.2944,90 -90,90 -49.7056,0 -90,-40.2944 -90,-90 0,-49.7056 40.2944,-90 90,-90 49.7056,0 90,40.2944 90,90 z"
        id="path3757"
-       style="opacity:0.2;fill:#000000" />
+       style="opacity:0.2;fill:#000000"
+       inkscape:connector-curvature="0" />
     <use
        id="use3740"
        xlink:href="#scaler"
@@ -2035,7 +2092,7 @@
        width="2000"
        height="2150" />
     <use
-       transform="translate(30,0)"
+       transform="translate(30)"
        id="use3084"
        xlink:href="#scaler"
        x="0"
@@ -2043,7 +2100,7 @@
        width="2000"
        height="2150" />
     <use
-       transform="translate(60,0)"
+       transform="translate(60)"
        id="use3743"
        xlink:href="#scaler"
        x="0"
@@ -2078,7 +2135,7 @@
        x="1810"
        y="1385"
        id="text3759"
-       style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif">
+       style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle">
       <tspan
          x="1810"
          y="1385"
@@ -2092,7 +2149,7 @@
        x="1810"
        y="1505"
        id="text3766"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">6 scalers</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">6 scalers</text>
   </g>
   <use
      height="2150"
@@ -2119,17 +2176,17 @@
      id="use3812"
      transform="translate(-366.18355,-43.661229)" />
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3305"
      y="671.33887"
      x="383.81647">WAP</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3325"
      y="671.49799"
      x="439.55182">SSL</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3301"
      y="465.19904"
      x="389.67593">Apple Search</text>
@@ -2150,40 +2207,40 @@
      id="use3832"
      transform="translate(-209.20228,-43.502353)" />
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3309"
      y="1214.3933"
      x="989.3844">donate</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3313"
      y="1234.3933"
      x="989.3844">civicrm</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3333"
-     y="1940.8279"
-     x="220.16776">Nagios</text>
+     y="303.32788"
+     x="2282.6677">Nagios</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3337"
      y="1311.1249"
      x="987.05756">planet</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3359"
-     y="1820"
-     x="340">Subversion</text>
+     y="182.5"
+     x="2402.5">Subversion</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3355"
-     y="1940"
-     x="340">Ganglia</text>
+     y="302.5"
+     x="2402.5">Ganglia</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3347"
-     y="1820.1677"
-     x="219.68614">IRC</text>
+     y="182.66772"
+     x="2282.186">IRC</text>
   <use
      height="2150"
      width="2000"
@@ -2207,7 +2264,7 @@
      x="0"
      xlink:href="#web"
      id="use3822"
-     transform="translate(315,1660)" />
+     transform="translate(2377.5,22.5)" />
   <use
      height="2150"
      width="2000"
@@ -2215,7 +2272,7 @@
      x="0"
      xlink:href="#web"
      id="use3008"
-     transform="translate(195.16775,1780.8279)" />
+     transform="translate(2257.6678,143.3279)" />
   <use
      height="2150"
      width="2000"
@@ -2223,7 +2280,7 @@
      x="0"
      xlink:href="#web"
      id="use3828"
-     transform="translate(315,1780)" />
+     transform="translate(2377.5,142.5)" />
   <use
      height="2150"
      width="2000"
@@ -2231,16 +2288,17 @@
      x="0"
      xlink:href="#mail"
      id="use3830"
-     transform="translate(194.68615,1660.1677)" />
+     transform="translate(2257.1862,22.6677)" />
   <g
      id="Mail"
-     transform="translate(0,89.361472)">
+     transform="translate(2062.5,-1548.1385)">
     <path
        style="opacity:0.2;fill:#000000"
        id="path3847"
-       d="M 685,1750 C 685,1805.2285 640.22847,1850 585,1850 C 529.77153,1850 485,1805.2285 485,1750 C 485,1694.7715 529.77153,1650 585,1650 C 640.22847,1650 685,1694.7715 685,1750 z" />
+       d="m 685,1750 c 0,55.2285 -44.77153,100 -100,100 -55.22847,0 -100,-44.7715 -100,-100 0,-55.2285 44.77153,-100 100,-100 55.22847,0 100,44.7715 100,100 z"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif"
+       style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3849"
        y="1700"
        x="585">Mail</text>
@@ -2269,7 +2327,7 @@
        id="use3855"
        transform="translate(620,1630)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3857"
        y="1790"
        x="585">
@@ -2282,59 +2340,59 @@
          x="585">tickets</tspan>
     </text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3859"
        y="1790"
        x="525">IMAP</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text3861"
        y="1790"
        x="645">Lists</text>
   </g>
   <g
      id="MiscServices"
-     transform="translate(2.3268398,53.517316)">
+     transform="translate(1189.8268,-987.1077)">
     <text
        x="1630"
        y="1880"
        id="text3387"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">Scratch hosts</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Scratch hosts</text>
     <text
        x="1410"
        y="1880"
        id="text3383"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">Batch jobs</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Batch jobs</text>
     <text
        x="1410"
        y="1760"
        id="text3375"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">Logging</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Logging</text>
     <text
        x="1190"
        y="1760"
        id="text3367"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">LDAP/NIS</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">LDAP/NIS</text>
     <text
        x="1190"
        y="1880"
        id="text3391"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">Network tools</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Network tools</text>
     <text
        x="970"
        y="1760"
        id="text3351"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">DNS</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">DNS</text>
     <text
        x="970"
        y="1880"
        id="text3371"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">NTP, SSH</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">NTP, SSH</text>
     <text
        x="1630"
        y="1760"
        id="text3937"
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif">APT repositories</text>
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">APT repositories</text>
     <use
        transform="translate(95,65)"
        id="use3966"
@@ -2449,50 +2507,56 @@
        height="2150" />
   </g>
   <path
-     d="M 763.29065,992.65038 L 893.29065,992.65038"
+     d="m 763.29065,992.65038 h 130"
      id="path3811"
-     style="fill:none;stroke:#0000ff;stroke-width:6;marker-start:url(#ArrowBlueStart);marker-end:url(#ArrowBlueEnd)" />
+     style="fill:none;stroke:#0000ff;stroke-width:6;marker-start:url(#ArrowBlueStart);marker-end:url(#ArrowBlueEnd)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 753.29065,1172.6504 L 883.29065,1172.6504"
+     d="m 753.29065,1172.6504 h 130"
      id="path3813"
-     style="fill:none;stroke:#0000ff;stroke-width:6;marker-start:url(#ArrowBlueStart)" />
+     style="fill:none;stroke:#0000ff;stroke-width:6;marker-start:url(#ArrowBlueStart)"
+     inkscape:connector-curvature="0" />
   <text
      x="823.29065"
      y="972.65039"
      id="text7231"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">HTML</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">HTML</text>
   <text
      x="823.29065"
      y="1212.6504"
      id="text7235"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">Media files</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">Media files</text>
   <path
-     d="M 1686.8079,1523.9383 L 1766.8079,1523.9383"
+     d="m 1686.8079,1523.9383 h 80"
      id="path7810"
-     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)" />
+     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 1516.8079,1448.9383 L 1456.8079,1378.9383"
+     d="m 1516.8079,1448.9383 -60,-70"
      id="path7812"
-     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)" />
+     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 1786.8079,1458.9383 L 1536.8079,1288.9383"
+     d="m 1786.8079,1458.9383 -250,-170"
      id="path7814"
-     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)" />
+     style="fill:none;stroke:#ff0000;stroke-width:6;marker-end:url(#ArrowRed)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 1478.1932,858.68934 L 1558.1932,768.68934"
+     d="m 1478.1932,858.68934 80,-90"
      id="path9003"
-     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart);marker-end:url(#ArrowGreenEnd)" />
+     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart);marker-end:url(#ArrowGreenEnd)"
+     inkscape:connector-curvature="0" />
   <text
      x="403.11423"
      y="1712.3457"
-     transform="matrix(0.6659357,-0.7460091,0.7460091,0.6659357,0,0)"
+     transform="rotate(-48.245848)"
      id="text9005"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">Wikitext</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">Wikitext</text>
   <text
      x="1726.808"
      y="1558.9382"
      id="text9007"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">
     <tspan
        x="1726.808"
        y="1558.9382"
@@ -2505,9 +2569,9 @@
   <text
      x="2048.752"
      y="-99.540527"
-     transform="matrix(0.6782738,0.7348093,-0.7348093,0.6782738,0,0)"
+     transform="rotate(47.291103)"
      id="text9013"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">
     <tspan
        x="2048.752"
        y="-99.540527"
@@ -2520,244 +2584,306 @@
   <text
      x="2198.7617"
      y="208.03017"
-     transform="matrix(0.8331761,0.5530078,-0.5530078,0.8331761,0,0)"
+     transform="rotate(33.573606)"
      id="text9019"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">Image files</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">Image files</text>
   <path
-     d="M 1688.1932,844.97722 C 1658.1932,1074.9772 1623.8719,1219.7178 1588.1932,1404.9772"
+     d="m 1688.1932,844.97722 c -30,229.99998 -64.3213,374.74058 -100,559.99998"
      id="path9025"
-     style="fill:none;stroke:#008080;stroke-width:6;marker-end:url(#ArrowTeal)" />
+     style="fill:none;stroke:#008080;stroke-width:6;marker-end:url(#ArrowTeal)"
+     inkscape:connector-curvature="0" />
   <text
      x="-816.53168"
      y="1836.5221"
-     transform="matrix(0.1543204,-0.9880209,0.9880209,0.1543204,0,0)"
+     transform="rotate(-81.122617)"
      id="text9031"
-     style="font-size:24.00000381px;text-anchor:middle;font-family:sans-serif">Database dumps</text>
+     style="font-size:24.00000381px;line-height:0%;font-family:sans-serif;text-anchor:middle">Database dumps</text>
   <text
      x="540.79767"
      y="671.49762"
      id="text3363"
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif">Static dumps</text>
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Static dumps</text>
   <text
      x="408.29065"
      y="1532.6504"
      id="text3379"
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif">Media Upload</text>
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Media Upload</text>
   <path
-     d="M 463.65966,1540.4146 L 1485.6988,1529.8253"
+     d="M 463.65966,1540.4146 1485.6988,1529.8253"
      id="path3837"
-     style="fill:none;stroke:#ff0000;stroke-width:6.09661484;marker-end:url(#ArrowRed)" />
+     style="fill:none;stroke:#ff0000;stroke-width:6.09661484;marker-end:url(#ArrowRed)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 1477.3781,670.90857 L 591.06358,631.13516"
+     d="M 1477.3781,670.90857 591.06358,631.13516"
      id="path3839"
-     style="fill:none;stroke:#008080;stroke-width:5.5647397;marker-end:url(#ArrowTeal)" />
+     style="fill:none;stroke:#008080;stroke-width:5.5647397;marker-end:url(#ArrowTeal)"
+     inkscape:connector-curvature="0" />
   <text
      x="853.29065"
      y="1477.6504"
      id="text3841"
-     style="font-size:24px;text-anchor:start;font-family:sans-serif">Media files</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:start">Media files</text>
   <text
      x="875.65784"
      y="592.15729"
      id="text3843"
-     style="font-size:24.00000381px;text-anchor:start;font-family:sans-serif"
-     transform="matrix(0.9989902,4.4929613e-2,-4.4929613e-2,0.9989902,0,0)">Database dumps</text>
+     style="font-size:24.00000381px;line-height:0%;font-family:sans-serif;text-anchor:start"
+     transform="rotate(2.575144)">Database dumps</text>
   <path
-     d="M 1003.2906,192.65038 L 1473.2906,482.65038"
+     d="m 1003.2906,192.65038 470,290"
      id="path4032"
-     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart)" />
+     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 1108.2906,607.65038 L 1153.2906,777.65038"
+     d="m 1108.2906,607.65038 45,170"
      id="path4034"
-     style="fill:none;stroke:#00dddd;stroke-width:6;marker-start:url(#ArrowCyanStart);marker-end:url(#ArrowCyanEnd)" />
+     style="fill:none;stroke:#00dddd;stroke-width:6;marker-start:url(#ArrowCyanStart);marker-end:url(#ArrowCyanEnd)"
+     inkscape:connector-curvature="0" />
   <text
      x="959.93085"
      y="-934.78644"
-     transform="matrix(0.2576251,0.9662449,-0.9662449,0.2576251,0,0)"
+     transform="rotate(75.070809)"
      id="text4047"
-     style="font-size:23.99998093px;text-anchor:middle;font-family:sans-serif">Search tasks</text>
+     style="font-size:23.99998093px;line-height:0%;font-family:sans-serif;text-anchor:middle">Search tasks</text>
   <text
      x="935.77869"
      y="451.90289"
-     transform="matrix(0.9208623,0.3898881,-0.3898881,0.9208623,0,0)"
+     transform="rotate(22.947536)"
      id="text3014"
-     style="font-size:24.00000381px;text-anchor:middle;font-family:sans-serif">HTML + Media files</text>
+     style="font-size:24.00000381px;line-height:0%;font-family:sans-serif;text-anchor:middle">HTML + Media files</text>
   <path
-     d="M 423.47386,680.51524 L 938.17147,901.30278"
+     d="M 423.47386,680.51524 938.17147,901.30278"
      id="path3010"
-     style="fill:none;stroke:#0000ff;stroke-width:6.21280527;marker-start:url(#ArrowBlueStart);marker-end:url(#ArrowBlueEnd)" />
+     style="fill:none;stroke:#0000ff;stroke-width:6.21280527;marker-start:url(#ArrowBlueStart);marker-end:url(#ArrowBlueEnd)"
+     inkscape:connector-curvature="0" />
   <path
-     d="M 679.50818,423.69031 L 903.73759,435.66379"
+     d="m 679.50818,423.69031 224.22941,11.97348"
      id="path3018"
-     style="fill:none;stroke:#00dddd;stroke-width:4.58383179;marker-start:url(#ArrowCyanStart);marker-end:url(#ArrowCyanEnd)" />
+     style="fill:none;stroke:#00dddd;stroke-width:4.58383179;marker-start:url(#ArrowCyanStart);marker-end:url(#ArrowCyanEnd)"
+     inkscape:connector-curvature="0" />
   <text
      x="818.76636"
      y="360.89316"
-     transform="matrix(0.9982888,5.8476497e-2,-5.8476497e-2,0.9982888,0,0)"
+     transform="rotate(3.3523689)"
      id="text3020"
-     style="font-size:31.33417702px;text-anchor:middle;font-family:sans-serif">Search tasks</text>
+     style="font-size:31.33417702px;line-height:0%;font-family:sans-serif;text-anchor:middle">Search tasks</text>
   <text
      x="953.29065"
      y="232.65038"
      id="text3028"
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif">Toolserver DBs</text>
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">Toolserver DBs</text>
   <path
-     d="M 1223.2906,492.65038 L 1443.2906,552.65038"
+     d="m 1223.2906,492.65038 220,60"
      id="path3030"
-     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart)" />
+     style="fill:none;stroke:#00cc00;stroke-width:6;marker-start:url(#ArrowGreenStart)"
+     inkscape:connector-curvature="0" />
   <text
      x="1427.3131"
      y="142.99312"
-     transform="matrix(0.9654669,0.2605258,-0.2605258,0.9654669,0,0)"
+     transform="rotate(15.101263)"
      id="text4045"
-     style="font-size:24px;text-anchor:middle;font-family:sans-serif">Index updates</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle">Index updates</text>
   <path
-     d="M 885.74435,193.30059 L 439.50597,263.81356"
+     d="M 885.74435,193.30059 439.50597,263.81356"
      id="path3074"
-     style="fill:none;stroke:#00cc00;stroke-width:7.2611742;marker-start:url(#ArrowGreenStart)" />
+     style="fill:none;stroke:#00cc00;stroke-width:7.2611742;marker-start:url(#ArrowGreenStart)"
+     inkscape:connector-curvature="0" />
   <text
      x="1128.6981"
      y="-376.85013"
-     transform="matrix(0.8507295,0.5256037,-0.5256037,0.8507295,0,0)"
+     transform="rotate(31.708894)"
      id="text3076"
-     style="font-size:24px;text-anchor:start;font-family:sans-serif">DB replication</text>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:start">DB replication</text>
   <text
      x="561.97205"
      y="320.2395"
-     transform="matrix(0.9870246,-0.1605693,0.1605693,0.9870246,0,0)"
+     transform="rotate(-9.2399417)"
      id="text3078"
-     style="font-size:24px;text-anchor:start;font-family:sans-serif">SQL queries</text>
-  <g
-     id="legend">
-    <rect
-       width="1920"
-       height="120"
-       x="40"
-       y="1990"
-       id="rect3037"
-       style="fill:none;stroke:#000000;stroke-width:2" />
-    <use
-       transform="translate(-2030,1560)"
-       id="use3039"
-       xlink:href="#db-master" />
-    <use
-       transform="translate(-1170,1720)"
-       id="use3042"
-       xlink:href="#db-slave" />
-    <use
-       transform="translate(-360,1370)"
-       id="use3044"
-       xlink:href="#apache" />
-    <use
-       transform="translate(490,1420)"
-       id="use3046"
-       xlink:href="#text-squid" />
-    <use
-       transform="translate(640,1420)"
-       id="use3048"
-       xlink:href="#upload-squid" />
-    <use
-       transform="translate(780,1420)"
-       id="use3050"
-       xlink:href="#lb-squid" />
-    <use
-       transform="translate(100,1370)"
-       id="use3052"
-       xlink:href="#lb-apache" />
-    <use
-       transform="translate(75,1925)"
-       id="use3054"
-       xlink:href="#search" />
-    <use
-       transform="translate(225,1925)"
-       id="use3056"
-       xlink:href="#search-idx" />
-    <use
-       transform="translate(-230,605)"
-       id="use3058"
-       xlink:href="#fs" />
-    <use
-       transform="translate(-340,600)"
-       id="use3060"
-       xlink:href="#scaler" />
-    <use
-       transform="translate(1565,1925)"
-       id="use3062"
-       xlink:href="#web" />
-    <use
-       transform="translate(1715,1925)"
-       id="use3064"
-       xlink:href="#mail" />
-    <use
-       transform="translate(1040,390)"
-       id="use3066"
-       xlink:href="#misc" />
-    <text
-       x="90"
-       y="2090"
-       id="text3098"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Master DB</text>
-    <text
-       x="240"
-       y="2090"
-       id="text3102"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Slave DB</text>
-    <text
-       x="390"
-       y="2090"
-       id="text3733"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Apache</text>
-    <text
-       x="540"
-       y="2090"
-       id="text3735"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Text squid</text>
-    <text
-       x="690"
-       y="2090"
-       id="text3737"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Upload squid</text>
-    <text
-       x="840"
-       y="2090"
-       id="text3739"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Load Balancer</text>
-    <text
-       x="990"
-       y="2090"
-       id="text3741"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Search host</text>
-    <text
-       x="1140"
-       y="2090"
-       id="text3743"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Search indexer</text>
-    <text
-       x="1290"
-       y="2090"
-       id="text3745"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">File server</text>
-    <text
-       x="1440"
-       y="2090"
-       id="text3747"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Image scaler</text>
-    <text
-       x="1590"
-       y="2090"
-       id="text3749"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Web service</text>
-    <text
-       x="1740"
-       y="2090"
-       id="text3751"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Mail/IRC service</text>
-    <text
-       x="1890"
-       y="2090"
-       id="text3754"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Network sevice</text>
-  </g>
+     style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:start">SQL queries</text>
+  <rect
+     style="fill:none;stroke:#000000;stroke-width:2.25252342"
+     id="rect3037"
+     y="352.62625"
+     x="2102.6262"
+     height="267.05319"
+     width="1094.3678" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#db-master"
+     id="use3039"
+     transform="translate(32.5,-77.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#db-slave"
+     id="use3042"
+     transform="translate(892.5,82.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#apache"
+     id="use3044"
+     transform="translate(1702.5,-267.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#text-squid"
+     id="use3046"
+     transform="translate(2552.5,-217.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#upload-squid"
+     id="use3048"
+     transform="translate(2702.5,-217.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#lb-squid"
+     id="use3050"
+     transform="translate(2842.5,-217.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#lb-apache"
+     id="use3052"
+     transform="translate(2162.5,-267.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#search"
+     id="use3054"
+     transform="translate(1231.25,412.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#search-idx"
+     id="use3056"
+     transform="translate(1381.25,412.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#fs"
+     id="use3058"
+     transform="translate(926.25,-907.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#scaler"
+     id="use3060"
+     transform="translate(816.25,-912.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#web"
+     id="use3062"
+     transform="translate(2721.25,412.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#mail"
+     id="use3064"
+     transform="translate(2871.25,412.5)" />
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     xlink:href="#misc"
+     id="use3066"
+     transform="translate(2196.25,-1122.5)" />
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3098"
+     y="452.5"
+     x="2152.5">Master DB</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3102"
+     y="452.5"
+     x="2302.5">Slave DB</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3733"
+     y="452.5"
+     x="2452.5">Apache</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3735"
+     y="452.5"
+     x="2602.5">Text squid</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3737"
+     y="452.5"
+     x="2752.5">Upload squid</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3739"
+     y="452.5"
+     x="2902.5">Load Balancer</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3741"
+     y="577.5"
+     x="2146.25">Search host</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3743"
+     y="577.5"
+     x="2296.25">Search indexer</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3745"
+     y="577.5"
+     x="2446.25">File server</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3747"
+     y="577.5"
+     x="2596.25">Image scaler</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3749"
+     y="577.5"
+     x="2746.25">Web service</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3751"
+     y="577.5"
+     x="2896.25">Mail/IRC service</text>
+  <text
+     style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
+     id="text3754"
+     y="577.5"
+     x="3046.25">Network sevice</text>
   <g
      id="g3340"
      transform="translate(30.631016,43.343016)">
@@ -4007,20 +4133,22 @@
      id="use3756"
      transform="translate(237.80127,266.03981)" />
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3758"
      y="974.46014"
      x="989.83508">test.wiki</text>
   <g
      id="g4590">
     <path
-       d="M 673.36641,436.2881 C 673.36641,495.53245 625.33939,543.55947 566.09504,543.55947 C 506.85069,543.55947 458.82366,495.53245 458.82366,436.2881 C 458.82366,377.04375 506.85069,329.01672 566.09504,329.01672 C 625.33939,329.01672 673.36641,377.04375 673.36641,436.2881 L 673.36641,436.2881 z"
+       d="m 673.36641,436.2881 c 0,59.24435 -48.02702,107.27137 -107.27137,107.27137 -59.24435,0 -107.27138,-48.02702 -107.27138,-107.27137 0,-59.24435 48.02703,-107.27138 107.27138,-107.27138 59.24435,0 107.27137,48.02703 107.27137,107.27138 z"
        id="path3786"
-       style="opacity:0.2;fill:#000000" />
+       style="opacity:0.2;fill:#000000"
+       inkscape:connector-curvature="0" />
     <path
        style="opacity:0.15;fill:#000000"
        id="path3838"
-       d="M 556.22084,414.47396 C 556.22084,436.81042 538.11358,454.91768 515.77712,454.91768 C 493.44068,454.91768 475.33341,436.81042 475.33341,414.47396 C 475.33341,392.13751 493.4407,374.03024 515.77717,374.03024 C 538.11363,374.03024 556.22084,392.13751 556.22084,414.47396 z" />
+       d="m 556.22084,414.47396 c 0,22.33646 -18.10726,40.44372 -40.44372,40.44372 -22.33644,0 -40.44371,-18.10726 -40.44371,-40.44372 0,-22.33645 18.10729,-40.44372 40.44376,-40.44372 22.33646,0 40.44367,18.10727 40.44367,40.44372 z"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4041,15 +4169,14 @@
        x="567.31915"
        y="369.3671"
        id="text3816"
-       style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif">Search</text>
+       style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle">Search</text>
     <text
-       sodipodi:linespacing="125%"
        id="text3840"
        y="401.67633"
        x="491.92703"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start"
          y="401.67633"
          x="491.92703"
          id="tspan3842"
@@ -4057,7 +4184,8 @@
     <path
        style="opacity:0.15;fill:#000000"
        id="path3854"
-       d="M 630.098,413.31054 C 630.098,429.2216 617.19955,442.12006 601.28848,442.12006 C 585.37743,442.12006 572.47897,429.2216 572.47897,413.31054 C 572.47897,397.39948 585.37745,384.50102 601.28852,384.50102 C 617.19958,384.50102 630.098,397.39948 630.098,413.31054 z" />
+       d="m 630.098,413.31054 c 0,15.91106 -12.89845,28.80952 -28.80952,28.80952 -15.91105,0 -28.80951,-12.89846 -28.80951,-28.80952 0,-15.91106 12.89848,-28.80952 28.80955,-28.80952 15.91106,0 28.80948,12.89846 28.80948,28.80952 z"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4067,13 +4195,12 @@
        id="use3856"
        transform="translate(-313.90588,303.68934)" />
     <text
-       sodipodi:linespacing="125%"
        id="text3860"
        y="403.76172"
        x="581.01367"
-       style="font-size:32.10295486px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:11.23603439px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.23603439px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start"
          y="403.76172"
          x="581.01367"
          id="tspan3862"
@@ -4081,7 +4208,8 @@
     <path
        style="opacity:0.15;fill:#000000"
        id="path3874"
-       d="M 556.22083,494.74994 C 556.22083,510.661 543.32238,523.55946 527.41131,523.55946 C 511.50026,523.55946 498.6018,510.661 498.6018,494.74994 C 498.6018,478.83888 511.50028,465.94042 527.41135,465.94042 C 543.32241,465.94042 556.22083,478.83888 556.22083,494.74994 z" />
+       d="m 556.22083,494.74994 c 0,15.91106 -12.89845,28.80952 -28.80952,28.80952 -15.91105,0 -28.80951,-12.89846 -28.80951,-28.80952 0,-15.91106 12.89848,-28.80952 28.80955,-28.80952 15.91106,0 28.80948,12.89846 28.80948,28.80952 z"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4091,13 +4219,12 @@
        id="use3877"
        transform="translate(-387.78305,385.12875)" />
     <text
-       sodipodi:linespacing="125%"
        id="text3879"
        y="485.20114"
        x="507.13651"
-       style="font-size:32.10295486px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:11.23603439px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.23603439px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start"
          y="485.20114"
          x="507.13651"
          id="tspan3881"
@@ -4105,7 +4232,8 @@
     <path
        style="opacity:0.15;fill:#000000"
        id="path3883"
-       d="M 633.58826,480.7889 C 633.58826,496.69996 620.68981,509.59842 604.77874,509.59842 C 588.86769,509.59842 575.96923,496.69996 575.96923,480.7889 C 575.96923,464.87784 588.86771,451.97938 604.77878,451.97938 C 620.68984,451.97938 633.58826,464.87784 633.58826,480.7889 z" />
+       d="m 633.58826,480.7889 c 0,15.91106 -12.89845,28.80952 -28.80952,28.80952 -15.91105,0 -28.80951,-12.89846 -28.80951,-28.80952 0,-15.91106 12.89848,-28.80952 28.80955,-28.80952 15.91106,0 28.80948,12.89846 28.80948,28.80952 z"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4115,13 +4243,12 @@
        id="use3885"
        transform="translate(-310.41562,371.16771)" />
     <text
-       sodipodi:linespacing="125%"
        id="text3887"
        y="471.24008"
        x="584.50397"
-       style="font-size:32.10295486px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:11.23603439px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.23603439px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;writing-mode:lr-tb;text-anchor:start"
          y="471.24008"
          x="584.50397"
          id="tspan3889"
@@ -4130,25 +4257,27 @@
   <g
      id="g4562">
     <path
-       d="M 1213.2906,452.65038 C 1213.2906,535.49308 1146.1333,602.65036 1063.2906,602.65036 C 980.44793,602.65036 913.29065,535.49308 913.29065,452.65038 C 913.29065,369.80768 980.44793,302.6504 1063.2906,302.6504 C 1146.1333,302.6504 1213.2906,369.80768 1213.2906,452.65038 z"
+       d="m 1213.2906,452.65038 c 0,82.8427 -67.1573,149.99998 -150,149.99998 -82.84267,0 -149.99995,-67.15728 -149.99995,-149.99998 0,-82.8427 67.15728,-149.99998 149.99995,-149.99998 82.8427,0 150,67.15728 150,149.99998 z"
        id="path4147"
-       style="opacity:0.2;fill:#000000" />
+       style="opacity:0.2;fill:#000000"
+       inkscape:connector-curvature="0" />
     <text
        x="1063.2906"
        y="352.65036"
        id="text4194"
-       style="font-size:30px;font-weight:bold;text-anchor:middle;font-family:sans-serif">Search</text>
+       style="font-weight:bold;font-size:30px;line-height:0%;font-family:sans-serif;text-anchor:middle">Search</text>
     <path
        style="opacity:0.15;fill:#000000"
        id="path4029"
-       d="M 1083.9566,452.65038 C 1083.9566,496.83317 1048.1394,532.65038 1003.9566,532.65038 C 959.77389,532.65038 923.95667,496.83317 923.95667,452.65038 C 923.95667,408.4676 959.77393,372.65037 1003.9567,372.65037 C 1048.1395,372.65037 1083.9566,408.4676 1083.9566,452.65038 z" />
+       d="m 1083.9566,452.65038 c 0,44.18279 -35.8172,80 -80,80 -44.18271,0 -79.99993,-35.81721 -79.99993,-80 0,-44.18278 35.81726,-80.00001 80.00003,-80.00001 44.1828,0 79.9999,35.81723 79.9999,80.00001 z"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4104"
        y="412.65036"
        x="1003.9567">search1</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4098"
        y="492.65036"
        x="1043.9567">ns≠0</text>
@@ -4203,23 +4332,25 @@
     <path
        style="opacity:0.15;fill:#000000"
        id="path4031"
-       d="M 1198.2906,422.65038 C 1198.2906,453.02604 1173.6663,477.65038 1143.2906,477.65038 C 1112.915,477.65038 1088.2906,453.02604 1088.2906,422.65038 C 1088.2906,392.27471 1112.915,367.65037 1143.2906,367.65037 C 1173.6663,367.65037 1198.2906,392.27471 1198.2906,422.65038 z" />
+       d="m 1198.2906,422.65038 c 0,30.37566 -24.6243,55 -55,55 -30.3756,0 -55,-24.62434 -55,-55 0,-30.37567 24.6244,-55.00001 55,-55.00001 30.3757,0 55,24.62434 55,55.00001 z"
+       inkscape:connector-curvature="0" />
     <path
        style="opacity:0.15;fill:#000000"
        id="path3096"
-       d="M 1198.2906,471.89175 C 1198.2906,502.2674 1173.6663,526.89175 1143.2906,526.89175 C 1112.9149,526.89175 1088.2906,502.2674 1088.2906,471.89175 C 1088.2906,441.51609 1112.9149,416.89174 1143.2906,416.89174 C 1173.6663,416.89174 1198.2906,441.51609 1198.2906,471.89175 z" />
+       d="m 1198.2906,471.89175 c 0,30.37565 -24.6243,55 -55,55 -30.3757,0 -55,-24.62435 -55,-55 0,-30.37566 24.6243,-55.00001 55,-55.00001 30.3757,0 55,24.62435 55,55.00001 z"
+       inkscape:connector-curvature="0" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4108"
        y="414.35971"
        x="1143.702">search2</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4106"
        y="517.23901"
        x="1144.1133">search3</text>
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4102"
        y="467.65036"
        x="1143.2906">ns≠0</text>
@@ -4248,13 +4379,15 @@
        width="2000"
        height="2150" />
     <path
-       d="M 1093.2906,542.65038 L 1108.2906,527.65038"
+       d="m 1093.2906,542.65038 15,-15"
        id="path4092"
-       style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)" />
+       style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
+       inkscape:connector-curvature="0" />
     <path
-       d="M 1058.2906,542.65038 L 1043.2906,527.65038"
+       d="m 1058.2906,542.65038 -15,-15"
        id="path4094"
-       style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)" />
+       style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
+       inkscape:connector-curvature="0" />
     <use
        transform="translate(173.91565,442.65038)"
        id="use4023"
@@ -4267,7 +4400,7 @@
        x="1076.4156"
        y="587.65039"
        id="text4086"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Indexer</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Indexer</text>
     <use
        height="2150"
        width="2000"
@@ -4302,12 +4435,12 @@
      id="use3897"
      transform="translate(238.84285,337.62132)" />
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3899"
      y="1048.5096"
      x="990.46533">bugzilla</text>
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      y="1066.6082"
      x="989.23132"
      id="text4611">blogs</text>
@@ -4320,7 +4453,7 @@
      id="use3901"
      transform="translate(238.02019,432.22746)" />
   <text
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif"
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle"
      id="text3903"
      y="1140.6477"
      x="990.05402">secure</text>
@@ -4336,7 +4469,7 @@
      x="406.5936"
      y="1616.2651"
      id="text3953"
-     style="font-size:18px;text-anchor:middle;font-family:sans-serif">PDF</text>
+     style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:middle">PDF</text>
   <g
      id="g4283">
     <rect
@@ -4348,17 +4481,17 @@
        height="435"
        width="187.45129" />
     <text
-       style="font-size:24px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:24px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4097"
        y="882.65039"
        x="428.29065">Amsterdam</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text4093"
        y="907.65039"
        x="353.29065">15 Text-Squids</text>
     <text
-       style="font-size:18px;text-anchor:start;font-family:sans-serif"
+       style="font-size:18px;line-height:0%;font-family:sans-serif;text-anchor:start"
        id="text4089"
        y="1262.6504"
        x="353.29065">15 Upload-Squids</text>
@@ -4619,7 +4752,7 @@
        id="use5419"
        transform="translate(430.27117,457.65038)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4371"
        y="1112.6504"
        x="480.27118">
@@ -4635,11 +4768,13 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1.69729161;marker-end:url(#Arrow2Mend)"
        id="path5425"
-       d="M 459.95174,1133.427 L 440.22456,1155.3318" />
+       d="m 459.95174,1133.427 -19.72718,21.9048"
+       inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.76339436;marker-end:url(#Arrow2Mend)"
        id="path5427"
-       d="M 471.29533,1063.0925 L 439.74865,1028.0466" />
+       d="m 471.29533,1063.0925 -31.54668,-35.0459"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4649,7 +4784,7 @@
        id="use4161"
        transform="translate(432.25101,561.705)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4163"
        y="1216.705"
        x="482.25101">
@@ -4665,7 +4800,8 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
        id="path4169"
-       d="M 462.59733,1181.1233 L 437.59733,1181.1233" />
+       d="m 462.59733,1181.1233 h -25"
+       inkscape:connector-curvature="0" />
     <use
        height="2150"
        width="2000"
@@ -4675,7 +4811,7 @@
        id="use4171"
        transform="translate(432.83272,325.53076)" />
     <text
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif"
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle"
        id="text4173"
        y="980.5307"
        x="482.83273">
@@ -4691,7 +4827,8 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#Arrow2Mend)"
        id="path4179"
-       d="M 462.59733,946.11249 L 437.59733,946.11249" />
+       d="m 462.59733,946.11249 h -25"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      id="g4548"
@@ -4700,11 +4837,12 @@
        x="220.16722"
        y="241.4593"
        id="text3297"
-       style="font-size:25.20265007px;font-weight:bold;text-anchor:middle;font-family:sans-serif">Toolserver</text>
+       style="font-weight:bold;font-size:25.20265007px;line-height:0%;font-family:sans-serif;text-anchor:middle">Toolserver</text>
     <path
-       d="M 326.79715,304.57544 C 326.79715,362.85598 279.55145,410.10168 221.27091,410.10168 C 162.99036,410.10168 115.74465,362.85598 115.74465,304.57544 C 115.74465,246.29489 162.99036,199.04918 221.27091,199.04918 C 279.55145,199.04918 326.79715,246.29489 326.79715,304.57544 L 326.79715,304.57544 z"
+       d="m 326.79715,304.57544 c 0,58.28054 -47.2457,105.52624 -105.52624,105.52624 -58.28055,0 -105.52626,-47.2457 -105.52626,-105.52624 0,-58.28055 47.24571,-105.52626 105.52626,-105.52626 58.28054,0 105.52624,47.24571 105.52624,105.52626 z"
        id="path3039"
-       style="opacity:0.2;fill:#000000" />
+       style="opacity:0.2;fill:#000000"
+       inkscape:connector-curvature="0" />
     <use
        transform="translate(-558.15036,-390.59096)"
        id="use3022"
@@ -4741,17 +4879,17 @@
        x="192.84966"
        y="319.40903"
        id="text3051"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Web host</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Web host</text>
     <text
        x="269.47031"
        y="319.40903"
        id="text3053"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Login</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Login</text>
     <text
        x="224.47032"
        y="389.409"
        id="text3055"
-       style="font-size:15px;text-anchor:middle;font-family:sans-serif">Tool hosts</text>
+       style="font-size:15px;line-height:0%;font-family:sans-serif;text-anchor:middle">Tool hosts</text>
     <use
        transform="translate(200.41937,237.51623)"
        id="use4518"
