@@ -1,0 +1,29 @@
+\begin{Frame}{Models : C-Algo2}
+ \begin{columns}[t]
+   \begin{column}{\BW}
+      \begin{block}{Argumentation}
+          \begin{itemize}
+        \item
+      \end{itemize}
+
+    \end{block}
+
+  \end{column}
+  \begin{column}{\BW}
+      \begin{block}{Illustration}
+          % \Image{C-Algo2/C-Algo2}
+    \end{block}
+
+  \end{column}
+
+ \end{columns}
+
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

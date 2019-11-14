@@ -1,0 +1,39 @@
+\begin{frame}[fragile]{Models : C Language for Architecture}
+ % \begin{columns}[t]
+ %   \begin{column}{\BW}
+      \begin{block}{Matrix multiply (sketch)}
+        \begin{lstlisting}[language=C,basicstyle={\normalsize\ttfamily}]
+for (int l = 0; l < SIZE; l++)
+  for (int c = 0; c < SIZE; c++)
+    for (int k = 0; k < SIZE; k++)
+      R[l][c] += A[l][k] * B[k][c];
+        \end{lstlisting}
+
+    \end{block}
+
+  % \end{column}
+  % \begin{column}{\BW}
+    \begin{alertblock}{``Real world''}
+        \begin{lstlisting}[language=C,basicstyle={\normalsize\ttfamily}]
+for (c= 0; c<NCOL; c+=cacheLineSize)
+ for (l= 0; l<NLINE; l+=halfCacheLine)
+  for (c2= 0; c2<NCOL; c2+=halfCacheLine)
+    for (lk= 0; lk<halfCacheLine; lk++)
+     for (c2k= 0; c2k<halfCacheLine; c2k++)
+      for (ck= 0; ck<cacheLineSize; ck++)
+        res[l+lk][c2+c2k]+=	a[l+lk]	[c+ck]*	b[c2+c2k][c+ck];
+    \end{lstlisting}
+    \end{alertblock}
+ %  \end{column}
+
+ % \end{columns}
+
+\end{frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

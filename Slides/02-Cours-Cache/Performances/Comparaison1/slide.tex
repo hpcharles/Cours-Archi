@@ -2,14 +2,22 @@
 
 
 \begin{Frame}{Comparaison Pentium Pro et PowerPC - années 2000}
-
-
-\vspace{-0.85cm}
-        \begin{center}
-       \Image{Performances/Comparaison1/PentiumPowerPC.pdf}
-        \end{center}
-
-
+  \begin{block}{}
+    \begin{tabular}{|c|c|c |}\hline
+      &Intel Pentium Pro& Power PC 604 \\\hline
+Usage& PC - Serveurs & Apple Mac      \\
+     & Dell, Dec, HP,.. & IBM RS6000\\      \hline
+Niveau caches & 2 & 2 \\\hline
+L1  & Cache instruction & Cache instruction\\      
+    & Cache données & Cache données\\       \hline
+Associativité & 4 groupes & 4 groupes \\ hline
+Remplacement & LRU approximatif & LRU \\ \hline
+Taille du bloc & 32 octets & 32 octets \\ \hline
+Ecriture & Réécriture & Réécriture \& simultaée \\ \hline
+L2 & 256 ou 512 KO &      256 ou 512 KO \\ \hline
+    \end{tabular}
+%    \Image[7]{Comparaison1/PentiumPowerPC.pdf}    
+  \end{block}
 \end{Frame}
 
 %% Local Variables:

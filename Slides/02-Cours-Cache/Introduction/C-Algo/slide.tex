@@ -1,0 +1,40 @@
+\begin{Frame}{Models : C Algorithmic language ?}
+ \begin{columns}[t]
+   \begin{column}{\BW}
+     \begin{block}{Programming language : C example }
+       \begin{description}[1972]
+       \item [1972] Creation : Semantic equivalent to Intel 4004 processor but easyer to
+         read
+       \item[Optimization] Boolean \& integer arithmetic : ``piece of cake''
+       \item[1980] FPU accelerators : no more math optimization
+       \item[1990] Pipelines : complicated execution (delay slot, bubble)
+       \item[2000] Itanium : need 5 years to obtain ``correct''         compilers
+       \item[2007] CUDA, OpenCL : interleaved languages
+       \end{description}
+    \end{block}
+\href{https://www.techniques-ingenieur.fr/base-documentaire/technologies-de-l-information-th9/systemes-d-exploitation-42305210/compilateur-h3168/}{Compilateur (Technique Ingénieur)}
+  \end{column}
+  \begin{column}{\BW}
+      \begin{block}{Consequences}
+        \begin{itemize}
+        \item Basic programming languages are no more at the correct
+          semantic level (HW as higher semantic instructions than C)
+        \item Optimization should come at algorithmic level (IA, Image
+          processing (OpenVX, OpenCV, ... TVM: ``End-to-End Optimization Stack for Deep Learning'')
+        \item Data sets are the main optimization factor
+        \end{itemize}
+    \end{block}
+    \begin{alertblock}{Where are the data? }
+      ``It's in memory stupid !''
+    \end{alertblock}
+  \end{column}
+ \end{columns}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

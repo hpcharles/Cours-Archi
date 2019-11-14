@@ -1,0 +1,14 @@
+\begin{Frame}{Context : plenty room at the top}
+\begin{block}{Code optimization}
+  \begin{center}
+\Image[12]{RoomAtTheTop/RoomAtTheTop.png}    
+  \end{center}
+\end{block}
+
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
