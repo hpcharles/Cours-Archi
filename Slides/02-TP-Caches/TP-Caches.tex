@@ -1,0 +1,137 @@
+\documentclass{article}
+\usepackage{eurosym} % \euro{} \geneuro{} \geneuronarrow{} \geneurowide
+% \usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{a4}
+% \usepackage{url}
+\usepackage{sectsty}
+\usepackage{hyperref}
+%\usepackage[utf8]{inputenc}
+%\usepackage{helvet}
+\usepackage{graphicx}
+\definecolor{RED}{rgb}{1.,.1,.1}
+\newcommand{\TODO}[1]{\marginpar{\textcolor{RED}{#1}}}
+\title{TP : Mesure de performances\\sur les mémoires cache (2h)}
+\author{Frédéric Rousseau \\Henri-Pierre Charles}
+\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
+
+\begin{document}
+\sffamily % http://www.tug.org/pracjourn/2006-1/schmidt/schmidt.pdf
+\allsectionsfont{\sffamily}
+\maketitle
+%\tableofcontents{}
+%\TODO{A compléter}
+%\euro{}, \geneuro{}, \geneuronarrow{} et \geneurowide
+
+L’objectif de cette séance de TP est de montrer l’intérêt des mémoires
+cache et leur influence sur les performances d’exécution d’un
+programme.
+
+\section{Mesure de temps}
+Vous trouverez dans le répertoire \texttt{Partage/TP\_Caches/} un
+fichier \texttt{pgm0.c} qui contient un ensemble d’instructions
+permettant de mesurer le temps d’exécution d’un programme ou bout de
+programme. Dans ce fichier, la fonction \texttt{\_\_rdtscp()} a été
+mise en commentaires et remplacer par sa version en langage
+d’assemblage. En effet, il existe une instruction \texttt{rdtsc} en
+langage d’assemblage x86 qui permet de récupérer le nombre de cycles
+du processeur depuis son démarrage
+(\href{https://fr.wikipedia.org/wiki/RDTSC}{https://fr.wikipedia.org/wiki/RDTSC}). 
+
+\begin{itemize}
+\item Compilez ce programme à l’aide de la commande \texttt{gcc pgm0.c
+    -o pgm0}
+
+\item Exécutez-le plusieurs fois. Vous devriez observer quelques
+variations mais on mesure quelques cycles d’horloge à 2,93 GHz
+(fréquence du processeur des machines de la salle 216 – vous pouvez
+vérifier en tapant : \texttt{cat /proc/cpuinfo}).
+
+\item Utilisez une boucle en bash pour l’exécuter une
+dizaine de fois. Par exemple avec la commande : 
+
+\texttt{for ((i=0;i<10;i++))do ./pgm0; sleep 1; done}
+\end{itemize}
+
+\section{Interêt des lignes de caches}
+
+Le fichier pgm1.c contient la déclaration d’un tableau et son
+initialisation. On cherche ensuite à mesurer l’influence des lignes de
+caches sur un calcul effectué avec les éléments de ce tableau. 
+
+\begin{itemize}
+\item Compilez et exécutez ce programme. 
+
+\item  Dans la bibliothèque \texttt{<x86intrin.h>}, il existe une fonction
+\texttt{\_mm\_clflush(\&x);} qui vide la ligne de cache contenant la
+variable x. Insérer cette instruction dans la boucle et comparez les
+performances en vidant la ligne de cache.
+
+\end{itemize}
+
+\section{Parcours des tableaux}
+Le fichier \texttt{pgm2.c} contient la déclaration d’un tableau à 2 dimensions et son initialisation. On cherche ensuite à mesurer l’influence de l’ordre du traitement
+lignes-colonne. On souhaite calculer la somme des éléments de ce
+tableau.
+
+\begin{itemize}
+\item Proposer 2 programmes en inversant l’ordre de traitement
+ligne-colonne de ce calcul de la somme des éléments.
+\item Indiquez lequel est le plus rapide et pourquoi ? 
+\item Avant l’instruction de traitement, videz la ligne de cache et observer la qualité du résultat. 
+\item  Vérifier que les résultats restent cohérents pour un tableau de float.
+\end{itemize}
+\section{Attaque par canal caché}
+En janvier 2018, deux failles de sécurité ont été annoncés : Meltdown
+et Spectre. Si l’explication technique est complexe, on peut retenir
+que le principe est de récupérer des informations présentes dans les
+lignes de cache dans certaines conditions. 
+
+Frédéric Pétrot, professeur en informatique à l’ENSIMAG a proposé un
+ensemble de tests, de programmes et d’explications pour comprendre
+l’idée de ces failles de sécurité :
+\url{https://ensiwiki.ensimag.fr/images/5/5b/Sm.pdf} 
+
+Il a par exemple montré qu’il est possible de repérer les lignes de
+cache accédées récemment. On appelle cela un canal caché. C’est le
+programme pgm3.c légèrement adapté à notre environnement et en
+supposant que les lignes des caches sont de 64 octets.
+
+\begin{itemize}
+\item Compilez et exécutez le programme. La commande \texttt{gcc
+  -DINVALIDATE=0 pgm3.c}. n’exécute pas la boucle d’instructions
+  d’invalidation. La commande \texttt{gcc -DINVALIDATE=1 pgm3.c} exécute la
+  boucle d’instructions d’invalidation.
+
+\item Observer les résultats sur un ensemble d’exécutions.
+
+\end{itemize}
+
+\section{Transmission d'information par canal caché}
+
+On peut maintenant utiliser cette notion de canal caché pour
+transmettre une information entre 2 fonctions. Considérons un
+programme principal qui crée un tableau (cf fichier \texttt{side\_channel}
+.c). Une fonction side\_channel\_write() invalide une ligne du cache sur
+une valeur particulière à transmettre. La fonction side\_channel\_read()
+vient ensuite mesurer le temps d’accès aux différents éléments du
+tableau. La plus grande valeur correspond alors à la ligne de cache
+qui a été invalidée. C’est une méthode pour transmettre une
+information d’une fonction à une autre par canal caché.
+
+\begin{itemize}
+\item Comprendre le programme \texttt{side\_channel.c}donné. Vous
+  noterez par exemple l’utilisation d’un tableau à 2 dimensions (de
+  taille 17 pour transmettre une information entre 1 et 16 inclus).
+\item Compilez et exécuter le programme en utilisant l’option -O3 de
+  gcc.
+\item Observer les résultats sur un ensemble d’exécutions.
+\end{itemize}
+
+\end{document}
+
+% Local Variables: ***
+% compile-command:"MonMake Document.pdf" ***
+% End: ***
