@@ -1,0 +1,15 @@
+%
+\begin{Frame}{SW-SOA OpenCL-Example}
+(OpenCL part only)
+\begin{block}{}
+  \lstinputlisting{SW-SOA/OpenCL/Matrix.cl}
+\end{block}   
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
