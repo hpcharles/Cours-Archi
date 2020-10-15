@@ -1,0 +1,46 @@
+%
+\begin{Frame}{Introduction : Von Neumann Architecture}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Architecture picture}
+        \Image[5]{VonNeumann/Classical-Architecture.pdf}
+      \end{block}   
+      \begin{block}{Von Neumann model}
+        \begin{itemize}
+        \item Data \& Instruction in same memory
+        \item i.e. instructions are data
+        \item SoC or PCB
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    \begin{column}{\BW} % Colonne gauche
+      \begin{alertblock}{Instruction Memory Access}
+        \begin{itemize}
+        \item Programs are decomposed in binary instructions by a compiler
+        \item {Memory INSN : $ld r1 = @r2$}
+          \begin{itemize}
+          \item 1 memory access (for the instruction)
+          \item 1 instruction cycle (Decode + RF + memory access)
+          \end{itemize}
+          
+        \item {Compute INSN $add\ r1 =  r2 + r3 $}
+          \begin{itemize}
+          \item Compute instruction 
+          \item 1 memory access (for the instruction)
+          \item 1 computation (Decode + RF + ALU)
+          \end{itemize}
+        \end{itemize}
+      \end{alertblock}
+      \W[en]{Von Neumann architecture}
+    \end{column}
+    
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

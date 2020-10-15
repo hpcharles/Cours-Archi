@@ -1,0 +1,42 @@
+%
+\begin{Frame}{Introduction : Von Neumann Architecture}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Architecture picture}
+        \Image[5]{VonNeumann/Classical-Architecture.pdf}
+      \end{block}   
+      \begin{block}{Von Neumann model}
+        \begin{itemize}
+        \item Data \& Instruction in same memory
+        \item i.e. instructions are data
+        \item SoC or PCB
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    \begin{column}{\BW} % Colonne gauche
+      \begin{alertblock}{Memory INSN : $ld r1 = @r2$}
+        \begin{itemize}
+        \item 1 memory access (for the instruction)
+        \item 1 instruction cycle (Decode + RF + memory access)
+        \end{itemize}
+      \end{alertblock} 
+
+      \begin{alertblock}{Compute INSN $add\ r1 =  r2 + r3 $}
+        \begin{itemize}
+        \item Compute instruction 
+        \item 1 memory access (for the instruction)
+        \item 1 computation (Decode + RF + ALU)
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+    
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

@@ -1,0 +1,28 @@
+%
+\begin{Frame}{Introduction : Processor Architecture}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Architecture}
+        \begin{itemize}
+        \item Functionnal part : ALU (Arithmetic and logic unit)
+        \item Dynamic part : instruction decoder
+        \item Local storage : Registers, L1 D\$ and I\$, L2, L3 ...
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Illustration}
+        \Image[5]{ProcessorArchitecture101/Computing-Arch.pdf}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
