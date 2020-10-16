@@ -1,24 +1,24 @@
 %
-\begin{Frame}{How : CrossCompiler}
+\begin{Frame}{How : Cross Compiler}
   \begin{columns}[t]
-    \begin{column}{5cm} % Colonne gauche
+    \begin{column}{\BW} % Colonne gauche
       \begin{block}{What}
         \begin{itemize}
         \item Allow to generate binary code for a machine A on a
           machine B
         \item How to build ?
-        \item 
+        \item Cross compilation
         \end{itemize}
       \end{block} 
     \end{column}
     
-    \begin{column}{5cm} % Colonne droite
+    \begin{column}{\BW} % Colonne droite
       \begin{block}{Limitation}
 %        \Image{CrossCompiler/Name.png}
         \begin{itemize}
         \item crosstool-ng, buildroot
-        \item llvm
-        \item FreeBSD, NetBSD
+        \item llvm : portable intermediate represention
+        \item FreeBSD, NetBSD : operating system on multiple architectures
         \end{itemize}
       \end{block}   
     \end{column}

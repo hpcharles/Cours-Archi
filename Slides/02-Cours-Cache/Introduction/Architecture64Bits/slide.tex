@@ -1,0 +1,37 @@
+\begin{Frame}{Introduction : Rappels Architecture 64 bits}
+    Que veut dire ``Architecture 64 bits'' ? (Rien, il faut préciser)
+ \begin{columns}[t]
+  \begin{column}{\BW}
+
+    \begin{block}{3 possibilités}
+      \begin{itemize}
+      \item Largeur du bus adresse : les adresses 32 bits limitent le
+        nombre d'adresse possibles à $2^{32}= 4 294 967 296$ c'est à
+        dire 4 giga octets.
+        \item Largeur du bus données : cela permet de récupérer 64
+          bits en une seule transaction mémoire
+        \item Largeur des données manipulées dans les ALU : utiliser
+          des flottants double ou des entiers longs
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{Conséquences}
+      \begin{itemize}
+      \item En pratique, les bus adresses sont de 41 bits (pas 64)
+      \item Moins de transaction mémoire pour traiter des données
+        vectorielles
+      \item Traiter des données de grande précision
+      \end{itemize}
+    \end{block}
+  \end{column}
+
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

@@ -21,7 +21,7 @@ Frédéric Rousseau Frederic.Rousseau@univ-grenoble-alpes.fr}
 % \usetheme{Goettingen}
 
 \newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
-
+\newcommand{\W}[2][en]{\href{https://#1.wikipedia.org/wiki/#2}{\detokenize{#2}}}
 \newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}

@@ -1,0 +1,51 @@
+\begin{Frame}{Introduction : Rappels Alignement}
+ \begin{columns}[t]
+  \begin{column}{\BW}
+    \begin{block}{}
+      \begin{tabular}{r r}\hline
+        00000&0\\
+        00001&1\\
+        00010&2\\
+        00011&3\\ \hline
+        00100&4\\
+        00101&5\\
+        00110&6\\
+        00111&7\\ \hline \hline
+        01000&8\\
+        01001&9\\
+        01010&9\\
+        01011&10\\ \hline
+        01100&11\\
+        01101&12\\
+        01110&13\\
+      \end{tabular}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{}
+      \begin{itemize}
+      \item Les adresses manipulées sont des adresses d'octets
+      \item Les adresses de mots de 32 bits sont des multiples de 4 (2
+        bits à 0)
+      \item Les adresses de mots de 64 bits sont des multiples de 8 (3
+        bits a 0)
+      \item etc
+      \end{itemize}
+    \end{block}
+    \begin{block}{}
+      \begin{itemize}
+      \item  Modulo = garder la partie droite d'un mot binaire
+      \item  Diviser = garder la partie gauche d'un mot binaire
+      \end{itemize}
+    \end{block}
+  \end{column}
+
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
