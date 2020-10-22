@@ -1,0 +1,72 @@
+\begin{frame}[fragile]{Comment : Perf counter example}
+
+  \begin{columns}[t]
+   \begin{column}{\BW}
+     \begin{block}{Code Example}
+\lstinputlisting{Comment/PerfCounter-example/PerfCounter.c}
+     \end{block}
+   \end{column}
+   \begin{column}{\BW}
+     \begin{block}{Steps}
+       \begin{itemize}
+       \item Instrument code
+       \item use PerfCounter
+       \item Print results
+       \end{itemize}
+     \end{block}
+     \begin{block}{Results}
+       \begin{itemize}
+       \item Cycle ?
+       \item Additions / Multiplications ?
+       \item ../..
+       \end{itemize}
+     \end{block}
+   \end{column}
+  \end{columns}
+\end{frame}
+%
+\begin{Frame}{How : }
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Performance counter from HW}
+        \begin{itemize}
+        \item Simple one : \texttt{cycle counter}
+        \item More complex : \texttt{RAT\_STALLS} Counts the number of cycles during which execution stalled due to several reason
+        \item L2, L3 cache access, hit, miss ...
+        \item Miss prediction, etc
+        \end{itemize}
+      \end{block} 
+      \begin{alertblock}{Question}
+        \begin{itemize}
+        \item Comment calcule-t-on l'IPC ?
+        \end{itemize}
+      \end{alertblock}
+    \end{column}
+    
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Tools}
+        \begin{itemize}
+        \item Intel tools : \url{http://www.intel.com/software/pcm}
+        \item Papi : \url{http://icl.cs.utk.edu/papi}
+        \item Tiptop from Inria : \url{http://tiptop.gforge.inria.fr/}
+        \end{itemize}
+%        \Image{PerfCounter/Name.png}
+      \end{block}   
+      \begin{alertblock}{Limitations}
+        \begin{itemize}
+        \item Complicated to understand / analyse
+        \item No real portable library
+        \end{itemize}
+      \end{alertblock}   
+    \end{column}
+  \end{columns}  
+\url{https://en.wikipedia.org/wiki/Hardware_performance_counter}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

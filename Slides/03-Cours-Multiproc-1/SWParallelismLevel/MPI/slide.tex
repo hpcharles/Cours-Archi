@@ -1,7 +1,7 @@
 %
 \begin{Frame}{SWParallelismLevel MPI}
   \begin{columns}[t]
-    \begin{column}{5cm} % Colonne gauche
+    \begin{column}{\HW} % Colonne gauche
       \begin{block}{Message Passing Interface}
         \begin{itemize}
         \item \texttt{mpi\_send()}, \texttt{mpi\_receive()}, 
@@ -14,12 +14,13 @@
       \end{block} 
     \end{column}
     
-    \begin{column}{5cm} % Colonne droite
+    \begin{column}{\HW} % Colonne droite
       \begin{alertblock}{Comments}
         \begin{itemize}
         \item Normalized: No (de facto)
         \item Portable : Yes
         \item Scalable : Yes, why ?
+        \item Warning : data locks 
         \end{itemize}
         % \Image{CUDA/Name.png}
       \end{alertblock}   

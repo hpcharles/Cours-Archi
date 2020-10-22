@@ -7,8 +7,24 @@
 \usepackage{lmodern}
 \usepackage{hyperref}
 \usepackage{multicol}
-
-\title{Intéraction Logiciel Architecture}
+\usepackage{listings}
+\lstset{ 
+  basicstyle=\tiny,        % the size of the fonts that are used for the code
+  commentstyle=\color{mygreen},    % comment style
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=f
+lexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=C,                 % the language of the code
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+} 
+\title{Interaction Logiciel Architecture}
 \subtitle{Les performances et leur mesure}
 \author{Henri-Pierre Charles Henri-Pierre.Charles@cea.fr \& \\
 Frédéric Rousseau Frederic.Rousseau@univ-grenoble-alpes.fr}
@@ -63,7 +79,9 @@ Frédéric Rousseau Frederic.Rousseau@univ-grenoble-alpes.fr}
 \Slide{Comment/Outillage}
 \Slide{Comment/C2}
 \Slide{Comment/gprof}
+\Slide{Comment/gprof-example}
 \Slide{Comment/PerfCounter}
+\Slide{Comment/PerfCounter-example}
 \Slide{Comment/JTAG}
 \Slide{Comment/FPGA}
 \Slide{Comment/HwEmulator}

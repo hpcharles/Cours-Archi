@@ -1,0 +1,33 @@
+\begin{frame}[fragile]{Comment : gprof-example}
+
+  \begin{columns}[t]
+   \begin{column}{\BW}
+     \begin{block}{Code Example}
+\lstinputlisting{Comment/gprof-example/Profile.c}
+     \end{block}
+   \end{column}
+   \begin{column}{\BW}
+     \begin{block}{Steps}
+       \begin{itemize}
+       \item \texttt{gcc -o Profile Profile.c -pg }
+       \item \texttt{./Profile 3 400}
+       \item \texttt{gprof Profile}
+       \end{itemize}
+     \end{block}
+     \begin{block}{Results}
+       \begin{itemize}
+       \item How many calls to f ?
+       \item How many calls to g ?
+       \item ../..
+       \end{itemize}
+     \end{block}
+   \end{column}
+  \end{columns}
+\end{frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
