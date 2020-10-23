@@ -7,9 +7,13 @@
         \item \texttt{mpi\_send()}, \texttt{mpi\_receive()}, 
         \item
           \WP{Message\_Passing\_Interface}
-        \item Share data by sending message
-
-          with or without shared memory
+        \item Share data by sending message with or without shared memory
+        \end{itemize}
+      \end{block} 
+      \begin{block}{Usage Scenarios}
+        \begin{itemize}
+        \item Single node, shared memory : multiple processes : testing
+        \item Multiple node, distributed memory : 1 process / node : scaling
         \end{itemize}
       \end{block} 
     \end{column}
@@ -22,8 +26,10 @@
         \item Scalable : Yes, why ?
         \item Warning : data locks 
         \end{itemize}
+
         % \Image{CUDA/Name.png}
       \end{alertblock}   
+        Open source implementation \href{https://www.mpich.org/}{https://www.mpich.org/}
     \end{column}
   \end{columns}  
 \end{Frame}

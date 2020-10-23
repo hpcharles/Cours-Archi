@@ -9,7 +9,19 @@
 \usepackage{hyperref}
 \usepackage{algorithm2e}
 \usepackage{listings}
-\lstset{language=C,numbers=left,stepnumber=1,basicstyle=\ttfamily\scriptsize}
+ \lstset{ 
+  basicstyle=\tiny,        % the size of the fonts that are used for the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  commentstyle=\color{red},
+  language=C,                 % the language of the code
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+}
+
 \title{Performance des processeurs multic{\oe}urs}
 \subtitle{}
 \author{Henri-Pierre Charles \& Frédéric Rousseau}
