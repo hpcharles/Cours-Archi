@@ -1,0 +1,23 @@
+%
+\begin{Frame}{Exemple de code g\'en\'er\'e par gcc (pour le processeur MIPS)}
+
+ 
+	\begin{block} {A quoi servent les NOP ?}
+
+\$L2:\\
+\hspace{0,5cm} . . .\\\hspace{0,5cm} lw \hspace{0,5cm}\$2,32(\$fp) \\\hspace{0,5cm} lw \hspace{0,5cm}\$3,36(\$fp)\\\hspace{0,5cm} \textcolor{tagada}{nop} 	\hspace{0,99cm}\# nop5\\\hspace{0,5cm} slt   \hspace{0,5cm}\$2,\$2,\$3\\\hspace{0,5cm} beq \hspace{0,35cm}\$2,\$0,\$L5\\\hspace{0,5cm} \textcolor{tagada}{nop}		\hspace{0,99cm}\# nop6\\\hspace{0,5cm} li    \hspace{0,7cm}\$2,-1\\\hspace{0,5cm} sw   \hspace{0,5cm}\$2,16(\$fp)\\\hspace{0,5cm} j      \hspace{0,8cm}\$L4\\\hspace{0,5cm} \textcolor{tagada}{nop}	\hspace{0,99cm}\# nop7\\
+\hspace{0,5cm} . . .\\
+
+\end{block}
+
+
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

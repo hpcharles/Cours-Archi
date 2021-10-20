@@ -1,37 +1,21 @@
 %
 \begin{Frame}{Idée de fonctionnement}
-%  \begin{columns}[t]
-%    \begin{column}{7cm} % Colonne gauche
-%      \begin{block}{Motivation}
-%        \begin{itemize}
-%        \item Les performances d'un microprocesseur simple ne sont pas très bonnes
-%	\item Ce n'est pas une technique nouvelle : les premières machines commerciales datent de 1964 avec l'IBM 360/91
-%        \end{itemize}
-%      \end{block} 
-%    \end{column}
-%    
-%    \begin{column}{4cm} % Colonne droite
-%      \begin{block}{idée}
-%%        \Image{SlideIntro/Name.png}
-%\begin{itemize}
-%        \item Le pipeline est une technique de réalisation dans laquelle plusieurs instructions se supersposent pendant l'exécution
-%        \end{itemize}
-%      \end{block}   
-%    \end{column}
-%  \end{columns}  
 
 \begin{block}{Principe appliqué aux processeurs}
-       \begin{center}
+  \begin{center}
  	\begin{itemize}
-         \item Les activités au sein de l'unité centrale sont organisées comme une chaîne de montage : on décompose l'unité de commande chargée de la \textbf{lecture de instructions}, de leur \textbf{décodage}, de leur \textbf{exécution}, ... en plusieurs modules fonctionnels.
+    \item Les activités au sein de l'unité centrale sont organisées
+      comme une chaîne de montage : on décompose l'unité de commande
+      chargée de la \textbf{lecture de instructions}, de leur
+      \textbf{décodage}, de leur \textbf{exécution}, ... en plusieurs
+      modules fonctionnels.
 	\item Ces \textbf{modules travaillent en parallèle}
-	\item On commence ainsi le traitement d'une nouvelle instruction avant que la précédente ne soit terminée, ce qui crée un flot continu en entrée de chacun des modules.
-        \end{itemize}
-       \end{center}
-      \end{block}   
-
-
-
+	\item On commence ainsi le traitement d'une nouvelle instruction
+      avant que la précédente ne soit terminée, ce qui crée un flot
+      continu en entrée de chacun des modules.
+    \end{itemize}
+  \end{center}
+\end{block}   
 \end{Frame}
 
 %% Local Variables:

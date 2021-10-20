@@ -1,0 +1,23 @@
+%
+\begin{Frame}{Exemple de code g\'en\'er\'e par gcc}
+
+ 
+\begin{block} {A quoi servent les NOP ?}
+
+\$L2:\\
+	\hspace{0,5cm} . . .\\\hspace{0,5cm} lw \hspace{0,5cm}ra,32(sp) \\\hspace{0,5cm} lw \hspace{0,5cm}x3,36(sp)\\\hspace{0,5cm} \textcolor{tagada}{nop} 	\hspace{0,99cm}\# nop5\\\hspace{0,5cm} slt   \hspace{0,5cm}x5,x6,x7\\\hspace{0,5cm} beq \hspace{0,3cm}x5,x0,\$L5\\\hspace{0,5cm} \textcolor{tagada}{nop}		\hspace{0,99cm}\# nop6\\\hspace{0,5cm} addi    \hspace{0,25cm}x5,x0,-1\\\hspace{0,5cm} sw   \hspace{0,5cm}x5,16(fp)\\\hspace{0,5cm} jal      \hspace{0,5cm}ra,\$L4\\\hspace{0,5cm} \textcolor{tagada}{nop}	\hspace{0,99cm}\# nop7\\
+\hspace{0,5cm} . . .\\
+
+\end{block}
+
+
+      
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

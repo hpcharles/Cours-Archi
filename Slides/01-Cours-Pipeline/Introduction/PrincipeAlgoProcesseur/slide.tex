@@ -1,0 +1,35 @@
+\begin{Frame}{Introduction : Principe Algorithme d'un processeur}
+ \begin{columns}[t]
+  \begin{column}{0.5\textwidth}
+    \begin{block}{Algorithme de principe}
+      \begin{itemize}
+      \item Pour toujours faire
+        \begin{enumerate}
+        \item Fetch instruction (IF)
+        \item Increment PC
+        \item Decode instruction (DE)
+        \item Execute (EXE)
+        \item Store result (WB)
+        \end{enumerate}
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \begin{block}{Commentaires}
+      \begin{enumerate}
+      \item Durée de l'algorithme = somme des durées des étapes
+      \item Certaines étapes peuvent durer longtemps : accès à la
+        mémoire, opérations complexes
+      \item Les étapes peuvent être découpées en sous étapes
+      \end{enumerate}
+    \end{block}
+  \end{column}
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
