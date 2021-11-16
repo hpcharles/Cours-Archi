@@ -1,0 +1,26 @@
+%
+\begin{Frame}{SW-SOA GCC}
+  \begin{columns}[t]
+    \begin{column}{5cm} % Colonne gauche
+      \begin{block}{Argumentation}
+        \begin{itemize}
+        \item 
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{5cm} % Colonne droite
+      \begin{block}{Illustration}
+%        \Image[5]{GCC/Name.png}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
