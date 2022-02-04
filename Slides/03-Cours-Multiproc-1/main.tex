@@ -9,7 +9,7 @@
 \usepackage{hyperref}
 \usepackage{algorithm2e}
 \usepackage{listings}
- \lstset{ 
+ \lstset{
   basicstyle=\tiny,        % the size of the fonts that are used for the code
   keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
   keywordstyle=\color{blue},       % keyword style
@@ -22,24 +22,22 @@
   tabsize=2,	                   % sets default tabsize to 2 spaces
 }
 
-\title{Performance des processeurs multic{\oe}urs}
-\subtitle{}
+\title{Gestion des niveaux de parallélisme}
+\subtitle{Le bon outil pour le bon niveau}
 \author{Henri-Pierre Charles \& Frédéric Rousseau}
 \date{}
 \usetheme{Darmstadt}
 \newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
-
 \newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
 \newcommand{\degoal}{\texttt{deGoal\ }}
 \newcommand{\HW}{.5\textwidth}
+\newcommand{\BW}{.5\textwidth}
 \newcommand{\WP}[1]{\href{https://en.wikipedia.org/wiki/#1}{#1}}
 
 \graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}{HWParallelismLevel/}
   {SWParallelismLevel/}{VirtualMemory/}}
-
-
 
 \begin{document}
 \begin{frame}
@@ -55,10 +53,10 @@
 \begin{frame}
   \begin{multicols}{2}
 {\small    \tableofcontents[
-% currentsubsection, 
-% hideothersubsections, 
-% sectionstyle=show/hide, 
-% subsectionstyle=show/shaded, 
+% currentsubsection,
+% hideothersubsections,
+% sectionstyle=show/hide,
+% subsectionstyle=show/shaded,
 ]}
   \end{multicols}
 \end{frame}
@@ -77,18 +75,17 @@
 \Slide{HWParallelismLevel/GPU}
 
 \section{SW Parallelism Level}
-\Slide{SWParallelismLevel/Compiler}
+\Slide{SWParallelismLevel/Compiler-1}
+\Slide{SWParallelismLevel/Compiler-2}
+\Slide{SWParallelismLevel/Compiler-Gcc}
 \Slide{SWParallelismLevel/Thread}
-\Slide{SWParallelismLevel/ThreadExample}
+\Slide{SWParallelismLevel/Thread-Example}
 \Slide{SWParallelismLevel/MPI}
 \Slide{SWParallelismLevel/MPI-Example}
 \Slide{SWParallelismLevel/OpenMP}
 \Slide{SWParallelismLevel/OpenCL}
 \Slide{SWParallelismLevel/OpenCL-Example}
 \Slide{SWParallelismLevel/CUDA}
-
-
-
 
 \end{document}
 

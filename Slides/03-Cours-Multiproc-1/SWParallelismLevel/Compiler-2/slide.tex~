@@ -1,0 +1,28 @@
+\begin{Frame}{Rappels Static Compilation chain}
+%  \Image{ChaineCompil/Name.png}
+
+  \begin{block}{Static compilation (on C language):}
+    
+    \begin{enumerate}
+    \item Preprocessor (all \texttt{\#} stuff : rewriting) \hfill \texttt{cc -E}
+    \item Compilation (from C to textual assembly) \hfill \texttt{cc -S}
+    \item Assembly    (from textual asm to binary asm) \hfill \texttt{cc -c}
+    \item Executable  (binary + dynamic library)
+    \end{enumerate}
+    (Use gcc -v to see all the steps)
+    
+    Don't stop at static time (Operating system + processor):
+    \begin{enumerate}
+    \item Load in memory, dynamic linking
+    \item Branch resolution
+    \item Cache warmup
+    \end{enumerate}
+  \end{block}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
