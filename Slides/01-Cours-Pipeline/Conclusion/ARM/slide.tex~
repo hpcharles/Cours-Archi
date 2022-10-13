@@ -1,0 +1,33 @@
+\begin{Frame}{SOA ARCH : ARM big.LITTLE}
+  \begin{columns}[t]
+    \begin{column}[t]{\HW}
+      \begin{block}{big}
+        \Image[6]{ARM/Big.png}
+      \end{block}
+      \begin{block}{LITTLE}
+        \Image[4]{ARM/Little.png}      
+      \end{block}
+    \end{column}
+    \begin{column}[t]{\HW}
+      ARM : ``more than 30 billion processors sold with
+        more than 16M sold every day ARM'' (Nov 2013)
+        \url{http://www.arm.com/products/processors/index.php}
+
+      \begin{itemize}
+      \item 4 big processors + 4 little
+      \item Same ISA, \ldots
+      \item (even for vector operation)
+      \item Low latencie switch
+      \end{itemize}
+      
+\href{http://www.arm.com/products/processors/technologies/biglittleprocessing.php}{big.LITTLE notion}
+    \end{column}
+  \end{columns}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+
