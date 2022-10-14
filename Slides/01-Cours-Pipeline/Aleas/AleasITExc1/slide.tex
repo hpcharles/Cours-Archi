@@ -1,26 +1,36 @@
 %
 \begin{Frame}{Aléas de contrôle - Interruptions et exceptions}
 
-\begin{block}{Interruption}
-       \begin{center}
- 	\begin{itemize}
-          \item La solution la plus simple est de terminer l'exécution des instructions qui sont dans le pipeline avant de traiter l'interruption.
-        \end{itemize}
-       \end{center}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Interruption par un périphérique}
+        \begin{center}
+          \begin{itemize}
+          \item La solution la plus simple est de terminer l'exécution des
+            instructions qui sont dans le pipeline avant de traiter
+            l'interruption.
+          \end{itemize}
+        \end{center}
+      \end{block}
+      \begin{block}{Attention : comportement dépéndant de l'architecture}
+        \Image{AleasITExc1/DoesIntGenerateInterrupt}
+      \end{block}
+    \end{column}
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Exception - div x15, x16, x16}
+        \begin{center}
+          \begin{itemize}
+          \item Supposons que l'instruction div provoque un débordement
+            qui provoque une exception
+          \item Il ne faut pas contaminer les registres des instructions
+            suivantes qui sont dans le pipeline. Il faut vider le pipeline
+            avec un méchanisme identique à celui des aléas de
+            branchements. On peut ensuite exécuter la routine d'exception.
+          \end{itemize}
+        \end{center}
       \end{block}   
-
- 
-
-\begin{block}{Exception - add x15, x16, x16}
-       \begin{center}
- 	\begin{itemize}
-         \item Supposons que l'instruction add provoque un débordement -> exception
-	 \item Il ne faut pas contaminer les registres des instructions suivantes qui sont dans le pipeline. Il faut vider le pipeline avec un méchanisme identique à celui des aléas de branchements. On peut ensuite exécuter la routine d'exception.
-	
-        \end{itemize}
-       \end{center}
-      \end{block}   
-
+    \end{column}  
+  \end{columns}  
 \end{Frame}
 
 %% Local Variables:
