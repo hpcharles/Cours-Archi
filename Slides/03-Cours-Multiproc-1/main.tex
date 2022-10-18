@@ -1,41 +1,6 @@
-\pdfminorversion=4
-%\documentclass{beamerarticle}
-\documentclass[aspectratio=169]{beamer}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-% \usepackage[french]{babel}
-\usepackage{lmodern}
-\usepackage{multicol}
-\usepackage{hyperref}
-\usepackage{algorithm2e}
-\usepackage{listings}
- \lstset{
-  basicstyle=\tiny,        % the size of the fonts that are used for the code
-  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
-  keywordstyle=\color{blue},       % keyword style
-  commentstyle=\color{red},
-  language=C,                 % the language of the code
-  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
-  numbersep=5pt,                   % how far the line-numbers are from the code
-  showtabs=false,                  % show tabs within strings adding particular underscores
-  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
-  tabsize=2,	                   % sets default tabsize to 2 spaces
-}
-
+\input{../Slides-Common.tex}
 \title{Gestion des niveaux de parallélisme}
 \subtitle{Le bon outil pour le bon niveau}
-\author{Henri-Pierre Charles \& Frédéric Rousseau}
-\date{}
-\usetheme{Darmstadt}
-\newenvironment{Frame}[1]{\subsection{#1}\begin{frame}\frametitle{#1}}{\end{frame}}
-\newcommand{\Image}[2][10]{\includegraphics[width=#1cm]{#2}}
-\newcommand{\ImageW}[2][2]{\includegraphics[height=#1cm,width=10cm]{#2}}
-\newcommand{\Slide}[1]{\input{#1/slide.tex}}
-\newcommand{\degoal}{\texttt{deGoal\ }}
-\newcommand{\HW}{.5\textwidth}
-\newcommand{\BW}{.5\textwidth}
-\newcommand{\WP}[1]{\href{https://en.wikipedia.org/wiki/#1}{#1}}
-
 \graphicspath{{Caches/}{ProgrammingTools/}{VirtualMemory/}{Market/}{HWParallelismLevel/}
   {SWParallelismLevel/}{VirtualMemory/}}
 

@@ -1,11 +1,12 @@
+all: 
+	echo "make [main|print]"
 
-slides: main.tex
+main:
 	pdflatex main
 	pdflatex main
-	cp main.pdf Cours-Niveaux-Parallelisme.pdf
 
-print:
-	pdfjam --a4paper --nup 1x4 --offset "-3cm 0cm" --frame true --scale 1 --no-landscape --outfile Cours-Niveaux-Parallelisme-1x4.pdf Cours-Niveaux-Parallelisme.pdf
+print:	main
+	pdfjam --a4paper --nup 2x2 --landscape --scale 1 --outfile main-2x2.pdf main.pdf
 
 SIZE = 100
 
