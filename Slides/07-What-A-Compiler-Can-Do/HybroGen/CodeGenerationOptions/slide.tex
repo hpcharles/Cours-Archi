@@ -1,0 +1,39 @@
+\begin{Frame}{HybroGen : Code Generation Options for new architectures}
+  \begin{block}{New architecture = new ISA}
+    \begin{itemize}
+    \item High level simulation + Performance model : using LLVM IR
+      + interpretation
+      \begin{itemize}
+      \item Pro : very fast, no platform dependency, 
+      \item Cons : no real code generation, rough performance estimations
+      \end{itemize}
+    \item Intrinsics
+      \begin{itemize}
+      \item Pro : real code generation
+      \item Cons : need manual code instrumentation with low level
+        ASM intrinsics, big benchmarking effort
+      \end{itemize}
+    \item DSL (Domain Specific Language)
+      \begin{itemize}
+      \item Pro : real code generation, automatic code generation,
+        lower benchmarking effort
+      \item Cons : need initial programming effort
+      \end{itemize}
+    \item Industrial compiler
+      \begin{itemize}
+      \item Pro : real code generation, automatic code generation, no
+        benchmarking effort, huge impact if sucessfull, need open
+        source approach
+      \item Cons : need huge programming effort (LLVM = 1.6M loc, GCC
+        5 M loc))
+      \end{itemize}
+    \end{itemize}
+  \end{block}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

@@ -1,10 +1,11 @@
 \pdfminorversion=4 % -*- latex-mode -*-
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169,8pt]{beamer}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage{multimedia}
 \usepackage{multicol}
+\usepackage{tabularx}
 \usepackage{listings}
 \lstset{language=C,numbers=left,stepnumber=1,basicstyle=\ttfamily\scriptsize}
 \usepackage[]{algorithm2e}
@@ -26,4 +27,5 @@
 \newcommand{\ImageW}[2][2]{\includegraphics[height=#1,width=10cm]{#2}}
 \newcommand{\HREF}[2][https]{\href{#1://#2}{#1://#2}}
 \newcommand{\Slide}[1]{\input{#1/slide.tex}}
-
+\newcommand{\R}[2]{\includegraphics[height=.2cm]{IMG/Ref}\href{#2}{#1}}
+\newcommand{\Y}[2]{\includegraphics[height=.2cm]{IMG/YouTube}\href{https://www.youtube.com/watch?v=#2}{#1}}

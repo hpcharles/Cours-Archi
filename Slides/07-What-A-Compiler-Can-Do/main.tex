@@ -1,0 +1,96 @@
+\input{../Slides-Common.tex}
+\title{Qu'est ce qu'un compilateur peut faire pour vous ?}
+\graphicspath{{Introduction/}{LangageC}{JavaStyle}{Conclusion/}{HybroGen}{GCC}}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\tableofcontents[
+%currentsubsection,
+%hideothersubsections,
+%sectionstyle=show/hide,
+%subsectionstyle=show/shaded,
+]
+\end{frame}
+
+\section{Introduction}
+% UAL / Pipeline / caches / thread / 
+\Slide{Introduction/uArch}
+% Parallelism Level
+\Slide{Introduction/MultipleLevel}
+\Slide{Introduction/Compilers1}
+\Slide{Introduction/Compilers2}
+
+\section{Langage C}
+% GCC
+% Compilation C
+\Slide{LangageC/C}
+\Slide{LangageC/C2}
+\Slide{LangageC/GCC}
+\Slide{LangageC/GCC-Research}
+\Slide{LangageC/ISA-FMA}
+\Slide{LangageC/New-ISA}
+
+% LLVM
+
+% Analyse de performances
+
+% pthread
+
+\Slide{LangageC/Thread}
+\Slide{LangageC/Thread-Example}
+
+% Process
+
+% MPI
+\Slide{LangageC/MPI}
+\Slide{LangageC/MPI-Example}
+
+\section{Accelerateurs}
+\Slide{LangageC/OpenCL}
+\Slide{LangageC/OpenCL-Example}
+\Slide{LangageC/CUDA}  
+\Slide{LangageC/CUDA-Example}  
+\Slide{LangageC/OpenMP}
+
+% CUDA OpenCL
+\section{Java Style}
+
+%\section{JavaScript}
+\Slide{JavaStyle/Java} 
+\Slide{JavaStyle/JavaJit}
+\Slide{JavaStyle/Dalvik} 
+\Slide{JavaStyle/Dalvik2}
+\Slide{JavaStyle/JavaScript} 
+\Slide{JavaStyle/JavaScriptVM}
+\Slide{JavaStyle/JavaStrategy}
+
+
+\section{HybroLang}
+
+\Slide{HybroGen/CodeGenerationOptions}
+\Slide{HybroGen/CompilerVersusCompilette}
+\Slide{HybroGen/Compilette-Principle}
+\Slide{HybroGen/DomainSpecificLanguage}
+\Slide{HybroGen/GeneralView}
+\Slide{HybroGen/InitialObjectives}
+\Slide{HybroGen/Installation}
+\Slide{HybroGen/Objectives}
+\Slide{HybroGen/Programmation}
+\Slide{HybroGen/Transprecision-Source-H2}
+\Slide{HybroGen/Transprecision-Source-Main}
+\Slide{HybroGen/Transprecision-Exec}
+\Slide{HybroGen/Transprecision-Exec2}
+\Slide{HybroGen/Transprecision-Generated-Compilette}
+\Slide{HybroGen/Transprecision-Generated-Compilette2}
+\Slide{HybroGen/Transprecision-Generated-InstructionSelector}
+\Slide{HybroGen/Transprecision-Generated-Macros}
+\section{Conclusion}
+\Slide{Conclusion/Recap}
+\end{document}
+% Local Variables: ***
+% compile-command:"MonMake main.pdf" ***
+% coding: utf-8
+% End: ***

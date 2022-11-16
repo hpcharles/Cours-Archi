@@ -1,0 +1,53 @@
+%
+\begin{Frame}{SOA C compil chain}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Description}
+        \begin{itemize}
+        \item Language support
+          \begin{itemize}
+          \item C language (K\&R), C90 up to C11
+          \item Normalized
+          \item gcc, clang, icc, tcc, ...
+          \item A lot of LEGACY
+          \end{itemize}
+        \item Open source is mandatory : Apple, Intel
+        \item Economic step !
+        \end{itemize}
+      \end{block}
+    \end{column}
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item Static compilation
+          \begin{itemize}
+          \item Preprocessing (\# stuff)
+          \item Compilation
+            \begin{itemize}
+            \item Lexical / Syntaxic
+            \item IR form
+            \item Phases / passes
+            \item Instructions selection
+            \end{itemize}
+          \item Assembly
+          \item Load
+          \end{itemize}
+        \item Dynamic part
+          \begin{itemize}
+          \item OS : \texttt{ld}
+          \item Addresses resolution
+          \item Cache interaction ?
+          \end{itemize}
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+  \url{https://en.wikipedia.org/wiki/C_(programming_language)}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

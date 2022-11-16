@@ -1,0 +1,31 @@
+\begin{Frame}{GCC : New ISA port a new architecture}
+ \begin{columns}[t]
+  \begin{column}{\BW}
+    \begin{block}{Machine description}
+      \begin{itemize}
+        \item Write a \texttt{.md} file
+        \item Write low level files (fdiv, low level OS)
+        \item Build
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{Write new optimisation}
+      \begin{itemize}
+      \item Recognize IR pattern
+      \item Insert low level optimization
+      \end{itemize}
+    \end{block}
+  \end{column}
+ \end{columns}
+ \begin{block}{Extract from \texttt{gcc/config/aarch64/aarch64.md}}
+   \lstinputlisting{LangageC/New-ISA/aarch64-fadd.md}
+ \end{block}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

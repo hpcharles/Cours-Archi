@@ -1,0 +1,35 @@
+%
+\begin{Frame}{Motivation : Static Compiler Versus Compilette}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Static Compiler}
+        \begin{itemize}
+        \item Run once
+        \item Does not know data set characteristics
+        \item Slow compilation (even with JIT)
+        \end{itemize}
+      \end{block}
+      \begin{alertblock}{Compilette}
+        \begin{itemize}
+        \item Adapt on the fly
+        \item Knowledge of the architecture
+        \item Knowledge of the application
+        \end{itemize}
+        Need tools !
+      \end{alertblock}
+    \end{column}
+
+    \begin{column}{\BW} % Colonne droite
+      \begin{block}{Static compilation versus dynamic adaptation}
+        \Image[8cm]{CompilerVersusCompilette/CompilerVersusCompilette.pdf}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

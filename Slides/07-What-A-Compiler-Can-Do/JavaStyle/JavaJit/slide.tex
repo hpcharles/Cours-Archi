@@ -1,0 +1,41 @@
+%
+\begin{Frame}{SW-SOA JavaJit}
+  \begin{columns}[t]
+    \begin{column}{\HW} % Colonne gauche
+      \begin{block}{How Java generate binary code}
+        Execution starts with level 0
+        
+        Different levels :
+
+        \begin{itemize}
+        \item 0 - interpreter
+        \item 1 - C1 with full optimization (no profiling)
+        \item 2 - C1 with invocation and backedge counters
+        \item 3 - C1 with full profiling (level 2 + MDO)
+        \item 4 - C2 (server)
+        \end{itemize}
+      \end{block} 
+    \end{column}
+    
+    \begin{column}{\HW} % Colonne droite
+      \begin{block}{Scenarios}
+        \begin{itemize}
+        \item Common: 0, 3, 4
+        \item C2 queue too long: 0, 2, 3, 4
+        \item In queue change: 0, (3, 2), 4
+        \item Trivial (small nothing to profile): 0, 3, 1 or 0, 2, 1
+        \item Fully profile in interpreter: 0, 4
+        \item De-optimization: (1, 2, 3, 4), 0
+        \end{itemize}
+      \end{block}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

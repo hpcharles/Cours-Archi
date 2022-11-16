@@ -1,0 +1,43 @@
+%
+\begin{Frame}{SW-SOA GCC}
+  \begin{columns}[t]
+    \begin{column}{\BW} % Colonne gauche
+      \begin{block}{Description}
+        \begin{itemize}
+        \item \href{https://gcc.gnu.org/}{https://gcc.gnu.org/}
+        \item Many platforms supported
+        \item Since 1987
+        \item C, C++, Fortran, Objectice-C, Ada
+        \item OpenMP, OPenACC
+        \item GPL Licence (base compiler for Linux distro)
+        \item Written in C, rewritten in C++ since some years
+        \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{6cm} % Colonne droite
+      \begin{block}{Compilation chain}
+        \begin{itemize}
+        \item Front-end (L to syntax tree)
+        \item GENERIC and GIMPLE (SSA) intermediate representation
+        \item RTL intermediate representation
+        \item Back-end
+        \end{itemize}
+      \end{block}
+        \begin{block}{Features}
+          \begin{itemize}
+          \item LTO
+          \item Plugins
+          \item Transactional memory support
+          \end{itemize}
+        \end{block}
+    \end{column}
+  \end{columns}
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:

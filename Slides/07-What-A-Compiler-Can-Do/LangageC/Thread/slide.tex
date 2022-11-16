@@ -1,0 +1,37 @@
+%
+\begin{Frame}{SWParallelismLevel Thread}
+  \begin{columns}[t]
+    \begin{column}{\HW} % Colonne gauche
+      \begin{block}{Usage}
+        \begin{itemize}
+        \item \texttt{\#include <pthread.h>}
+        \item \texttt{pthread\_create()}
+        \end{itemize}
+      \end{block} 
+      \begin{alertblock}{Warnings !}
+        \begin{itemize}
+        \item Data Synchronisation
+        \end{itemize}
+      \end{alertblock} 
+    \end{column}
+    \begin{column}{\HW} % Colonne droite
+      \begin{alertblock}{Characteristics}
+        \begin{itemize}
+        \item Parallel management inside a process
+        \item Normalized: Yes 
+        \item Portable / OS : Yes (linux, windows, ...)
+        \item Portable / Language : C, Java, ...
+        \item Scalable : No, why ?
+        \end{itemize}
+      \end{alertblock}   
+    \end{column}
+  \end{columns}  
+\end{Frame}
+
+%% Local Variables:
+%% mode: latex
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
+

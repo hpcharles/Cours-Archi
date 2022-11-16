@@ -1,0 +1,40 @@
+\begin{Frame}{Domain Specific Language : HybroLang}
+  \begin{alertblock}{By The Way : }
+    Do we need a new programming language for a new progamming model ?
+
+    YES ! 
+
+    [Hennessy-Patterson ``A New Golden Age for Computer Architecture'']
+  \end{alertblock}
+ \begin{columns}[t]
+  \begin{column}{\BW}
+    \begin{block}{Why a new programming language ?}
+      \begin{itemize}
+      \item Want to make data dependent code generation, on the fly.
+      \item Do not want to find vectorization / parallelization : use it !
+      \item Want to \textbf{implement} ``Inverted Von Neumann Model''
+        (slides on IMC)
+      \item Want to use specific arithmetic : integer, saturated,
+        arithmetic, ... IP@, stochastic, geometric shapes, ...
+      \end{itemize}
+    \end{block}
+  \end{column}
+  \begin{column}{\BW}
+    \begin{block}{HybroLang features}
+      \begin{itemize}
+      \item Similar to C syntax
+      \item Variables = Hardware elements (register, memory line)
+      \item Arithmetic Operators = existing processor UAL
+      \item Run-time delayed code generation 
+      \end{itemize}
+    \end{block}
+  \end{column}
+ \end{columns}
+\end{Frame}
+%% Local Variables:
+%% mode: latex
+%% mode: flyspell
+%% coding: utf-8
+%% ispell-dictionary: "american"
+%% TeX-master: "../../main.tex"
+%% End:
