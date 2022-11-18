@@ -1,16 +1,18 @@
 \begin{Frame}{Conclusion : Recap}
-
+\newcommand{\Comp}{\footnotesize Compiler}
   \begin{block}{Récapitulatif}
 \normalsize    \begin{tabular}{|c||c|c|c|c|c|c|c|c|}\hline
-      & UAL & Reg.& Insn & Cache & MultiCore. & Multi PCB & accelerator    & DataSet   \\
-      &     & bank&      & levels&            &           & GPU /  other   &  variability\\ \hline \hline
-    C &     &     &      &       &            &           &                &   \\ \hline
- Java &     &     &      &       &            &           &                &   \\ \hline
-libpthread& &     &      &       &            &           &                &  \\ \hline
-OpenMP&     &     &      &       &            &           &                &  \\ \hline
-OpenCL&     &     &      &       &            &           &                &   \\ \hline
-CUDA  &     &     &      &       &            &           &                &   \\  \hline
-Programmer& &     &      &       &            &           &                &   \\\hline  \hline
+      & UAL & Reg.& Insn & Cache & Multi.     & Multi  & accelerator    & DataSet   \\
+      &     & bank&      & levels&  Core      & PCB    & GPU /  other   &  variability\\ \hline \hline
+Programmer&  &     &      & \OK  &    \OK     &   \OK  &  \OK          &  \OK\\ \hline  \hline
+    C &\Comp\OK&\Comp\OK& \Comp\OK & \Comp\NOK &  &            &                &  \\ \hline
+ Java & JIT\OK & JIT\OK  &JIT\OK &       &            &           &        & +/-\\ \hline
+libpthread& &     &      &       &  \OK       &           &                &  \\ \hline
+MPI   &     &     &      &       &            &  \OK      &                &  \\ \hline
+OpenMP&     &     &      &       &  \OK       &           &                &  \\ \hline
+OpenCL&     &     &      &       &            &           &  \OK           &  \\ \hline
+CUDA  &     &     &      &       &            &           &  \OK           &  \\ \hline
+HybroGen& \OK& \OK & \OK &       &            &           &  \OK           & \OK \\ \hline  
     \end{tabular}
   \end{block}
 \end{Frame}
