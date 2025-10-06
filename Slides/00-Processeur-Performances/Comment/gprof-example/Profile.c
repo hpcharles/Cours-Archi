@@ -8,11 +8,9 @@ int main(int argc, char * argv[])
 {
   int nf, ng;
   int result, i;
-  
   result = 0;
   nf = atoi (argv[1]);
   ng = atoi (argv[2]);
-  
   for (i = 0; i < nf; i++)
     result += f(result, i);
   for (i = 0; i < ng; i++)

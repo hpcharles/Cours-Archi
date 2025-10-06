@@ -1,16 +1,16 @@
 %
-\begin{Frame}{How : PerfCounter}
+\begin{Frame}{Comment : PerfCounter}
   \begin{columns}[t]
     \begin{column}{\BW} % Colonne gauche
-      \begin{block}{Performance counter from HW}
+      \begin{block}{Compteurs de performance du matériel}
         \begin{itemize}
-        \item Simple one : \texttt{cycle counter}
-        \item More complex : \texttt{RAT\_STALLS} Counts the number of cycles during which execution stalled due to several reason
-        \item L2, L3 cache access, hit, miss ...
+        \item Simples : \texttt{cycle counter}, instruction \#
+        \item Complexes : \texttt{RAT\_STALLS} cycles count during stalls
+        \item L2, L3 acces aux caches, hit, miss ...
         \item Miss prediction, etc
         \end{itemize}
       \end{block} 
-      \begin{alertblock}{Question}
+      \begin{alertblock}{}
         \begin{itemize}
         \item Comment calcule-t-on l'IPC ?
         \end{itemize}
@@ -26,11 +26,8 @@
         \end{itemize}
 %        \Image{PerfCounter/Name.png}
       \end{block}   
-      \begin{alertblock}{Limitations}
-        \begin{itemize}
-        \item Complicated to understand / analyse
-        \item No real portable library
-        \end{itemize}
+      \begin{alertblock}{}
+        Compréhension /  Portabilité ?
       \end{alertblock}   
     \end{column}
   \end{columns}  

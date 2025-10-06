@@ -4,6 +4,7 @@ all:
 main:
 	pdflatex main
 	pdflatex main
+	cp main.pdf Cours-MesurePerformances.pdf
 
 print:	main
 	pdfjam --a4paper --nup 2x2 --landscape --scale 1 --outfile main-2x2.pdf main.pdf
