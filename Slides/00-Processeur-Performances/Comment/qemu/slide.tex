@@ -2,14 +2,12 @@
 \begin{Frame}{How : qemu}
   \begin{columns}[t]
     \begin{column}{\BW} % Colonne gauche
-      \begin{block}{Qemu}
+      \begin{block}{\HREF{qemu.org} \hfill \W{QEMU}}
         \begin{itemize}
         \item Instruction level simulator
         \item Emulate processor \texttt{and} peripherical
-        \item Modes System \& User
         \item Run application without hardware
         \end{itemize}
-      \url{http://qemu.org}
       \end{block} 
     \end{column}
     
@@ -18,8 +16,18 @@
         \begin{itemize}
         \item Functional simulation
         \item Trace information
+        \item System \& User mode
         \end{itemize}
       \end{block}   
+      \begin{alertblock}{Pro / Cons}
+        \begin{itemize}
+        \item Pro : allow ``run to completion''
+        \item Pro : allow ``plugins''
+        \item Cons : not ``cycle accurate'':  does not have tiny HW
+          behavior details (cache hits, instruction latencies, ...)
+        \end{itemize}
+        
+      \end{alertblock}
     \end{column}
   \end{columns}  
 \end{Frame}
